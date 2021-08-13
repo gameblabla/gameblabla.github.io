@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>More work on SMS Plus GX</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/"><i class="icon-sun"></i> Gameblabla's Blog</a></h1>
+    <p>Video games, Linux, sadness, desperation</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1><a href="/2019/03/12/smssdl/">More work on SMS Plus GX</a></h1>
+	
+
+	<div class="post-content"><p>Hello guys,
+Another quick update on SMS Plus GX !</p>
+
+<p>Unfortunately, i realised that i broke save states along the way some time ago, and it took me some time to fix it.
+It took me a while to fix it but i managed to do it.</p>
+
+<p>I also found a bug in Fantastic Dizzy that was not in Ekeeke’s fork i believe but
+i introduced it when i did not properly remove the overscan code.</p>
+
+<p>This resulted in horrible glitches in Dizzy when running in PAL mode…
+This is now fixed of course but most people would not even notice it
+because most games are forced to run in NTSC mode.</p>
+
+<p>But i also decided to take a look at trying to improve the graphics on the RS-97.
+Of course, i could wait for TonyJiH to add support for Bilinear filtering via the IPU
+but i wanted to something better or at least more suitable for our testcase.</p>
+
+<p><b>Upscalers</b></p>
+
+<p>At first, i looked at Hq2x.</p>
+
+<p>While it does improve the visuals, the memory consumption is greatly increased and the only implementations
+that does improve on that support only ARGB888.</p>
+
+<p>There are other alternatives like xBRZ but again, same issue and it’s just as CPU intensive,
+the RS-97 will certainly struggle with it.</p>
+
+<p>I was a bit saddened a bit at first and i was about to give up on that idea…</p>
+
+<p><b>Scale2x</b></p>
+
+<p>When the Macintosh II was released, it only supported high resolutions.
+This forced game companies at the time to either to revamp their games or simply double the pixels.
+But Eric Johnston while working at LucasArt in 1992, came up with EPX to address the rough edges when doubling the pixels.</p>
+
+<p>While not jawdropping, the results are decent and there’s no degradation or visual loss to the picture.</p>
+
+<p>Years later, unaware of EPX, Andrea Mazzoleni implemented Scale2x for the AdvanceMame project.
+It produces a very similar graphical effect, though it is implemented differently.</p>
+
+<p>After i found a simple implementation of it in pygame and giving it a try,
+i knew i found the right candidate.</p>
+
+<p><i>Click on the pictures to see the details.</i></p>
+
+<p><a href="/images/edusoft_scr1.png"><img width="100%" src="/images/edusoft_scr1.png" /></a>
+<i>Native (256x192) vs Scale2x (512x384)</i></p>
+
+<p><a href="/images/edusoft_scr2.png"><img width="100%" src="/images/edusoft_scr2.png" /></a>
+<i>Scale2x (512x384 -&gt; 320x240) vs Bilinear (320x240)</i></p>
+
+<p>Unfortunately, it does not look as good when downscaled to 320x240,
+though i still think that it looks better than bilinear filtering.</p>
+
+<p>But at least it doesn’t eat 60MB of RAM unlike Hq2x and the speed of it is still decent.</p>
+
+<p><b>Improvements</b></p>
+
+<p>We are wasting a lot of performance when we try to downscale it.
+By design, Scale2x cannot target other resolutions, it simply doubles the output.
+Given that the RS-97’s screen resolution is 320x240, this forces us to downscale it.</p>
+
+<p>It used to be a heck of a lot slower when we were using SDL_SoftStretch so i used MAME4ALL’s simple
+scaler code. Too bad that it does not use 32-bits pointers, we could have cut bandwith by half.</p>
+
+<p>On the RS-97, this could be improved but only if TonyJiH implements downscaling via the IPU.
+And he does not plan to work on that until next month…
+Assuming it is implemented, we wouldn’t need to downscale back to 320x240, saving a lot of performance.
+This would also mean that the bilinear code can go.</p>
+
+<p>Oh, and i also managed to make SMS Plus GX work on the Ritmix RZX-50 and it works ok,
+if somewhat sluggish on games like Sonic 1 FM. That’s to be expected though, given the SoC.</p>
+</div>
+
+	<p class="meta">Posted on <span class="postdate">Mar 12, 2019</span></p>
+
+</article>
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2020 Gameblabla's Blog. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+  </footer>
+
+
+
+  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>-->
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Back to N64 stuff and RS-97 news</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/"><i class="icon-sun"></i> Gameblabla's Blog</a></h1>
+    <p>Video games, Linux, sadness, desperation</p>
+  </header>
+
+
+
+  <div id="page">
+
+
+
+    <div id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1><a href="/2018/10/23/n64/">Back to N64 stuff and RS-97 news</a></h1>
+	
+
+	<div class="post-content"><p>So it’s been a while again since i wrote anything on here.<br />
+I thought i might as well talk about what i’ve been doing recently !<br />
+<br /><br />
+<img src="/images/cen64.png" />
+After Cen64 got much accurate and the fact that libdragon became less of a disaster,<br />
+i’ve decided to fix my older N64 games. Unfortunely, they had some issues and wouldn’t run on real hardware.<br />
+<br /><br />
+Turns out the issues were multiple but the main culprit was mikmod.<br />
+I simply couldn’t make it work without it crashing horribly so i resorted to using the Flappy Bird N64’s homebrew port code for audio. <br />
+Many thanks to him btw ! His audio code in particular helped me a lot. <br />
+I’ve simply improved on it and made it suitable for my uses.<br />
+<br /><br />
+<img src="/images/flappyn64_bybonhage.png" />
+<br />
+I noticed that Bonhage’s Flappy Bird clone was using the RCP for graphics but i’ve decided to stick with software<br />
+rendering for the time being.<br />
+The reason why is due to a flaw in the N64’s GPU : the tiny texture cache,which is only 4k… <br />
+Even the Sega saturn had much more than that !<br />
+<br /><br />
+<img src="https://gameblabla.nl/img/op.png" />
+<br />
+That means if you want to display a huge image for example, you would need to cut your bitmap into several pieces,<br />
+tell the RCP chip to display each piece at a time and repeat… <br />
+This is horribly tedious, hence the reason why i’ve decided to stick with libdragon’s software rendering.<br />
+<br /><br />
+<img src="https://gameblabla.nl/img/evil_aussie_3DO.png" />
+<br />
+Anyway, Evil Australians and Opossum Massage simulator are now fixed, complete with music, sound effects and analog support.<br />
+Check out my github repo if you want to take a look : <a href="https://github.com/gameblabla">https://github.com/gameblabla</a><br />
+<br /><br /><br />
+As for the RS-97 stuff, well i’m taking a big break from that kind of crap.<br />
+Simply put, that console is a piece of shit and they kept introducing new revisions.<br />
+My fixes were a mixed bag and there are still issues about it. No one else is interested in fixing those.<br />
+I’m tired of dealing with this alone so i gave up on that console for the time being.<br />
+<br /><br />
+Btw, Jutley released his firmware based on mine but he introduced regressions for Gambatte : it no longer works over TV-out &amp; new units.<br />
+I can’t say i’m pleased but seems like nobody minds having broken emulators…<br />
+There’s also no guarantee that the new games works on new units.<br />
+But again, no one is interested to give it a try on those…<br /></p>
+</div>
+
+	<p class="meta">Posted on <span class="postdate">Oct 23, 2018</span></p>
+
+</article>
+    </div>
+
+
+
+  </div>
+
+
+
+  <footer id="footer">
+    <p class="copyright">Copyright &copy; 2020 Gameblabla's Blog. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+  </footer>
+
+
+
+  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>-->
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+  </script>
+
+
+
+</body>
+</html>
