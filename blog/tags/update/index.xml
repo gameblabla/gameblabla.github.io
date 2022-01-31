@@ -1,6 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>update on Gameblabla's blog</title><link>https://gameblabla.github.io/blog/tags/update/</link><description>Recent content in update on Gameblabla's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>2021 © Gameblabla</copyright><lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/update/index.xml" rel="self" type="application/rss+xml"/><item><title>Re-updating my blog</title><link>https://gameblabla.github.io/blog/posts/blog-new/</link><pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/blog-new/</guid><description>So yet again, i have decided to switch to another blog solution. I pretty much forgot about the ones i used in details but basically it went something like :</description></item><item><title>Update - Some Changes</title><link>https://gameblabla.github.io/blog/posts/2017-11-30-update/</link><pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/2017-11-30-update/</guid><description>It&amp;rsquo;s been a while since i have not done anything, even development-wise.
-Sadly, i have some real-life issues so i could not do much.</description></item><item><title>Important! Major changes</title><link>https://gameblabla.github.io/blog/posts/2017-07-15-news/</link><pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/2017-07-15-news/</guid><description>Hello guys !
-A forum where i was very active, codewalr.us, is talking about shutting down after 2 important staff members quit codewalrus.</description></item><item><title>Update Blog</title><link>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog/</link><pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog/</guid><description>So yeah&amp;hellip;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>update on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/update/</link>
+    <description>Recent content in update on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Re-updating my blog</title>
+      <link>https://gameblabla.github.io/blog/posts/blog-new/</link>
+      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/blog-new/</guid>
+      <description>So yet again, i have decided to switch to another blog solution. I pretty much forgot about the ones i used in details but basically it went something like :</description>
+    </item>
+    
+    <item>
+      <title>Update - Some Changes</title>
+      <link>https://gameblabla.github.io/blog/posts/2017-11-30-update/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/2017-11-30-update/</guid>
+      <description>It&amp;rsquo;s been a while since i have not done anything, even development-wise.
+Sadly, i have some real-life issues so i could not do much.</description>
+    </item>
+    
+    <item>
+      <title>Important! Major changes</title>
+      <link>https://gameblabla.github.io/blog/posts/2017-07-15-news/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/2017-07-15-news/</guid>
+      <description>Hello guys !
+A forum where i was very active, codewalr.us, is talking about shutting down after 2 important staff members quit codewalrus.</description>
+    </item>
+    
+    <item>
+      <title>Update Blog</title>
+      <link>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog/</link>
+      <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog/</guid>
+      <description>So yeah&amp;hellip;
 I went from Ghost to Nibbleblog, then to Bludit and before settling with Jekyll.
-The reason for all this mess is because i was looking for something that plays nice with restrictive CSP (Content Security Policy) rules.</description></item><item><title>Re-installed my blog (again)</title><link>https://gameblabla.github.io/blog/posts/ghostery/</link><pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/ghostery/</guid><description>Due to Ghost being a piece of shit, including :
-No ability to have comments Upgrading taking more than 512 Mb of RAM Among others…</description></item></channel></rss>
+The reason for all this mess is because i was looking for something that plays nice with restrictive CSP (Content Security Policy) rules.</description>
+    </item>
+    
+    <item>
+      <title>Re-installed my blog (again)</title>
+      <link>https://gameblabla.github.io/blog/posts/ghostery/</link>
+      <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/ghostery/</guid>
+      <description>Due to Ghost being a piece of shit, including :
+ No ability to have comments Upgrading taking more than 512 Mb of RAM  Among others…</description>
+    </item>
+    
+  </channel>
+</rss>

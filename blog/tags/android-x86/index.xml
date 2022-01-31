@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>android-x86 on Gameblabla's blog</title><link>https://gameblabla.github.io/blog/tags/android-x86/</link><description>Recent content in android-x86 on Gameblabla's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>2021 © Gameblabla</copyright><lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/android-x86/index.xml" rel="self" type="application/rss+xml"/><item><title>A look at Android-x86</title><link>https://gameblabla.github.io/blog/posts/2017-06-10-android/</link><pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/2017-06-10-android/</guid><description>Android-x86 is a project that intended to port Android to the x86 architecture. Before even Android-x86, Google had released an Android emulator that’s actually running x86 binaries for performance reasons</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>android-x86 on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/android-x86/</link>
+    <description>Recent content in android-x86 on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/android-x86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A look at Android-x86</title>
+      <link>https://gameblabla.github.io/blog/posts/2017-06-10-android/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/2017-06-10-android/</guid>
+      <description>Android-x86 is a project that intended to port Android to the x86 architecture. Before even Android-x86, Google had released an Android emulator that’s actually running x86 binaries for performance reasons</description>
+    </item>
+    
+  </channel>
+</rss>

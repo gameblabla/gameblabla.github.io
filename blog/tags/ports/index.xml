@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ports on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/ports/</link>
+    <description>Recent content in ports on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/ports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenLara Port ideas (Part 1)</title>
+      <link>https://gameblabla.github.io/blog/posts/openlara-ideas/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/openlara-ideas/</guid>
+      <description>In late 2021, XProger ported his OpenLara engine to the 3DO.
+https://twitter.com/XProger_san/status/1453488510833414152
+The port is quite amazing and definitively worth a look if you own a 3DO.</description>
+    </item>
+    
+  </channel>
+</rss>

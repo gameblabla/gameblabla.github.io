@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>puzzle on Gameblabla's blog</title><link>https://gameblabla.github.io/blog/tags/puzzle/</link><description>Recent content in puzzle on Gameblabla's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>2021 © Gameblabla</copyright><lastBuildDate>Wed, 28 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/puzzle/index.xml" rel="self" type="application/rss+xml"/><item><title>KillMinds - Official Release</title><link>https://gameblabla.github.io/blog/posts/killminds/</link><pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/killminds/</guid><description>I’m happy to announce the release of Killminds, a puzzle game based on SupraKillminds and Quartet.
-It is now available for Android (Google Play Store) and Sailfish OS.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>puzzle on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/puzzle/</link>
+    <description>Recent content in puzzle on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Wed, 28 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/puzzle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KillMinds - Official Release</title>
+      <link>https://gameblabla.github.io/blog/posts/killminds/</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/killminds/</guid>
+      <description>It is now available for Android (Google Play Store) and Sailfish OS. A Firefox OS version was finished but it is currently waiting Mozilla’s aproval.</description>
+    </item>
+    
+  </channel>
+</rss>

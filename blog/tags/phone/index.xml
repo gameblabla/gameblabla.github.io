@@ -1,2 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phone on Gameblabla's blog</title><link>https://gameblabla.github.io/blog/tags/phone/</link><description>Recent content in phone on Gameblabla's blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>2021 © Gameblabla</copyright><lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/phone/index.xml" rel="self" type="application/rss+xml"/><item><title>Older devices - Sony Xperia X8</title><link>https://gameblabla.github.io/blog/posts/x8/</link><pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/x8/</guid><description>The Sony Xperia X8 was first announced in June 2010 and released in September the same year.
-It was quite a low-end device, even for its time.</description></item><item><title>Older devices - Sony Xperia Neo V</title><link>https://gameblabla.github.io/blog/posts/haida/</link><pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/haida/</guid><description>The Sony Xperia Neo V was released on October 2011. It was a cheaper alternative to the Sony Xperia Neo released previously in March of the same year.</description></item><item><title>Older devices - LG Optimus L3 E400</title><link>https://gameblabla.github.io/blog/posts/e400/</link><pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate><guid>https://gameblabla.github.io/blog/posts/e400/</guid><description>The LG Optimus L3 E400 is an Android device first released on February 2012. Even back when it was released, it was a fairly low-end device.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phone on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/phone/</link>
+    <description>Recent content in phone on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Tue, 29 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/phone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Older devices - Sony Xperia X8</title>
+      <link>https://gameblabla.github.io/blog/posts/x8/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/x8/</guid>
+      <description>The Sony Xperia X8 was first announced in June 2010 and released in September the same year.
+It was quite a low-end device, even for its time.</description>
+    </item>
+    
+    <item>
+      <title>Older devices - Sony Xperia Neo V</title>
+      <link>https://gameblabla.github.io/blog/posts/haida/</link>
+      <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/haida/</guid>
+      <description>The Sony Xperia Neo V was released on October 2011. It was a cheaper alternative to the Sony Xperia Neo released previously in March of the same year.</description>
+    </item>
+    
+    <item>
+      <title>Older devices - LG Optimus L3 E400</title>
+      <link>https://gameblabla.github.io/blog/posts/e400/</link>
+      <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/e400/</guid>
+      <description>The LG Optimus L3 E400 is an Android device first released on February 2012. Even back when it was released, it was a fairly low-end device.</description>
+    </item>
+    
+  </channel>
+</rss>
