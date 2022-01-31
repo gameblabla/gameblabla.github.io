@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rs-97 on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/rs-97/</link>
+    <link>https://gameblabla.github.io/blog/tags/rs-97.html</link>
     <description>Recent content in rs-97 on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/rs-97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RS-97 stuff and more</title>
-      <link>https://gameblabla.github.io/blog/posts/rs97/</link>
+      <link>https://gameblabla.github.io/blog/posts/rs97.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/rs97/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/rs97.html</guid>
       <description>After getting 2 RS-97, i worked on a new custom firmware for the RS-97. It took me a while, and it was quite painful but here it is for all the revisions as Internal :</description>
     </item>
     

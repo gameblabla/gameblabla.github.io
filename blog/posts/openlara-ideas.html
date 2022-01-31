@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>OpenLara Port ideas (Part 1) - Gameblabla&#39;s blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="OpenLara Port ideas (Part 1)" />
+<meta property="og:description" content="In late 2021, XProger ported his OpenLara engine to the 3DO.
+https://twitter.com/XProger_san/status/1453488510833414152
+The port is quite amazing and definitively worth a look if you own a 3DO." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gameblabla.github.io/blog/posts/openlara-ideas.html" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-31T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OpenLara Port ideas (Part 1)"/>
+<meta name="twitter:description" content="In late 2021, XProger ported his OpenLara engine to the 3DO.
+https://twitter.com/XProger_san/status/1453488510833414152
+The port is quite amazing and definitively worth a look if you own a 3DO."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://gameblabla.github.io/blog/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://gameblabla.github.io/blog/css/main.css" /><link rel="stylesheet" type="text/css" href="https://gameblabla.github.io/blog/css/dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://gameblabla.github.io/blog/js/feather.min.js"></script>
+	
+	<script src="https://gameblabla.github.io/blog/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://gameblabla.github.io/blog/">
+	<h1 class="site-title"><a href="https://gameblabla.github.io/blog/">Gameblabla&#39;s blog</a></h1>
+	<div class="site-description"><h2>My personal blog for my projects and personal views</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/gameblabla" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/gameblabla" title="Twitter"><i data-feather="twitter"></i></a><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/blog/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/blog/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/blog/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/blog/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">OpenLara Port ideas (Part 1)</h1>
+			<div class="meta">Posted at &mdash; Jan 31, 2022</div>
+		</div>
+
+		<div class="markdown">
+			<p><img src="https://github.com/gameblabla/gameblabla.github.io/raw/simp/blog/images/lara.jpg" alt=""></p>
+<p>In late 2021, XProger ported his OpenLara engine to the 3DO.</p>
+<p><a href="https://twitter.com/XProger_san/status/1453488510833414152">https://twitter.com/XProger_san/status/1453488510833414152</a></p>
+<p>The port is quite amazing and definitively worth a look if you own a 3DO.</p>
+<p>A few months after, a GBA version has been done as well.</p>
+<p>This port was quite a bit more challenging to do as the GBA is quite limited :</p>
+<ul>
+<li>Only 256kb of WRAM, 32kb internal.</li>
+<li>Data Bus to external RAM is 16-bits wide.</li>
+<li>Max cart size usually does not exceed 32MB</li>
+</ul>
+<p>However, as long as you can fit the game in RAM,
+doing 3D rendering on the GBA is not impossible and the hardware
+makes it very suitable for 3D rendering.</p>
+<p>For its (linear) bitmap modes, it supports :</p>
+<ul>
+<li>240x160, 16bpp. No page flip</li>
+<li>240x160, 8bpp, Page flip</li>
+<li>160x128, 16bpp, Page flip</li>
+</ul>
+<p>The first one is decent and is what some 3D games used but the lack of double buffering
+can be annoying.
+This may lead to the second one, which does support page-flipping (as there&rsquo;s enough
+space in VRAM for that) but it&rsquo;s only 8bpp wide and this results in decreased color count.</p>
+<p>The Doom ports used this and i believe most of the 3D GBA games used this as well
+as rendering at 16bpp in software can really hammer the CPU.</p>
+<p>The last one is what OpenLara chose, and has the benefits of page flipping and increased color count
+but has a decreased screen resolution that is not even a proper integer scale.
+This was used because the game uses PS1 textures and those are in BGR format as well
+It probably made more sense to him (and less work) to work in BGR555 than just an 8-bits paletted mode.</p>
+<p>Attempts are currently ongoing for the Atari Jaguar and N64 as well.
+The Jaguar port as of writing runsat about 1 FPS as it does not attempt to use
+the other coprocessors and the N64 port ran at about 4-6 FPS in software mode.
+The N64 porter eventually worked on a proper 3D renderer for it but it&rsquo;s still quite glitchy visually.
+(However the FPS seems to be greatly improved)</p>
+<p>You can download all of the OpenLara ports here :</p>
+<p><a href="https://github.com/XProger/OpenLara/releases/tag/latest">https://github.com/XProger/OpenLara/releases/tag/latest</a></p>
+<p>That made me wonder though, how doable OpenLara would be on some exotic platforms ?
+Let&rsquo;s talk about it.</p>
+<h1 id="amiga-cd32">Amiga CD32</h1>
+<p><img src="https://github.com/gameblabla/gameblabla.github.io/raw/simp/blog/images/640px-Amiga-CD32-wController-L.jpg" alt=""></p>
+<p>Commodore&rsquo;s last attempt at a video game console.</p>
+<p>Despite this, it&rsquo;s probably their best of all, despite the (obvious) flaws it has.</p>
+<p>The AGA chipset is probably the worst part about the CD32 as using the internal RAM steals CPU cycles from the main processor.
+This is refered to as &ldquo;Slow RAM&rdquo; and is the reason why even adding 512kb of Fast RAM can tremendously increase the speed of some games. (such as the DoomAttack port)</p>
+<p>Like its PC counterpart, the CD32 uses planar graphics, not linear unlike VGA.
+This makes it decent for 2D games but not so much for 3D rendering.</p>
+<p>Commodore must have realized this is a problem because they added a way of
+converting a Linear framebuffer to Planar graphics in the Akiko chip.
+This was surprisingly used little in retail games (in fact not even a whole lot of them bothered to use AGA graphics or more than 1 button) but some homebrew did make use of it.</p>
+<p>However in some benchmark tests against DoomAttack, it was found that a 68030 is faster than the Akiko to do the same job.
+So if you can upgrade your CD32 with those, you can have a pretty nice upgrade to your hardware.
+This of course, and the extra fast RAM that comes with it as well.</p>
+<p>As you may guess however, this sort of makes a port like OpenLara really challenging
+as the central CPU is not that strong to begin with and it is absolutely crucial that the Akiko chip is used.
+On top of that, the game will need to make sure to render at 8bpp.
+As far as i know, the game pretty much works and assumes a 16bpp buffer.
+This may make it tricky for the game to work on the CD32 as is.</p>
+<p>I honestly don&rsquo;t even think that nCraft would run that much better than it does on the PCFX, much less this.</p>
+<p>As a proof of concept, it&rsquo;s entirely possible that this game does fit in RAM and boots.
+After all, the GBA certainly could and this has 2MB to work with.</p>
+<p>This does not mean however, that it will run good.
+If you&rsquo;ve seen the attempt on the Atari Jaguar, that was running on a 10Mhz 68000 CPU
+and the framerate was around 1-2 FPS.</p>
+<p>Doomattack on the CD32 with the Akiko version runs at 5 FPS..</p>
+<p>I don&rsquo;t think this will run much faster, if at all.
+But hey, maybe people can handle Tomb Raider at 4 FPS just for the novelty of playing it on the CD32.</p>
+<p><strong>Possible ?</strong></p>
+<p>It could boot yes but it would require a lot of work to the codebase.</p>
+<h1 id="phillips-cdi">Phillips CDI</h1>
+<p><img src="https://github.com/gameblabla/gameblabla.github.io/raw/simp/blog/images/1920px-CD-i-910-Console-Set.jpg" alt=""></p>
+<p>The CDI ! Wow, amazing ! It failed hard !</p>
+<p>CDI has sort of become a joke in the retro gaming community as a lot of its games are simply not fun to play at all.</p>
+<p>The Nintendo games on it in particular are notorious for their bad quality but most of the CDI games are even worse than that.
+Recently however, a new GCC port for it has been made and Novelia also got finished for it.</p>
+<p>Yours truly also made Super Quartet in hopes of reviving interest in the CDi (which sort of suceeded, i must say :P).</p>
+<p>This may come as a shock to you but the CDI only offers a framebuffer to programmers and nothing else !</p>
+<p>However, You can choose between several color formats, including RGB565 and CLUT8.
+Most CDI games use CLUT8 and the 2 background layers for graphics as this is the faster mode.</p>
+<p>Compatibility between all CDi units is an issue and is partly attributed to the downfall of the CDi,
+as it meant that potential good games that could have come out for the platform couldn&rsquo;t because
+they were requried to work on all 3rd party CDI consoles, all of which had minor changes and some outright broken.
+(such as ADPCM not working on some units)</p>
+<p>The OS-9 on the CDi is a major issue and it is absolutely crucial that you need to bypass it as
+much as possible.</p>
+<p>This is especially important for user input as otherwise input lag will be very noticeable
+(and this is something that a lot of CD-i games suffer from).</p>
+<p>In any case, if you&rsquo;ve seen the Jaguar port running, that was using the same CPU as this thing does.
+And it was running at 1 FPS.</p>
+<p>The CDI is in even higher resolution than the Jaguar is although it&rsquo;s sort of possible to reduce the virtual resolution
+through other ways.
+In addition to that, this only has 1MB of RAM.
+Although, given that the GBA could do it and this has more than to compensate for the lack of ROM access,
+i think a simple demo could be feasible.</p>
+<p>Question is whenever or not it&rsquo;s worth the trouble&hellip; :P</p>
+<p><strong>Possible ?</strong></p>
+<p>Once again, it might boot but this is very unlikely to go decently fast.</p>
+<p>But worst case, we could always port that DVD Tomb Raider game to the CDI&hellip;</p>
+<p>I kid but you know what i mean.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/blog/tags/openlara">openlara</a></li>
+								
+								<li><a href="/blog/tags/ideas">ideas</a></li>
+								
+								<li><a href="/blog/tags/ports">ports</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> 2021 © Gameblabla |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>

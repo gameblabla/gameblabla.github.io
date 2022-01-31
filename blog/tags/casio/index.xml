@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>casio on Gameblabla&#39;s blog</title>
+    <link>https://gameblabla.github.io/blog/tags/casio.html</link>
+    <description>Recent content in casio on Gameblabla&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/casio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CASIO Loopy, RGB mod possible ?</title>
+      <link>https://gameblabla.github.io/blog/posts/casio_loopy_rgb.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/posts/casio_loopy_rgb.html</guid>
+      <description>RGB video, possibly the best you can get video quality wise in the analog realm.
+Most people back then relied on Composite but a few (including most people in France) had RGB video.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>killminds on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/killminds/</link>
+    <link>https://gameblabla.github.io/blog/tags/killminds.html</link>
     <description>Recent content in killminds on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 28 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/killminds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KillMinds - Official Release</title>
-      <link>https://gameblabla.github.io/blog/posts/killminds/</link>
+      <link>https://gameblabla.github.io/blog/posts/killminds.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/killminds/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/killminds.html</guid>
       <description>It is now available for Android (Google Play Store) and Sailfish OS. A Firefox OS version was finished but it is currently waiting Mozilla’s aproval.</description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/hugo/</link>
+    <link>https://gameblabla.github.io/blog/tags/hugo.html</link>
     <description>Recent content in hugo on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Re-updating my blog</title>
-      <link>https://gameblabla.github.io/blog/posts/blog-new/</link>
+      <link>https://gameblabla.github.io/blog/posts/blog-new.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/blog-new/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/blog-new.html</guid>
       <description>So yet again, i have decided to switch to another blog solution. I pretty much forgot about the ones i used in details but basically it went something like :</description>
     </item>
     

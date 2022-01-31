@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>review on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/review/</link>
+    <link>https://gameblabla.github.io/blog/tags/review.html</link>
     <description>Recent content in review on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,47 +10,47 @@
     <lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A look at Android-x86</title>
-      <link>https://gameblabla.github.io/blog/posts/2017-06-10-android/</link>
+      <link>https://gameblabla.github.io/blog/posts/2017-06-10-android.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/2017-06-10-android/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/2017-06-10-android.html</guid>
       <description>Android-x86 is a project that intended to port Android to the x86 architecture. Before even Android-x86, Google had released an Android emulator that’s actually running x86 binaries for performance reasons</description>
     </item>
     
     <item>
       <title>Fire HD 7 - Review</title>
-      <link>https://gameblabla.github.io/blog/posts/ford_firehd/</link>
+      <link>https://gameblabla.github.io/blog/posts/ford_firehd.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/ford_firehd/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/ford_firehd.html</guid>
       <description>The Amazon Fire HD 7” is a FireOS tablet released in 2014.) At 39$ refurbished (50€ in Europe), it is one of the cheapest tablet you can get out there.</description>
     </item>
     
     <item>
       <title>Older devices - Sony Xperia X8</title>
-      <link>https://gameblabla.github.io/blog/posts/x8/</link>
+      <link>https://gameblabla.github.io/blog/posts/x8.html</link>
       <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/x8/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/x8.html</guid>
       <description>The Sony Xperia X8 was first announced in June 2010 and released in September the same year.
 It was quite a low-end device, even for its time.</description>
     </item>
     
     <item>
       <title>Older devices - Sony Xperia Neo V</title>
-      <link>https://gameblabla.github.io/blog/posts/haida/</link>
+      <link>https://gameblabla.github.io/blog/posts/haida.html</link>
       <pubDate>Mon, 28 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/haida/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/haida.html</guid>
       <description>The Sony Xperia Neo V was released on October 2011. It was a cheaper alternative to the Sony Xperia Neo released previously in March of the same year.</description>
     </item>
     
     <item>
       <title>Older devices - LG Optimus L3 E400</title>
-      <link>https://gameblabla.github.io/blog/posts/e400/</link>
+      <link>https://gameblabla.github.io/blog/posts/e400.html</link>
       <pubDate>Sun, 27 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/e400/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/e400.html</guid>
       <description>The LG Optimus L3 E400 is an Android device first released on February 2012. Even back when it was released, it was a fairly low-end device.</description>
     </item>
     

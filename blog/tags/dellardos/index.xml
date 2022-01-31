@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dellardos on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/dellardos/</link>
+    <link>https://gameblabla.github.io/blog/tags/dellardos.html</link>
     <description>Recent content in dellardos on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Fri, 16 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/dellardos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DellardOS 1.0 Rainbow Dash - Some history</title>
-      <link>https://gameblabla.github.io/blog/posts/2016-12-16-christmas/</link>
+      <link>https://gameblabla.github.io/blog/posts/2016-12-16-christmas.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/2016-12-16-christmas/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/2016-12-16-christmas.html</guid>
       <description>DellardOS, the systemd-free Devuan distribution, is being resurrected ! After so many months neglecting it, i have decided to revive it and fix some of its shortcomings.</description>
     </item>
     

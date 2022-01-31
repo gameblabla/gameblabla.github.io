@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>maintenance on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/maintenance/</link>
+    <link>https://gameblabla.github.io/blog/tags/maintenance.html</link>
     <description>Recent content in maintenance on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,19 +10,19 @@
     <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/maintenance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Re-updating my blog</title>
-      <link>https://gameblabla.github.io/blog/posts/blog-new/</link>
+      <link>https://gameblabla.github.io/blog/posts/blog-new.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/blog-new/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/blog-new.html</guid>
       <description>So yet again, i have decided to switch to another blog solution. I pretty much forgot about the ones i used in details but basically it went something like :</description>
     </item>
     
     <item>
       <title>Re-installed my blog (again)</title>
-      <link>https://gameblabla.github.io/blog/posts/ghostery/</link>
+      <link>https://gameblabla.github.io/blog/posts/ghostery.html</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/ghostery/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/ghostery.html</guid>
       <description>Due to Ghost being a piece of shit, including :
  No ability to have comments Upgrading taking more than 512 Mb of RAM  Among others…</description>
     </item>

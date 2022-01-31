@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bittboy on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/bittboy/</link>
+    <link>https://gameblabla.github.io/blog/tags/bittboy.html</link>
     <description>Recent content in bittboy on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,29 +10,29 @@
     <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/bittboy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>More work on SMS Plus GX</title>
-      <link>https://gameblabla.github.io/blog/posts/smsplus_more/</link>
+      <link>https://gameblabla.github.io/blog/posts/smsplus_more.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/smsplus_more/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/smsplus_more.html</guid>
       <description>Hello guys, Another quick update on SMS Plus GX !
 Unfortunately, i realised that i broke save states along the way some time ago, and it took me some time to fix it.</description>
     </item>
     
     <item>
       <title>My fork of SMS Plus GX (itself based on SMS Plus)</title>
-      <link>https://gameblabla.github.io/blog/posts/smsplus/</link>
+      <link>https://gameblabla.github.io/blog/posts/smsplus.html</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/smsplus/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/smsplus.html</guid>
       <description>Hello guys, i thought i would write this post to reflect me working my fork of SMS Plus and the progress and stuff i made on it.</description>
     </item>
     
     <item>
       <title>More RS-97, bittboy news</title>
-      <link>https://gameblabla.github.io/blog/posts/jzwiki/</link>
+      <link>https://gameblabla.github.io/blog/posts/jzwiki.html</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/jzwiki/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/jzwiki.html</guid>
       <description>Hello guys, hope you had a great year. (A bit late for that but meh) If you follow my stuff on Dingoonity &amp;amp; youtube, you may have noticed that i got a bittboy and ported some stuff to it.</description>
     </item>
     

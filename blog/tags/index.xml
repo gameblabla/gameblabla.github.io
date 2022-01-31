@@ -2,450 +2,495 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/</link>
+    <link>https://gameblabla.github.io/blog/tags.html</link>
     <description>Recent content in Tags on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
     <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ideas</title>
-      <link>https://gameblabla.github.io/blog/tags/ideas/</link>
+      <title>casio</title>
+      <link>https://gameblabla.github.io/blog/tags/casio.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/ideas/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/casio.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>casio loopy</title>
+      <link>https://gameblabla.github.io/blog/tags/casio-loopy.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/tags/casio-loopy.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ideas</title>
+      <link>https://gameblabla.github.io/blog/tags/ideas.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/tags/ideas.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>loopy</title>
+      <link>https://gameblabla.github.io/blog/tags/loopy.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/tags/loopy.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mod</title>
+      <link>https://gameblabla.github.io/blog/tags/mod.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/tags/mod.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>openlara</title>
-      <link>https://gameblabla.github.io/blog/tags/openlara/</link>
+      <link>https://gameblabla.github.io/blog/tags/openlara.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/openlara/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/openlara.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ports</title>
-      <link>https://gameblabla.github.io/blog/tags/ports/</link>
+      <link>https://gameblabla.github.io/blog/tags/ports.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/ports/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/ports.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rgb</title>
+      <link>https://gameblabla.github.io/blog/tags/rgb.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gameblabla.github.io/blog/tags/rgb.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>https://gameblabla.github.io/blog/tags/blog/</link>
+      <link>https://gameblabla.github.io/blog/tags/blog.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/blog/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/blog.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://gameblabla.github.io/blog/tags/hugo/</link>
+      <link>https://gameblabla.github.io/blog/tags/hugo.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/hugo/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/hugo.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>maintenance</title>
-      <link>https://gameblabla.github.io/blog/tags/maintenance/</link>
+      <link>https://gameblabla.github.io/blog/tags/maintenance.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/maintenance/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/maintenance.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>update</title>
-      <link>https://gameblabla.github.io/blog/tags/update/</link>
+      <link>https://gameblabla.github.io/blog/tags/update.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/update/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/update.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>bittboy</title>
-      <link>https://gameblabla.github.io/blog/tags/bittboy/</link>
+      <link>https://gameblabla.github.io/blog/tags/bittboy.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/bittboy/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/bittboy.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>cfw</title>
-      <link>https://gameblabla.github.io/blog/tags/cfw/</link>
+      <link>https://gameblabla.github.io/blog/tags/cfw.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/cfw/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/cfw.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>hq2x</title>
-      <link>https://gameblabla.github.io/blog/tags/hq2x/</link>
+      <link>https://gameblabla.github.io/blog/tags/hq2x.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/hq2x/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/hq2x.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rs97</title>
-      <link>https://gameblabla.github.io/blog/tags/rs97/</link>
+      <link>https://gameblabla.github.io/blog/tags/rs97.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rs97/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rs97.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>scalers</title>
-      <link>https://gameblabla.github.io/blog/tags/scalers/</link>
+      <link>https://gameblabla.github.io/blog/tags/scalers.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/scalers/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/scalers.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>smsplus</title>
-      <link>https://gameblabla.github.io/blog/tags/smsplus/</link>
+      <link>https://gameblabla.github.io/blog/tags/smsplus.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/smsplus/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/smsplus.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>wiki</title>
-      <link>https://gameblabla.github.io/blog/tags/wiki/</link>
+      <link>https://gameblabla.github.io/blog/tags/wiki.html</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/wiki/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/wiki.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>dev</title>
-      <link>https://gameblabla.github.io/blog/tags/dev/</link>
+      <link>https://gameblabla.github.io/blog/tags/dev.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/dev/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/dev.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>flappy</title>
-      <link>https://gameblabla.github.io/blog/tags/flappy/</link>
+      <link>https://gameblabla.github.io/blog/tags/flappy.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/flappy/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/flappy.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>games</title>
-      <link>https://gameblabla.github.io/blog/tags/games/</link>
+      <link>https://gameblabla.github.io/blog/tags/games.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/games/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/games.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>n64</title>
-      <link>https://gameblabla.github.io/blog/tags/n64/</link>
+      <link>https://gameblabla.github.io/blog/tags/n64.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/n64/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/n64.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>pebble</title>
-      <link>https://gameblabla.github.io/blog/tags/pebble/</link>
+      <link>https://gameblabla.github.io/blog/tags/pebble.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/pebble/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/pebble.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rs-97</title>
-      <link>https://gameblabla.github.io/blog/tags/rs-97/</link>
+      <link>https://gameblabla.github.io/blog/tags/rs-97.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rs-97/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rs-97.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>pebbles</title>
-      <link>https://gameblabla.github.io/blog/tags/pebbles/</link>
+      <link>https://gameblabla.github.io/blog/tags/pebbles.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/pebbles/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/pebbles.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>visual novel</title>
-      <link>https://gameblabla.github.io/blog/tags/visual-novel/</link>
+      <link>https://gameblabla.github.io/blog/tags/visual-novel.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/visual-novel/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/visual-novel.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>gameboy</title>
-      <link>https://gameblabla.github.io/blog/tags/gameboy/</link>
+      <link>https://gameblabla.github.io/blog/tags/gameboy.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/gameboy/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/gameboy.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>GBA</title>
-      <link>https://gameblabla.github.io/blog/tags/gba/</link>
+      <link>https://gameblabla.github.io/blog/tags/gba.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/gba/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/gba.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>reshef</title>
-      <link>https://gameblabla.github.io/blog/tags/reshef/</link>
+      <link>https://gameblabla.github.io/blog/tags/reshef.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/reshef/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/reshef.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>yu-gi-oh</title>
-      <link>https://gameblabla.github.io/blog/tags/yu-gi-oh/</link>
+      <link>https://gameblabla.github.io/blog/tags/yu-gi-oh.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/yu-gi-oh/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/yu-gi-oh.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>academy</title>
-      <link>https://gameblabla.github.io/blog/tags/academy/</link>
+      <link>https://gameblabla.github.io/blog/tags/academy.html</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/academy/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/academy.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>gx</title>
-      <link>https://gameblabla.github.io/blog/tags/gx/</link>
+      <link>https://gameblabla.github.io/blog/tags/gx.html</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/gx/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/gx.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>https://gameblabla.github.io/blog/tags/android/</link>
+      <link>https://gameblabla.github.io/blog/tags/android.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/android/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/android.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>android-x86</title>
-      <link>https://gameblabla.github.io/blog/tags/android-x86/</link>
+      <link>https://gameblabla.github.io/blog/tags/android-x86.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/android-x86/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/android-x86.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>review</title>
-      <link>https://gameblabla.github.io/blog/tags/review/</link>
+      <link>https://gameblabla.github.io/blog/tags/review.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/review/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/review.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>game</title>
-      <link>https://gameblabla.github.io/blog/tags/game/</link>
+      <link>https://gameblabla.github.io/blog/tags/game.html</link>
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/game/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/game.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>dellardos</title>
-      <link>https://gameblabla.github.io/blog/tags/dellardos/</link>
+      <link>https://gameblabla.github.io/blog/tags/dellardos.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/dellardos/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/dellardos.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://gameblabla.github.io/blog/tags/linux/</link>
+      <link>https://gameblabla.github.io/blog/tags/linux.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/linux/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/linux.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>tablet</title>
-      <link>https://gameblabla.github.io/blog/tags/tablet/</link>
+      <link>https://gameblabla.github.io/blog/tags/tablet.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/tablet/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/tablet.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>phone</title>
-      <link>https://gameblabla.github.io/blog/tags/phone/</link>
+      <link>https://gameblabla.github.io/blog/tags/phone.html</link>
       <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/phone/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/phone.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>bird</title>
-      <link>https://gameblabla.github.io/blog/tags/bird/</link>
+      <link>https://gameblabla.github.io/blog/tags/bird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/bird/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/bird.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>kongregate</title>
-      <link>https://gameblabla.github.io/blog/tags/kongregate/</link>
+      <link>https://gameblabla.github.io/blog/tags/kongregate.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/kongregate/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/kongregate.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>newgrounds</title>
-      <link>https://gameblabla.github.io/blog/tags/newgrounds/</link>
+      <link>https://gameblabla.github.io/blog/tags/newgrounds.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/newgrounds/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/newgrounds.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rubby</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby/</link>
+      <link>https://gameblabla.github.io/blog/tags/rubby.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rubby/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rubby.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rubby bird</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby-bird/</link>
+      <link>https://gameblabla.github.io/blog/tags/rubby-bird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rubby-bird/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rubby-bird.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rubby bird 100</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby-bird-100/</link>
+      <link>https://gameblabla.github.io/blog/tags/rubby-bird-100.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rubby-bird-100/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rubby-bird-100.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>rubbybird</title>
-      <link>https://gameblabla.github.io/blog/tags/rubbybird/</link>
+      <link>https://gameblabla.github.io/blog/tags/rubbybird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/rubbybird/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/rubbybird.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>sailfish</title>
-      <link>https://gameblabla.github.io/blog/tags/sailfish/</link>
+      <link>https://gameblabla.github.io/blog/tags/sailfish.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/sailfish/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/sailfish.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>firefox os</title>
-      <link>https://gameblabla.github.io/blog/tags/firefox-os/</link>
+      <link>https://gameblabla.github.io/blog/tags/firefox-os.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/firefox-os/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/firefox-os.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>killminds</title>
-      <link>https://gameblabla.github.io/blog/tags/killminds/</link>
+      <link>https://gameblabla.github.io/blog/tags/killminds.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/killminds/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/killminds.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>puzzle</title>
-      <link>https://gameblabla.github.io/blog/tags/puzzle/</link>
+      <link>https://gameblabla.github.io/blog/tags/puzzle.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/puzzle/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/puzzle.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>quartet</title>
-      <link>https://gameblabla.github.io/blog/tags/quartet/</link>
+      <link>https://gameblabla.github.io/blog/tags/quartet.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/quartet/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/quartet.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>ghost</title>
-      <link>https://gameblabla.github.io/blog/tags/ghost/</link>
+      <link>https://gameblabla.github.io/blog/tags/ghost.html</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/tags/ghost/</guid>
+      <guid>https://gameblabla.github.io/blog/tags/ghost.html</guid>
       <description></description>
     </item>
     

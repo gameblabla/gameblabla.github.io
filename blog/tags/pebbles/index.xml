@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pebbles on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/pebbles/</link>
+    <link>https://gameblabla.github.io/blog/tags/pebbles.html</link>
     <description>Recent content in pebbles on Gameblabla&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/pebbles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Western Ideals : New (last) Pebble game</title>
-      <link>https://gameblabla.github.io/blog/posts/2018-04-29-western/</link>
+      <link>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://gameblabla.github.io/blog/posts/2018-04-29-western/</guid>
+      <guid>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</guid>
       <description>Again, it&amp;rsquo;s been a while.
 I did several things since then : I have released a port of Evil Australians for the Atari Falcon.</description>
     </item>
