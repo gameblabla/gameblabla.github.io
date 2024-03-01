@@ -12,7 +12,7 @@
 	<nav class="navbar has-shadow is-white">
 	  <div class="navbar-brand">
 		<!-- Normally i would put a logo but text is just fine for now, i don't have a logo. Besides, that makes it scalable right away -->
-		<a class="navbar-item">
+		<a class="navbar-item" href="/">
 		  <strong class="title is-size-5">Gameblabla's website</strong>
 		</a>
 		
@@ -42,7 +42,7 @@
 	  <!-- These are the actual menu items -->
 	  <div id="nav-links" class="navbar-menu">
 		<div class="navbar-end">
-		  <a class="navbar-item">Home</a>
+		  <a class="navbar-item" href="/">Home</a>
 		  <a class="navbar-item" href="blog/">Blog</a>
 		  <a class="navbar-item" href="gcw0.html">OpenDingux</a>
 		  <a class="navbar-item" href="retro.html">Retro</a>
@@ -57,54 +57,33 @@
 	
 	<!-- So the frontpage is divided into 2 columns : One for my text and the other for my profile pictures. (or potentially other stuff as well, such as for the articles or games) -->
 	<div class="columns">
-	  <div class="column is-mobile is-centered">
-		<!-- Create middle section of my website --->
+
+			
+		<div class="column is-mobile is-centered">
 		<section class="section">
 		<div class="container">
-			<h1 class="title">
-				Welcome on my website !
-			</h1>
-			<p class="subtitle">
-				As you can see, i have remade it with Bulma, a CSS framework that is (mostly) Javascript-free !
-				<br><br>
-				I hope to fill this up better later but my older website was using an old CSS framework (Pure)
-				<br>
-				that is no longer suitable for today's websites.
-				<br><br>
-				I will make a proper list of all of my stuff that i did recently as my older website only had my older stuff.
-				<br><br>
-				I invite you, for now, to check out my repos on <a href="https://github.com/gameblabla"><i class="fab fa-lg fa-github-alt"></i> Github </a>  !
+			<p class="title">
+				<strong>Homebrew games for retro consoles</strong>
 			</p>
-			<p class="subtitle">Here's a few stuff that i did recently :</p>
-			<!-- Here, we are misusing Bulma a bit.
-			This is normally intended for menu list items but here we are using it for a simple list.
-			I'm also using the circle icon from Font-awesome to give it that impression as well.
-			Using • would be too small but using fa-xs makes the bullet small enoigh.
-			-->
-			<aside class="menu">
-			<ul class="menu-list fa-ul">
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Some games like Evil Australians, Western Ideals, Rubby Bird (Android) and more...</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Ports of emulators to OpenDingux like PCSX4ALL, PCSX Rearmed, PCFXEmu, VBemu...</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> CFW for the Retrostone 2 using buildroot</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Some other fun stuff as well, such as a utility to generate a custom QR code that can hold more data.</a></li>
-			</ul>
-			<br>
-			<b><a href="https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/">Links to my older releases can be found here.</a></b>
 			
-			</aside>
-			<p>Enjoy the ride and thank you for visiting !</p>
+			 <noscript>You need Javascript fools for this section to show up !</noscript>
+			 <div w3-include-html="hb/cornflakes/index.html"></div> 
+			 <div w3-include-html="hb/anarch/index.html"></div> 
+			 <div w3-include-html="hb/crafti/index.html"></div> 
+			 <div w3-include-html="hb/hidebaby/index.html"></div> 
+			 <div w3-include-html="hb/srpg/index.html"></div> 
+			 <div w3-include-html="hb/sinvasion/index.html"></div> 
+
 		</div>
 		</section>
+		
+		
+		
 	  </div>
 	  
-	  <div class="column is-two-fifths">
-		<!-- Create middle section of my website --->
-		<section class="section">
-		<div class="container">
-			<img src="img/avatar.png">
-		</div>
-		</section>
-	  </div>
+
+	  
+
 	</div>
 	
 	<footer class="footer">
@@ -126,4 +105,37 @@ burgerIcon.addEventListener('click', () => {
 	navbarMenu.classList.toggle('is-active');
 });
 </script>
+
+<!-- Inline HTML include -->
+ <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+
+includeHTML();
+</script> 
 </html>
