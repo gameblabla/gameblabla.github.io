@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ghost on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/ghost.html</link>
-    <description>Recent content in ghost on Gameblabla&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Ghost on Gameblabla&#39;s blog</title>
+    <link>http://localhost:1313/blog/tags/ghost.html</link>
+    <description>Recent content in Ghost on Gameblabla&#39;s blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
-    <lastBuildDate>Tue, 27 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Re-installed my blog (again)</title>
-      <link>https://gameblabla.github.io/blog/posts/ghostery.html</link>
+      <link>http://localhost:1313/blog/posts/ghostery.html</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/posts/ghostery.html</guid>
-      <description>Due to Ghost being a piece of shit, including :
- No ability to have comments Upgrading taking more than 512 Mb of RAM  Among others…</description>
+      <guid>http://localhost:1313/blog/posts/ghostery.html</guid>
+      <description>Due to Ghost being a piece of shit, including :&#xA;No ability to have comments Upgrading taking more than 512 Mb of RAM Among others…</description>
     </item>
-    
   </channel>
 </rss>

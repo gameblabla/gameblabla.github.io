@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dolby on Gameblabla&#39;s blog</title>
+    <link>http://localhost:1313/blog/tags/dolby.html</link>
+    <description>Recent content in Dolby on Gameblabla&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2021 © Gameblabla</copyright>
+    <lastBuildDate>Sun, 11 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/dolby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Audio &amp; Dolby support : Gamecube and Wii</title>
+      <link>http://localhost:1313/blog/posts/webbrowsers_p1.html</link>
+      <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/webbrowsers_p1.html</guid>
+      <description>Since the PC Engine CDROM, developers have experimented with Dolby Surrond support in their games.&#xA;Prior to that, it was usually not possible to do that as the consoles either lacked Stereo support for the PCM channels or were too primitive (Genesis).</description>
+    </item>
+  </channel>
+</rss>

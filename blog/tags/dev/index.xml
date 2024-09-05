@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dev on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags/dev.html</link>
-    <description>Recent content in dev on Gameblabla&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Dev on Gameblabla&#39;s blog</title>
+    <link>http://localhost:1313/blog/tags/dev.html</link>
+    <description>Recent content in Dev on Gameblabla&#39;s blog</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
-    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to N64 stuff and RS-97 news</title>
-      <link>https://gameblabla.github.io/blog/posts/n64.html</link>
+      <link>http://localhost:1313/blog/posts/n64.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/posts/n64.html</guid>
+      <guid>http://localhost:1313/blog/posts/n64.html</guid>
       <description>So it’s been a while again since i wrote anything on here. I thought i might as well talk about what i’ve been doing recently !</description>
     </item>
-    
     <item>
       <title>RS-97 stuff and more</title>
-      <link>https://gameblabla.github.io/blog/posts/rs97.html</link>
+      <link>http://localhost:1313/blog/posts/rs97.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/posts/rs97.html</guid>
+      <guid>http://localhost:1313/blog/posts/rs97.html</guid>
       <description>After getting 2 RS-97, i worked on a new custom firmware for the RS-97. It took me a while, and it was quite painful but here it is for all the revisions as Internal :</description>
     </item>
-    
     <item>
       <title>Western Ideals : New (last) Pebble game</title>
-      <link>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</link>
+      <link>http://localhost:1313/blog/posts/2018-04-29-western.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</guid>
-      <description>Again, it&amp;rsquo;s been a while.
-I did several things since then : I have released a port of Evil Australians for the Atari Falcon.</description>
+      <guid>http://localhost:1313/blog/posts/2018-04-29-western.html</guid>
+      <description>Again, it&amp;rsquo;s been a while.&#xA;I did several things since then : I have released a port of Evil Australians for the Atari Falcon.</description>
     </item>
-    
   </channel>
 </rss>

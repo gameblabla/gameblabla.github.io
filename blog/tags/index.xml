@@ -2,497 +2,411 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gameblabla&#39;s blog</title>
-    <link>https://gameblabla.github.io/blog/tags.html</link>
+    <link>http://localhost:1313/blog/tags.html</link>
     <description>Recent content in Tags on Gameblabla&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
-    <lastBuildDate>Mon, 31 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gameblabla.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>casio</title>
-      <link>https://gameblabla.github.io/blog/tags/casio.html</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/casio.html</guid>
+      <title>Consoles</title>
+      <link>http://localhost:1313/blog/tags/consoles.html</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/consoles.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>casio loopy</title>
-      <link>https://gameblabla.github.io/blog/tags/casio-loopy.html</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/casio-loopy.html</guid>
+      <title>Drama</title>
+      <link>http://localhost:1313/blog/tags/drama.html</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/drama.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ideas</title>
-      <link>https://gameblabla.github.io/blog/tags/ideas.html</link>
-      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/ideas.html</guid>
+      <title>Homebrew</title>
+      <link>http://localhost:1313/blog/tags/homebrew.html</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/homebrew.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>loopy</title>
-      <link>https://gameblabla.github.io/blog/tags/loopy.html</link>
+      <title>Casio</title>
+      <link>http://localhost:1313/blog/tags/casio.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/loopy.html</guid>
+      <guid>http://localhost:1313/blog/tags/casio.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mod</title>
-      <link>https://gameblabla.github.io/blog/tags/mod.html</link>
+      <title>Casio Loopy</title>
+      <link>http://localhost:1313/blog/tags/casio-loopy.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/mod.html</guid>
+      <guid>http://localhost:1313/blog/tags/casio-loopy.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>openlara</title>
-      <link>https://gameblabla.github.io/blog/tags/openlara.html</link>
+      <title>Ideas</title>
+      <link>http://localhost:1313/blog/tags/ideas.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/openlara.html</guid>
+      <guid>http://localhost:1313/blog/tags/ideas.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ports</title>
-      <link>https://gameblabla.github.io/blog/tags/ports.html</link>
+      <title>Loopy</title>
+      <link>http://localhost:1313/blog/tags/loopy.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/ports.html</guid>
+      <guid>http://localhost:1313/blog/tags/loopy.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rgb</title>
-      <link>https://gameblabla.github.io/blog/tags/rgb.html</link>
+      <title>Mod</title>
+      <link>http://localhost:1313/blog/tags/mod.html</link>
       <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rgb.html</guid>
+      <guid>http://localhost:1313/blog/tags/mod.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blog</title>
-      <link>https://gameblabla.github.io/blog/tags/blog.html</link>
+      <title>Openlara</title>
+      <link>http://localhost:1313/blog/tags/openlara.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/openlara.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ports</title>
+      <link>http://localhost:1313/blog/tags/ports.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/ports.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rgb</title>
+      <link>http://localhost:1313/blog/tags/rgb.html</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/tags/rgb.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/tags/blog.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/blog.html</guid>
+      <guid>http://localhost:1313/blog/tags/blog.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
-      <link>https://gameblabla.github.io/blog/tags/hugo.html</link>
+      <title>Hugo</title>
+      <link>http://localhost:1313/blog/tags/hugo.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/hugo.html</guid>
+      <guid>http://localhost:1313/blog/tags/hugo.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>maintenance</title>
-      <link>https://gameblabla.github.io/blog/tags/maintenance.html</link>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/blog/tags/maintenance.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/maintenance.html</guid>
+      <guid>http://localhost:1313/blog/tags/maintenance.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>update</title>
-      <link>https://gameblabla.github.io/blog/tags/update.html</link>
+      <title>Update</title>
+      <link>http://localhost:1313/blog/tags/update.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/update.html</guid>
+      <guid>http://localhost:1313/blog/tags/update.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bittboy</title>
-      <link>https://gameblabla.github.io/blog/tags/bittboy.html</link>
+      <title>Bittboy</title>
+      <link>http://localhost:1313/blog/tags/bittboy.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/bittboy.html</guid>
+      <guid>http://localhost:1313/blog/tags/bittboy.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cfw</title>
-      <link>https://gameblabla.github.io/blog/tags/cfw.html</link>
+      <title>Cfw</title>
+      <link>http://localhost:1313/blog/tags/cfw.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/cfw.html</guid>
+      <guid>http://localhost:1313/blog/tags/cfw.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hq2x</title>
-      <link>https://gameblabla.github.io/blog/tags/hq2x.html</link>
+      <title>Hq2x</title>
+      <link>http://localhost:1313/blog/tags/hq2x.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/hq2x.html</guid>
+      <guid>http://localhost:1313/blog/tags/hq2x.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rs97</title>
-      <link>https://gameblabla.github.io/blog/tags/rs97.html</link>
+      <title>Rs97</title>
+      <link>http://localhost:1313/blog/tags/rs97.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rs97.html</guid>
+      <guid>http://localhost:1313/blog/tags/rs97.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>scalers</title>
-      <link>https://gameblabla.github.io/blog/tags/scalers.html</link>
+      <title>Scalers</title>
+      <link>http://localhost:1313/blog/tags/scalers.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/scalers.html</guid>
+      <guid>http://localhost:1313/blog/tags/scalers.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>smsplus</title>
-      <link>https://gameblabla.github.io/blog/tags/smsplus.html</link>
+      <title>Smsplus</title>
+      <link>http://localhost:1313/blog/tags/smsplus.html</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/smsplus.html</guid>
+      <guid>http://localhost:1313/blog/tags/smsplus.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wiki</title>
-      <link>https://gameblabla.github.io/blog/tags/wiki.html</link>
+      <title>Wiki</title>
+      <link>http://localhost:1313/blog/tags/wiki.html</link>
       <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/wiki.html</guid>
+      <guid>http://localhost:1313/blog/tags/wiki.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dev</title>
-      <link>https://gameblabla.github.io/blog/tags/dev.html</link>
+      <title>Dev</title>
+      <link>http://localhost:1313/blog/tags/dev.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/dev.html</guid>
+      <guid>http://localhost:1313/blog/tags/dev.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>flappy</title>
-      <link>https://gameblabla.github.io/blog/tags/flappy.html</link>
+      <title>Flappy</title>
+      <link>http://localhost:1313/blog/tags/flappy.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/flappy.html</guid>
+      <guid>http://localhost:1313/blog/tags/flappy.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>games</title>
-      <link>https://gameblabla.github.io/blog/tags/games.html</link>
+      <title>Games</title>
+      <link>http://localhost:1313/blog/tags/games.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/games.html</guid>
+      <guid>http://localhost:1313/blog/tags/games.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>n64</title>
-      <link>https://gameblabla.github.io/blog/tags/n64.html</link>
+      <title>N64</title>
+      <link>http://localhost:1313/blog/tags/n64.html</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/n64.html</guid>
+      <guid>http://localhost:1313/blog/tags/n64.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pebble</title>
-      <link>https://gameblabla.github.io/blog/tags/pebble.html</link>
+      <title>Pebble</title>
+      <link>http://localhost:1313/blog/tags/pebble.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/pebble.html</guid>
+      <guid>http://localhost:1313/blog/tags/pebble.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rs-97</title>
-      <link>https://gameblabla.github.io/blog/tags/rs-97.html</link>
+      <title>Rs-97</title>
+      <link>http://localhost:1313/blog/tags/rs-97.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rs-97.html</guid>
+      <guid>http://localhost:1313/blog/tags/rs-97.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pebbles</title>
-      <link>https://gameblabla.github.io/blog/tags/pebbles.html</link>
+      <title>Pebbles</title>
+      <link>http://localhost:1313/blog/tags/pebbles.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/pebbles.html</guid>
+      <guid>http://localhost:1313/blog/tags/pebbles.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>visual novel</title>
-      <link>https://gameblabla.github.io/blog/tags/visual-novel.html</link>
+      <title>Visual Novel</title>
+      <link>http://localhost:1313/blog/tags/visual-novel.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/visual-novel.html</guid>
+      <guid>http://localhost:1313/blog/tags/visual-novel.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gameboy</title>
-      <link>https://gameblabla.github.io/blog/tags/gameboy.html</link>
+      <title>Gameboy</title>
+      <link>http://localhost:1313/blog/tags/gameboy.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/gameboy.html</guid>
+      <guid>http://localhost:1313/blog/tags/gameboy.html</guid>
       <description></description>
     </item>
-    
     <item>
       <title>GBA</title>
-      <link>https://gameblabla.github.io/blog/tags/gba.html</link>
+      <link>http://localhost:1313/blog/tags/gba.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/gba.html</guid>
+      <guid>http://localhost:1313/blog/tags/gba.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reshef</title>
-      <link>https://gameblabla.github.io/blog/tags/reshef.html</link>
+      <title>Reshef</title>
+      <link>http://localhost:1313/blog/tags/reshef.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/reshef.html</guid>
+      <guid>http://localhost:1313/blog/tags/reshef.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>yu-gi-oh</title>
-      <link>https://gameblabla.github.io/blog/tags/yu-gi-oh.html</link>
+      <title>Yu-Gi-Oh</title>
+      <link>http://localhost:1313/blog/tags/yu-gi-oh.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/yu-gi-oh.html</guid>
+      <guid>http://localhost:1313/blog/tags/yu-gi-oh.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>academy</title>
-      <link>https://gameblabla.github.io/blog/tags/academy.html</link>
+      <title>Academy</title>
+      <link>http://localhost:1313/blog/tags/academy.html</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/academy.html</guid>
+      <guid>http://localhost:1313/blog/tags/academy.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gx</title>
-      <link>https://gameblabla.github.io/blog/tags/gx.html</link>
+      <title>Gx</title>
+      <link>http://localhost:1313/blog/tags/gx.html</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/gx.html</guid>
+      <guid>http://localhost:1313/blog/tags/gx.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>android</title>
-      <link>https://gameblabla.github.io/blog/tags/android.html</link>
+      <title>Android</title>
+      <link>http://localhost:1313/blog/tags/android.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/android.html</guid>
+      <guid>http://localhost:1313/blog/tags/android.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>android-x86</title>
-      <link>https://gameblabla.github.io/blog/tags/android-x86.html</link>
+      <title>Android-X86</title>
+      <link>http://localhost:1313/blog/tags/android-x86.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/android-x86.html</guid>
+      <guid>http://localhost:1313/blog/tags/android-x86.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>review</title>
-      <link>https://gameblabla.github.io/blog/tags/review.html</link>
+      <title>Review</title>
+      <link>http://localhost:1313/blog/tags/review.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/review.html</guid>
+      <guid>http://localhost:1313/blog/tags/review.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>game</title>
-      <link>https://gameblabla.github.io/blog/tags/game.html</link>
+      <title>Game</title>
+      <link>http://localhost:1313/blog/tags/game.html</link>
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/game.html</guid>
+      <guid>http://localhost:1313/blog/tags/game.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dellardos</title>
-      <link>https://gameblabla.github.io/blog/tags/dellardos.html</link>
+      <title>Dellardos</title>
+      <link>http://localhost:1313/blog/tags/dellardos.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/dellardos.html</guid>
+      <guid>http://localhost:1313/blog/tags/dellardos.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
-      <link>https://gameblabla.github.io/blog/tags/linux.html</link>
+      <title>Linux</title>
+      <link>http://localhost:1313/blog/tags/linux.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/linux.html</guid>
+      <guid>http://localhost:1313/blog/tags/linux.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tablet</title>
-      <link>https://gameblabla.github.io/blog/tags/tablet.html</link>
+      <title>Tablet</title>
+      <link>http://localhost:1313/blog/tags/tablet.html</link>
       <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/tablet.html</guid>
+      <guid>http://localhost:1313/blog/tags/tablet.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>phone</title>
-      <link>https://gameblabla.github.io/blog/tags/phone.html</link>
+      <title>Phone</title>
+      <link>http://localhost:1313/blog/tags/phone.html</link>
       <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/phone.html</guid>
+      <guid>http://localhost:1313/blog/tags/phone.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bird</title>
-      <link>https://gameblabla.github.io/blog/tags/bird.html</link>
+      <title>Bird</title>
+      <link>http://localhost:1313/blog/tags/bird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/bird.html</guid>
+      <guid>http://localhost:1313/blog/tags/bird.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kongregate</title>
-      <link>https://gameblabla.github.io/blog/tags/kongregate.html</link>
+      <title>Kongregate</title>
+      <link>http://localhost:1313/blog/tags/kongregate.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/kongregate.html</guid>
+      <guid>http://localhost:1313/blog/tags/kongregate.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>newgrounds</title>
-      <link>https://gameblabla.github.io/blog/tags/newgrounds.html</link>
+      <title>Newgrounds</title>
+      <link>http://localhost:1313/blog/tags/newgrounds.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/newgrounds.html</guid>
+      <guid>http://localhost:1313/blog/tags/newgrounds.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rubby</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby.html</link>
+      <title>Rubby</title>
+      <link>http://localhost:1313/blog/tags/rubby.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rubby.html</guid>
+      <guid>http://localhost:1313/blog/tags/rubby.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rubby bird</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby-bird.html</link>
+      <title>Rubby Bird</title>
+      <link>http://localhost:1313/blog/tags/rubby-bird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rubby-bird.html</guid>
+      <guid>http://localhost:1313/blog/tags/rubby-bird.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rubby bird 100</title>
-      <link>https://gameblabla.github.io/blog/tags/rubby-bird-100.html</link>
+      <title>Rubby Bird 100</title>
+      <link>http://localhost:1313/blog/tags/rubby-bird-100.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rubby-bird-100.html</guid>
+      <guid>http://localhost:1313/blog/tags/rubby-bird-100.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rubbybird</title>
-      <link>https://gameblabla.github.io/blog/tags/rubbybird.html</link>
+      <title>Rubbybird</title>
+      <link>http://localhost:1313/blog/tags/rubbybird.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/rubbybird.html</guid>
+      <guid>http://localhost:1313/blog/tags/rubbybird.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sailfish</title>
-      <link>https://gameblabla.github.io/blog/tags/sailfish.html</link>
+      <title>Sailfish</title>
+      <link>http://localhost:1313/blog/tags/sailfish.html</link>
       <pubDate>Thu, 29 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/sailfish.html</guid>
+      <guid>http://localhost:1313/blog/tags/sailfish.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>firefox os</title>
-      <link>https://gameblabla.github.io/blog/tags/firefox-os.html</link>
+      <title>Firefox Os</title>
+      <link>http://localhost:1313/blog/tags/firefox-os.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/firefox-os.html</guid>
+      <guid>http://localhost:1313/blog/tags/firefox-os.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>killminds</title>
-      <link>https://gameblabla.github.io/blog/tags/killminds.html</link>
+      <title>Killminds</title>
+      <link>http://localhost:1313/blog/tags/killminds.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/killminds.html</guid>
+      <guid>http://localhost:1313/blog/tags/killminds.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>puzzle</title>
-      <link>https://gameblabla.github.io/blog/tags/puzzle.html</link>
+      <title>Puzzle</title>
+      <link>http://localhost:1313/blog/tags/puzzle.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/puzzle.html</guid>
+      <guid>http://localhost:1313/blog/tags/puzzle.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>quartet</title>
-      <link>https://gameblabla.github.io/blog/tags/quartet.html</link>
+      <title>Quartet</title>
+      <link>http://localhost:1313/blog/tags/quartet.html</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/quartet.html</guid>
+      <guid>http://localhost:1313/blog/tags/quartet.html</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ghost</title>
-      <link>https://gameblabla.github.io/blog/tags/ghost.html</link>
+      <title>Ghost</title>
+      <link>http://localhost:1313/blog/tags/ghost.html</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://gameblabla.github.io/blog/tags/ghost.html</guid>
+      <guid>http://localhost:1313/blog/tags/ghost.html</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
