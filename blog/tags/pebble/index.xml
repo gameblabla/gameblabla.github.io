@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pebble on Gameblabla&#39;s blog</title>
-    <link>http://localhost:1313/blog/tags/pebble.html</link>
+    <link>https://gameblabla.github.io/blog/tags/pebble.html</link>
     <description>Recent content in Pebble on Gameblabla&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
     <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/pebble/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gameblabla.github.io/blog/tags/pebble/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RS-97 stuff and more</title>
-      <link>http://localhost:1313/blog/posts/rs97.html</link>
+      <link>https://gameblabla.github.io/blog/posts/rs97.html</link>
       <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/rs97.html</guid>
+      <guid>https://gameblabla.github.io/blog/posts/rs97.html</guid>
       <description>After getting 2 RS-97, i worked on a new custom firmware for the RS-97. It took me a while, and it was quite painful but here it is for all the revisions as Internal :</description>
     </item>
     <item>
       <title>Western Ideals : New (last) Pebble game</title>
-      <link>http://localhost:1313/blog/posts/2018-04-29-western.html</link>
+      <link>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</link>
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/2018-04-29-western.html</guid>
+      <guid>https://gameblabla.github.io/blog/posts/2018-04-29-western.html</guid>
       <description>Again, it&amp;rsquo;s been a while.&#xA;I did several things since then : I have released a port of Evil Australians for the Atari Falcon.</description>
     </item>
   </channel>

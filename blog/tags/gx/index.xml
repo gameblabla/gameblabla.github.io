@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gx on Gameblabla&#39;s blog</title>
-    <link>http://localhost:1313/blog/tags/gx.html</link>
+    <link>https://gameblabla.github.io/blog/tags/gx.html</link>
     <description>Recent content in Gx on Gameblabla&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
     <lastBuildDate>Sat, 15 Jul 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/gx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gameblabla.github.io/blog/tags/gx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yu-Gi-Oh! GX Academy - Review</title>
-      <link>http://localhost:1313/blog/posts/2017-07-15-gx_academy.html</link>
+      <link>https://gameblabla.github.io/blog/posts/2017-07-15-gx_academy.html</link>
       <pubDate>Sat, 15 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/2017-07-15-gx_academy.html</guid>
+      <guid>https://gameblabla.github.io/blog/posts/2017-07-15-gx_academy.html</guid>
       <description>After the abomination that was Reshef of Destruction, i decided to see if Konami learned from their mistakes on the same platform.</description>
     </item>
   </channel>
