@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
-    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gameblabla.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consoles</title>
       <link>https://gameblabla.github.io/blog/tags/consoles.html</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/tags/consoles.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homebrew</title>
+      <link>https://gameblabla.github.io/blog/tags/homebrew.html</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gameblabla.github.io/blog/tags/homebrew.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Update</title>
+      <link>https://gameblabla.github.io/blog/tags/update.html</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gameblabla.github.io/blog/tags/update.html</guid>
       <description></description>
     </item>
     <item>
@@ -21,13 +35,6 @@
       <link>https://gameblabla.github.io/blog/tags/drama.html</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/tags/drama.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Homebrew</title>
-      <link>https://gameblabla.github.io/blog/tags/homebrew.html</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://gameblabla.github.io/blog/tags/homebrew.html</guid>
       <description></description>
     </item>
     <item>
@@ -105,13 +112,6 @@
       <link>https://gameblabla.github.io/blog/tags/maintenance.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/tags/maintenance.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Update</title>
-      <link>https://gameblabla.github.io/blog/tags/update.html</link>
-      <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://gameblabla.github.io/blog/tags/update.html</guid>
       <description></description>
     </item>
     <item>

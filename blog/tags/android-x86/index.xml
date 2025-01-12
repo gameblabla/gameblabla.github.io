@@ -14,7 +14,7 @@
       <link>https://gameblabla.github.io/blog/posts/2017-06-10-android.html</link>
       <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/2017-06-10-android.html</guid>
-      <description>Android-x86 is a project that intended to port Android to the x86 architecture. Before even Android-x86, Google had released an Android emulator that’s actually running x86 binaries for performance reasons</description>
+      <description>&lt;p&gt;Android-x86 is a project that intended to port Android to the x86 architecture.&#xA;Before even Android-x86, Google had released an Android emulator that’s actually running x86 binaries for performance reasons&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

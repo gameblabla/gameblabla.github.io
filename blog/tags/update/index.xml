@@ -7,42 +7,49 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2021 © Gameblabla</copyright>
-    <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gameblabla.github.io/blog/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update for 2025</title>
+      <link>https://gameblabla.github.io/blog/posts/2025news.html</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gameblabla.github.io/blog/posts/2025news.html</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since i made a true &amp;ldquo;update&amp;rdquo; on this blog post.&#xA;Truthfully, a long has changed since then.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Re-updating my blog</title>
       <link>https://gameblabla.github.io/blog/posts/blog-new.html</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/blog-new.html</guid>
-      <description>So yet again, i have decided to switch to another blog solution. I pretty much forgot about the ones i used in details but basically it went something like :</description>
+      <description>&lt;p&gt;So yet again, i have decided to switch to another blog solution.&#xA;I pretty much forgot about the ones i used in details but basically it went something like :&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update - Some Changes</title>
       <link>https://gameblabla.github.io/blog/posts/2017-11-30-update.html</link>
       <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/2017-11-30-update.html</guid>
-      <description>It&amp;rsquo;s been a while since i have not done anything, even development-wise.&#xA;Sadly, i have some real-life issues so i could not do much.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since i have not done anything, even development-wise.&lt;/p&gt;&#xA;&lt;p&gt;Sadly, i have some real-life issues so i could not do much.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Important! Major changes</title>
       <link>https://gameblabla.github.io/blog/posts/2017-07-15-news.html</link>
       <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/2017-07-15-news.html</guid>
-      <description>Hello guys !&#xA;A forum where i was very active, codewalr.us, is talking about shutting down after 2 important staff members quit codewalrus.</description>
+      <description>&lt;p&gt;Hello guys !&lt;/p&gt;&#xA;&lt;p&gt;A forum where i was very active, codewalr.us, is talking about shutting down after 2 important staff members quit codewalrus.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Update Blog</title>
       <link>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog.html</link>
       <pubDate>Sun, 09 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/2017-04-29-updateblog.html</guid>
-      <description>So yeah&amp;hellip;&#xA;I went from Ghost to Nibbleblog, then to Bludit and before settling with Jekyll.&#xA;The reason for all this mess is because i was looking for something that plays nice with restrictive CSP (Content Security Policy) rules.</description>
+      <description>&lt;p&gt;&lt;strong&gt;So yeah&lt;/strong&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;I went from &lt;strong&gt;Ghost&lt;/strong&gt; to &lt;strong&gt;Nibbleblog&lt;/strong&gt;, then to &lt;strong&gt;Bludit&lt;/strong&gt; and before settling with &lt;strong&gt;Jekyll&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The reason for all this mess is because i was looking for something that plays nice with restrictive CSP (Content Security Policy) rules.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Re-installed my blog (again)</title>
       <link>https://gameblabla.github.io/blog/posts/ghostery.html</link>
       <pubDate>Tue, 27 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://gameblabla.github.io/blog/posts/ghostery.html</guid>
-      <description>Due to Ghost being a piece of shit, including :&#xA;No ability to have comments Upgrading taking more than 512 Mb of RAM Among others…</description>
+      <description>&lt;p&gt;Due to Ghost being a piece of shit, including :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No ability to have comments&lt;/li&gt;&#xA;&lt;li&gt;Upgrading taking more than 512 Mb of RAM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Among others…&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
