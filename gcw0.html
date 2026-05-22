@@ -1,183 +1,21 @@
-<!DOCTYPE html>
-<html>
- <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gameblabla's website !</title>
-	<link rel="stylesheet" href="css/all.min.css"> <!-- FontAwesome -->
-	<link rel="stylesheet" href="css/bulma.min.css"> <!-- Bulma, CSS framework -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=games.html?type=opendingux&amp;platform=OpenDingux">
+  <meta name="robots" content="noindex">
+  <title>OpenDingux moved — Gameblabla</title>
+  <link rel="canonical" href="games.html?type=opendingux&amp;platform=OpenDingux">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-	<!-- Navigation bar with shoadow below and is white as well-->
-	<nav class="navbar has-shadow is-white">
-	  <div class="navbar-brand">
-		<!-- Normally i would put a logo but text is just fine for now, i don't have a logo. Besides, that makes it scalable right away -->
-		<a class="navbar-item" href="/">
-		  <strong class="title is-size-5">Gameblabla's website</strong>
-		</a>
-		
-		<!-- Github account, we add it as an additional navbar (separate from Home, Blog etc...)-->
-		<a class="bd-navbar-icon navbar-item" href="https://github.com/gameblabla" target="_blank">
-        <span class="icon" style="color: var(--github);">
-		<i class="fab fa-lg fa-github-alt"></i>
-        </span>
-		</a>
-
-      </a>
-      
-		<!-- This is used for the menu on mobile devices.
-		As it is right now, it only works with some javascript. (which is right below)
-		-->
-		<a class="navbar-burger" id="burger">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</a>
-	  </div>
-	  <!-- These are the actual menu items -->
-	  <div id="nav-links" class="navbar-menu">
-		<div class="navbar-end">
-		  <a class="navbar-item" href="/">Home</a>
-		  <a class="navbar-item" href="blog/">Blog</a>
-		  <a class="navbar-item" href="gcw0.html">OpenDingux</a>
-		  <a class="navbar-item" href="retro.html">Retro</a>
-		  <!-- I will do these later
-		  <a class="navbar-item" href="games/">Games</a>
-		  <a class="navbar-item" href="blog/">Other</a>
-		  <a class="navbar-item" href="contact/">Contact</a>
-		  -->
-		</div>
-	  </div>
-	</nav>
-	
-	<!-- So the frontpage is divided into 2 columns : One for my text and the other for my profile pictures. (or potentially other stuff as well, such as for the articles or games) -->
-	<div class="columns">
-		<div class="column is-two-fifths is-mobile is-centered">
-			<!-- Create middle section of my website --->
-			<section class="section">
-			<div class="container">
-				<h1 class="title">
-					OpenDingux ports (Ingenic JZ4770)
-				</h1>
-				<img src="img/rg350.png">
-			</div>
-			<p>
-			<br>
-			The <strong>GCW-Zero</strong> (and the <strong>RG-350</strong>) was really the first platform
-			that i enjoyed developing for.<br>
-			This is no small part due to the work of pcercuei along with other people
-			(JohnnyonFlame, senquack etc...).<br>
-			Besides the CFW that i did for the <strong>Retrostone 2</strong>, SDL 1.2
-			games run really fast on it.<br>
-			SDL2 is also decently well supported now and is recommended for 3D accelerated games.
-			<br><br>
-			There is, however, a complete lack of support for other libraries like SFML or Allegro 4/5
-			due to the lack of a proper DRM/KMS backend.<br>
-			This isn't a huge problem for most games but a few obscure ones make use of them
-			and it can be bothersome.
-			<br><br>
-			python/pygame performs very poorly on it due to the fact python hogs on the (only)
-			CPU core as well pygame utterly lacking GPU-accelerated functions that SDL2 provides.<br>
-			It is no wonder barely any games use pygame seriously.<br>
-			<br>
-			The Vivante GPU is also a very poor performer with extremely low fillrate.
-			<br>
-			To give you an idea: JohnnyOnFlame was barely able to make Super Mario 64 run at 30 fps and 480p.<br>
-			The GPU driver is making matters worse, although it is improving with each Mesa3D release.<br>
-			Back in 2013, it was pretty good for what it was but nowadays people just expect more out of it
-			and the OpenPandra that came out before it was destroying it in terms of performance with its
-			PowerVR GPU, which is what some people ended up going with.
-			<br><br>
-			Years later after the GCW-Zero was discontinued, Anbernic released newer handhelds
-			based of it and using the OpenDingux firmware. <br>
-			They added dual analog stick support and with the <strong>RG-350M</strong>, a 480p screen was added.<br>
-			Needless to say, this screen was only useful for PS1 games and a few handful 2D/3D games
-			as the GPU was not even powerful enough for 320x240.
-			</p>
-			
-			</section>
-		</div>
-			
-		<div class="column is-mobile is-centered">
-		<section class="section">
-		<div class="container">
-			<p class="title">
-				<strong>Games</strong>
-			</p>
-			
-			 <noscript>You need Javascript fools for this section to show up !</noscript>
-			 <div w3-include-html="gcw0/drally/index.html"></div> 
-			 <div w3-include-html="gcw0/cromagrally/index.html"></div> 
-			 <div w3-include-html="gcw0/pacmanarena/index.html"></div> 
-			 <div w3-include-html="gcw0/wlaol/index.html"></div> 
-			 <div w3-include-html="gcw0/heboris/index.html"></div> 
-			 <div w3-include-html="gcw0/hexahop/index.html"></div> 
-			 <div w3-include-html="gcw0/gnp/index.html"></div> 
-			 <div w3-include-html="gcw0/overheated/index.html"></div> 
-			 <div w3-include-html="gcw0/froggo/index.html"></div> 
-			 <div w3-include-html="gcw0/ncrafti/index.html"></div> 
-		</div>
-		</section>
-		
-		
-		
-	  </div>
-	  
-
-	  
-
-	</div>
-	
-	<footer class="footer">
-	  <div class="content has-text-centered">
-		<p>
-		  Built with <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
-		  <br><br>
-		  Website by gameblabla
-		</p>
-	  </div>
-	</footer>
+  <main class="section">
+    <div class="shell info-card">
+      <h1>OpenDingux releases moved to Games.</h1>
+      <p>The catalog is now unified. <a href="games.html?type=opendingux&amp;platform=OpenDingux">Open the OpenDingux ports filter</a>.</p>
+    </div>
+  </main>
+  <script>location.replace('games.html?type=opendingux&platform=OpenDingux');</script>
 </body>
-<!-- Javascript code used for the menu on mobile devices only -->
-<script>
-var burgerIcon = document.querySelector('#burger');
-var navbarMenu = document.querySelector('#nav-links');
-
-burgerIcon.addEventListener('click', () => {
-	navbarMenu.classList.toggle('is-active');
-});
-</script>
-
-<!-- Inline HTML include -->
- <script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
-  }
-}
-
-includeHTML();
-</script> 
 </html>

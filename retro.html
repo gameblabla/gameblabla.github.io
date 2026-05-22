@@ -1,146 +1,21 @@
-<!DOCTYPE html>
-<html>
- <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gameblabla's website !</title>
-	<link rel="stylesheet" href="css/all.min.css"> <!-- FontAwesome -->
-	<link rel="stylesheet" href="css/bulma.min.css"> <!-- Bulma, CSS framework -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=games.html">
+  <meta name="robots" content="noindex">
+  <title>Retro releases moved — Gameblabla</title>
+  <link rel="canonical" href="games.html">
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-	<!-- Navigation bar with shoadow below and is white as well-->
-	<nav class="navbar has-shadow is-white">
-	  <div class="navbar-brand">
-		<!-- Normally i would put a logo but text is just fine for now, i don't have a logo. Besides, that makes it scalable right away -->
-		<a class="navbar-item" href="/">
-		  <strong class="title is-size-5">Gameblabla's website</strong>
-		</a>
-		
-		<!-- Github account, we add it as an additional navbar (separate from Home, Blog etc...)-->
-		<a class="bd-navbar-icon navbar-item" href="https://github.com/gameblabla" target="_blank">
-        <span class="icon" style="color: var(--github);">
-		<i class="fab fa-lg fa-github-alt"></i>
-        </span>
-		</a>
-		
-      </a>
-      
-		<!-- This is used for the menu on mobile devices.
-		As it is right now, it only works with some javascript. (which is right below)
-		-->
-		<a class="navbar-burger" id="burger">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</a>
-	  </div>
-	  <!-- These are the actual menu items -->
-	  <div id="nav-links" class="navbar-menu">
-		<div class="navbar-end">
-		  <a class="navbar-item" href="/">Home</a>
-		  <a class="navbar-item" href="blog/">Blog</a>
-		  <a class="navbar-item" href="gcw0.html">OpenDingux</a>
-		  <a class="navbar-item" href="retro.html">Retro</a>
-		  <!-- I will do these later
-		  <a class="navbar-item" href="games/">Games</a>
-		  <a class="navbar-item" href="blog/">Other</a>
-		  <a class="navbar-item" href="contact/">Contact</a>
-		  -->
-		</div>
-	  </div>
-	</nav>
-	
-	<!-- So the frontpage is divided into 2 columns : One for my text and the other for my profile pictures. (or potentially other stuff as well, such as for the articles or games) -->
-	<div class="columns">
-
-			
-		<div class="column is-mobile is-centered">
-		<section class="section">
-		<div class="container">
-			<p class="title">
-				<strong>Homebrew games for retro consoles</strong>
-			</p>
-			
-			 <noscript>You need Javascript fools for this section to show up !</noscript>
-			 <div w3-include-html="hb/anarch/index.html"></div> 
-			 <div w3-include-html="hb/helicopters/index.html"></div> 
-			 <div w3-include-html="hb/crazybird/index.html"></div> 
-			 <div w3-include-html="hb/deathtrap/index.html"></div> 
-			 <div w3-include-html="hb/crafti/index.html"></div> 
-			 <div w3-include-html="hb/hidebaby/index.html"></div> 
-			 <div w3-include-html="hb/cornflakes/index.html"></div> 
-			 <div w3-include-html="hb/srpg/index.html"></div> 
-			 <div w3-include-html="hb/sinvasion/index.html"></div> 
-			 
-			 
-			<p class="title">
-				<strong>Homebrew ports for retro consoles</strong>
-			</p>
-			
-			 <div w3-include-html="hb/ganbare/index.html"></div> 
-			
-		</div>
-		</section>
-		
-		
-		
-	  </div>
-	  
-
-	  
-
-	</div>
-	
-	<footer class="footer">
-	  <div class="content has-text-centered">
-		<p>
-		  Built with <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
-		  <br><br>
-		  Website by gameblabla
-		</p>
-	  </div>
-	</footer>
+  <main class="section">
+    <div class="shell info-card">
+      <h1>Retro releases moved to Games.</h1>
+      <p>The catalog is now unified. <a href="games.html">Open the Games catalog</a>.</p>
+    </div>
+  </main>
+  <script>location.replace('games.html');</script>
 </body>
-<!-- Javascript code used for the menu on mobile devices only -->
-<script>
-var burgerIcon = document.querySelector('#burger');
-var navbarMenu = document.querySelector('#nav-links');
-
-burgerIcon.addEventListener('click', () => {
-	navbarMenu.classList.toggle('is-active');
-});
-</script>
-
-<!-- Inline HTML include -->
- <script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /* Loop through a collection of all HTML elements: */
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /* Make an HTTP request using the attribute value as the file name: */
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /* Remove the attribute, and call this function once more: */
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /* Exit the function: */
-      return;
-    }
-  }
-}
-
-includeHTML();
-</script> 
 </html>

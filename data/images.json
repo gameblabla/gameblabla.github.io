@@ -1,0 +1,1621 @@
+{
+  "generatedFrom": "local img/ directory fallback index; editor also scans img/ dynamically on local servers with directory listing",
+  "images": [
+    {
+      "path": "img/404.jpg",
+      "name": "404.jpg"
+    },
+    {
+      "path": "img/520x293bb.jpg",
+      "name": "520x293bb.jpg"
+    },
+    {
+      "path": "img/CrazyBirdv11.png",
+      "name": "CrazyBirdv11.png"
+    },
+    {
+      "path": "img/IMG_20191220_182426.jpg",
+      "name": "IMG_20191220_182426.jpg"
+    },
+    {
+      "path": "img/IMG_20191220_182501.jpg",
+      "name": "IMG_20191220_182501.jpg"
+    },
+    {
+      "path": "img/IMG_20200228_012439.jpg",
+      "name": "IMG_20200228_012439.jpg"
+    },
+    {
+      "path": "img/IMG_20200228_012627.jpg",
+      "name": "IMG_20200228_012627.jpg"
+    },
+    {
+      "path": "img/am2rVSpossum.png",
+      "name": "am2rVSpossum.png"
+    },
+    {
+      "path": "img/androidpit.png",
+      "name": "androidpit.png"
+    },
+    {
+      "path": "img/aplite_scr1.png",
+      "name": "aplite_scr1.png"
+    },
+    {
+      "path": "img/aplite_scr2.png",
+      "name": "aplite_scr2.png"
+    },
+    {
+      "path": "img/aplite_scr3.png",
+      "name": "aplite_scr3.png"
+    },
+    {
+      "path": "img/avatar.png",
+      "name": "avatar.png"
+    },
+    {
+      "path": "img/bakura_cv_1.png",
+      "name": "bakura_cv_1.png"
+    },
+    {
+      "path": "img/bakura_cv_2.png",
+      "name": "bakura_cv_2.png"
+    },
+    {
+      "path": "img/banner_ci.png",
+      "name": "banner_ci.png"
+    },
+    {
+      "path": "img/banner_ea.png",
+      "name": "banner_ea.png"
+    },
+    {
+      "path": "img/basalt_scr1.png",
+      "name": "basalt_scr1.png"
+    },
+    {
+      "path": "img/basalt_scr2.png",
+      "name": "basalt_scr2.png"
+    },
+    {
+      "path": "img/basalt_scr3.png",
+      "name": "basalt_scr3.png"
+    },
+    {
+      "path": "img/baten_kaitos.jpg",
+      "name": "baten_kaitos.jpg"
+    },
+    {
+      "path": "img/batman.jpg",
+      "name": "batman.jpg"
+    },
+    {
+      "path": "img/blindgltron.png",
+      "name": "blindgltron.png"
+    },
+    {
+      "path": "img/blue_lightning.png",
+      "name": "blue_lightning.png"
+    },
+    {
+      "path": "img/blue_lightning_2.png",
+      "name": "blue_lightning_2.png"
+    },
+    {
+      "path": "img/blue_lightning_3.png",
+      "name": "blue_lightning_3.png"
+    },
+    {
+      "path": "img/blue_lightning_4.png",
+      "name": "blue_lightning_4.png"
+    },
+    {
+      "path": "img/blue_lightning_5.png",
+      "name": "blue_lightning_5.png"
+    },
+    {
+      "path": "img/blue_lightning_6.png",
+      "name": "blue_lightning_6.png"
+    },
+    {
+      "path": "img/bomberman94.png",
+      "name": "bomberman94.png"
+    },
+    {
+      "path": "img/caca.png",
+      "name": "caca.png"
+    },
+    {
+      "path": "img/california_games_1.png",
+      "name": "california_games_1.png"
+    },
+    {
+      "path": "img/california_games_2.png",
+      "name": "california_games_2.png"
+    },
+    {
+      "path": "img/california_games_3.png",
+      "name": "california_games_3.png"
+    },
+    {
+      "path": "img/cannonball-16bits.png",
+      "name": "cannonball-16bits.png"
+    },
+    {
+      "path": "img/cards/Heartofthecards.jpg",
+      "name": "Heartofthecards.jpg"
+    },
+    {
+      "path": "img/cards/america1.jpg",
+      "name": "america1.jpg"
+    },
+    {
+      "path": "img/cards/american2.jpg",
+      "name": "american2.jpg"
+    },
+    {
+      "path": "img/cards/angrygerman.jpg",
+      "name": "angrygerman.jpg"
+    },
+    {
+      "path": "img/cards/bitching.jpg",
+      "name": "bitching.jpg"
+    },
+    {
+      "path": "img/cards/bowl.jpg",
+      "name": "bowl.jpg"
+    },
+    {
+      "path": "img/cards/cockblocker.jpg",
+      "name": "cockblocker.jpg"
+    },
+    {
+      "path": "img/cards/cocoon.jpg",
+      "name": "cocoon.jpg"
+    },
+    {
+      "path": "img/cards/diglett.jpg",
+      "name": "diglett.jpg"
+    },
+    {
+      "path": "img/cards/gayseks.jpg",
+      "name": "gayseks.jpg"
+    },
+    {
+      "path": "img/cards/giraffecat.jpg",
+      "name": "giraffecat.jpg"
+    },
+    {
+      "path": "img/cards/god.jpg",
+      "name": "god.jpg"
+    },
+    {
+      "path": "img/cards/hammertime.jpg",
+      "name": "hammertime.jpg"
+    },
+    {
+      "path": "img/cards/hodor.jpg",
+      "name": "hodor.jpg"
+    },
+    {
+      "path": "img/cards/irma.jpg",
+      "name": "irma.jpg"
+    },
+    {
+      "path": "img/cards/irma_hurricane.png",
+      "name": "irma_hurricane.png"
+    },
+    {
+      "path": "img/cards/judgement.jpg",
+      "name": "judgement.jpg"
+    },
+    {
+      "path": "img/cards/juice.jpg",
+      "name": "juice.jpg"
+    },
+    {
+      "path": "img/cards/nory.jpg",
+      "name": "nory.jpg"
+    },
+    {
+      "path": "img/cards/nsatrap.jpg",
+      "name": "nsatrap.jpg"
+    },
+    {
+      "path": "img/cards/parapluie.jpg",
+      "name": "parapluie.jpg"
+    },
+    {
+      "path": "img/cards/pikachu.jpg",
+      "name": "pikachu.jpg"
+    },
+    {
+      "path": "img/cards/pikachuspell.jpg",
+      "name": "pikachuspell.jpg"
+    },
+    {
+      "path": "img/cards/realcards.jpg",
+      "name": "realcards.jpg"
+    },
+    {
+      "path": "img/cards/realcards2.jpg",
+      "name": "realcards2.jpg"
+    },
+    {
+      "path": "img/cards/reaper.jpg",
+      "name": "reaper.jpg"
+    },
+    {
+      "path": "img/cards/seto.jpg",
+      "name": "seto.jpg"
+    },
+    {
+      "path": "img/cards/tristan.jpg",
+      "name": "tristan.jpg"
+    },
+    {
+      "path": "img/cards/wall.jpg",
+      "name": "wall.jpg"
+    },
+    {
+      "path": "img/cards/walrii.jpg",
+      "name": "walrii.jpg"
+    },
+    {
+      "path": "img/cass__.png",
+      "name": "cass__.png"
+    },
+    {
+      "path": "img/cave.png",
+      "name": "cave.png"
+    },
+    {
+      "path": "img/coleco_tau.png",
+      "name": "coleco_tau.png"
+    },
+    {
+      "path": "img/color_palette_temper.png",
+      "name": "color_palette_temper.png"
+    },
+    {
+      "path": "img/color_palette_tweak.png",
+      "name": "color_palette_tweak.png"
+    },
+    {
+      "path": "img/color_test.png",
+      "name": "color_test.png"
+    },
+    {
+      "path": "img/combatwings360.jpg",
+      "name": "combatwings360.jpg"
+    },
+    {
+      "path": "img/combatwingspc.jpg",
+      "name": "combatwingspc.jpg"
+    },
+    {
+      "path": "img/combatwingsps3_jap.jpg",
+      "name": "combatwingsps3_jap.jpg"
+    },
+    {
+      "path": "img/combatwingswii.jpg",
+      "name": "combatwingswii.jpg"
+    },
+    {
+      "path": "img/comparaison.png",
+      "name": "comparaison.png"
+    },
+    {
+      "path": "img/couple_google.png",
+      "name": "couple_google.png"
+    },
+    {
+      "path": "img/couple_google_blanc.png",
+      "name": "couple_google_blanc.png"
+    },
+    {
+      "path": "img/crafti-bug1.png",
+      "name": "crafti-bug1.png"
+    },
+    {
+      "path": "img/crafti-bug2.png",
+      "name": "crafti-bug2.png"
+    },
+    {
+      "path": "img/crafti.png",
+      "name": "crafti.png"
+    },
+    {
+      "path": "img/crafti_dc_scr2.png",
+      "name": "crafti_dc_scr2.png"
+    },
+    {
+      "path": "img/crafti_pandora.png",
+      "name": "crafti_pandora.png"
+    },
+    {
+      "path": "img/crazybird.png",
+      "name": "crazybird.png"
+    },
+    {
+      "path": "img/credits_gnp.png",
+      "name": "credits_gnp.png"
+    },
+    {
+      "path": "img/cv.png",
+      "name": "cv.png"
+    },
+    {
+      "path": "img/dc/dreamcast.png",
+      "name": "dreamcast.png"
+    },
+    {
+      "path": "img/dc/dreamcast2.png",
+      "name": "dreamcast2.png"
+    },
+    {
+      "path": "img/dc/dreamcast3.png",
+      "name": "dreamcast3.png"
+    },
+    {
+      "path": "img/dc/dreamcast4.png",
+      "name": "dreamcast4.png"
+    },
+    {
+      "path": "img/dc/dreamcast5.png",
+      "name": "dreamcast5.png"
+    },
+    {
+      "path": "img/deathtrap_mini.png",
+      "name": "deathtrap_mini.png"
+    },
+    {
+      "path": "img/deathtrap_scr.png",
+      "name": "deathtrap_scr.png"
+    },
+    {
+      "path": "img/derp_puncher_img.png",
+      "name": "derp_puncher_img.png"
+    },
+    {
+      "path": "img/devuan.png",
+      "name": "devuan.png"
+    },
+    {
+      "path": "img/disgrace_1.png",
+      "name": "disgrace_1.png"
+    },
+    {
+      "path": "img/disgrace_2.png",
+      "name": "disgrace_2.png"
+    },
+    {
+      "path": "img/disgrace_3.png",
+      "name": "disgrace_3.png"
+    },
+    {
+      "path": "img/divi-dead-rs97-scr1.png",
+      "name": "divi-dead-rs97-scr1.png"
+    },
+    {
+      "path": "img/divi-dead-rs97-scr2.png",
+      "name": "divi-dead-rs97-scr2.png"
+    },
+    {
+      "path": "img/dividead_rs90_scr1.png",
+      "name": "dividead_rs90_scr1.png"
+    },
+    {
+      "path": "img/dividead_rs90_scr2.png",
+      "name": "dividead_rs90_scr2.png"
+    },
+    {
+      "path": "img/dogfight1942.jpg",
+      "name": "dogfight1942.jpg"
+    },
+    {
+      "path": "img/dogfight1942pc.jpg",
+      "name": "dogfight1942pc.jpg"
+    },
+    {
+      "path": "img/drally.png",
+      "name": "drally.png"
+    },
+    {
+      "path": "img/evil_aussie_3DO.png",
+      "name": "evil_aussie_3DO.png"
+    },
+    {
+      "path": "img/evil_aussie_scr1.png",
+      "name": "evil_aussie_scr1.png"
+    },
+    {
+      "path": "img/evil_aussie_title.png",
+      "name": "evil_aussie_title.png"
+    },
+    {
+      "path": "img/evil_n64.png",
+      "name": "evil_n64.png"
+    },
+    {
+      "path": "img/f2b.png",
+      "name": "f2b.png"
+    },
+    {
+      "path": "img/fceux_downscale_everything.png",
+      "name": "fceux_downscale_everything.png"
+    },
+    {
+      "path": "img/fceux_menu1.png",
+      "name": "fceux_menu1.png"
+    },
+    {
+      "path": "img/fceux_menu2.png",
+      "name": "fceux_menu2.png"
+    },
+    {
+      "path": "img/fceux_nintendosafe.png",
+      "name": "fceux_nintendosafe.png"
+    },
+    {
+      "path": "img/fceux_nocrop_center.png",
+      "name": "fceux_nocrop_center.png"
+    },
+    {
+      "path": "img/fceux_pocketnes.png",
+      "name": "fceux_pocketnes.png"
+    },
+    {
+      "path": "img/fire_emblem.jpg",
+      "name": "fire_emblem.jpg"
+    },
+    {
+      "path": "img/fl_scr1.png",
+      "name": "fl_scr1.png"
+    },
+    {
+      "path": "img/fl_scr2.png",
+      "name": "fl_scr2.png"
+    },
+    {
+      "path": "img/flattr-badge-large.png",
+      "name": "flattr-badge-large.png"
+    },
+    {
+      "path": "img/flawed.png",
+      "name": "flawed.png"
+    },
+    {
+      "path": "img/gameblabla.png",
+      "name": "gameblabla.png"
+    },
+    {
+      "path": "img/genesis_usb_mod.jpg",
+      "name": "genesis_usb_mod.jpg"
+    },
+    {
+      "path": "img/gg_1.jpg",
+      "name": "gg_1.jpg"
+    },
+    {
+      "path": "img/gg_2.jpg",
+      "name": "gg_2.jpg"
+    },
+    {
+      "path": "img/github_ping.png",
+      "name": "github_ping.png"
+    },
+    {
+      "path": "img/github_ping_2.png",
+      "name": "github_ping_2.png"
+    },
+    {
+      "path": "img/gnp_scr1.png",
+      "name": "gnp_scr1.png"
+    },
+    {
+      "path": "img/gnp_scr2.png",
+      "name": "gnp_scr2.png"
+    },
+    {
+      "path": "img/gnuboy_scr1.png",
+      "name": "gnuboy_scr1.png"
+    },
+    {
+      "path": "img/gnuboy_scr2.png",
+      "name": "gnuboy_scr2.png"
+    },
+    {
+      "path": "img/gnuboy_scr3.png",
+      "name": "gnuboy_scr3.png"
+    },
+    {
+      "path": "img/gnuboy_scr4.png",
+      "name": "gnuboy_scr4.png"
+    },
+    {
+      "path": "img/google_play.png",
+      "name": "google_play.png"
+    },
+    {
+      "path": "img/griffon.png",
+      "name": "griffon.png"
+    },
+    {
+      "path": "img/handy_new_update.png",
+      "name": "handy_new_update.png"
+    },
+    {
+      "path": "img/handy_rs90_scr1.png",
+      "name": "handy_rs90_scr1.png"
+    },
+    {
+      "path": "img/handy_rs90_scr2.png",
+      "name": "handy_rs90_scr2.png"
+    },
+    {
+      "path": "img/handy_rs90_scr3.png",
+      "name": "handy_rs90_scr3.png"
+    },
+    {
+      "path": "img/handy_rs90_scr4.png",
+      "name": "handy_rs90_scr4.png"
+    },
+    {
+      "path": "img/helicopt.png",
+      "name": "helicopt.png"
+    },
+    {
+      "path": "img/helicopt3rs_3do.png",
+      "name": "helicopt3rs_3do.png"
+    },
+    {
+      "path": "img/helicopters_3do.png",
+      "name": "helicopters_3do.png"
+    },
+    {
+      "path": "img/helicopters_toaruos.png",
+      "name": "helicopters_toaruos.png"
+    },
+    {
+      "path": "img/hide_baby_logo.png",
+      "name": "hide_baby_logo.png"
+    },
+    {
+      "path": "img/hide_baby_scr.png",
+      "name": "hide_baby_scr.png"
+    },
+    {
+      "path": "img/hilary_google.png",
+      "name": "hilary_google.png"
+    },
+    {
+      "path": "img/internal_sd.png",
+      "name": "internal_sd.png"
+    },
+    {
+      "path": "img/internal_sd2.png",
+      "name": "internal_sd2.png"
+    },
+    {
+      "path": "img/juju_mistake_2.png",
+      "name": "juju_mistake_2.png"
+    },
+    {
+      "path": "img/jujus_mistake.png",
+      "name": "jujus_mistake.png"
+    },
+    {
+      "path": "img/kid-gcw.png",
+      "name": "kid-gcw.png"
+    },
+    {
+      "path": "img/kid_carved.png",
+      "name": "kid_carved.png"
+    },
+    {
+      "path": "img/kid_ipu.png",
+      "name": "kid_ipu.png"
+    },
+    {
+      "path": "img/kiiis_scr1.jpg",
+      "name": "kiiis_scr1.jpg"
+    },
+    {
+      "path": "img/kiiis_scr2.jpg",
+      "name": "kiiis_scr2.jpg"
+    },
+    {
+      "path": "img/kiiis_scr3.jpg",
+      "name": "kiiis_scr3.jpg"
+    },
+    {
+      "path": "img/killminds_3do.png",
+      "name": "killminds_3do.png"
+    },
+    {
+      "path": "img/killminds_logo.png",
+      "name": "killminds_logo.png"
+    },
+    {
+      "path": "img/killminds_scr.png",
+      "name": "killminds_scr.png"
+    },
+    {
+      "path": "img/killminds_scr1.png",
+      "name": "killminds_scr1.png"
+    },
+    {
+      "path": "img/killminds_scr2.png",
+      "name": "killminds_scr2.png"
+    },
+    {
+      "path": "img/kl_img.png",
+      "name": "kl_img.png"
+    },
+    {
+      "path": "img/kleines.png",
+      "name": "kleines.png"
+    },
+    {
+      "path": "img/klik1.png",
+      "name": "klik1.png"
+    },
+    {
+      "path": "img/klik2.png",
+      "name": "klik2.png"
+    },
+    {
+      "path": "img/klik3.png",
+      "name": "klik3.png"
+    },
+    {
+      "path": "img/klik4.png",
+      "name": "klik4.png"
+    },
+    {
+      "path": "img/kotu.png",
+      "name": "kotu.png"
+    },
+    {
+      "path": "img/lastmission.png",
+      "name": "lastmission.png"
+    },
+    {
+      "path": "img/lg_e400-scr.jpg",
+      "name": "lg_e400-scr.jpg"
+    },
+    {
+      "path": "img/lg_e400-scr2.jpg",
+      "name": "lg_e400-scr2.jpg"
+    },
+    {
+      "path": "img/lg_e400-scr3.jpg",
+      "name": "lg_e400-scr3.jpg"
+    },
+    {
+      "path": "img/lg_e400-scr4.jpg",
+      "name": "lg_e400-scr4.jpg"
+    },
+    {
+      "path": "img/lg_e400-scr5.jpg",
+      "name": "lg_e400-scr5.jpg"
+    },
+    {
+      "path": "img/lg_phone.jpg",
+      "name": "lg_phone.jpg"
+    },
+    {
+      "path": "img/license.png",
+      "name": "license.png"
+    },
+    {
+      "path": "img/license_mini.png",
+      "name": "license_mini.png"
+    },
+    {
+      "path": "img/liero.png",
+      "name": "liero.png"
+    },
+    {
+      "path": "img/logo128dw.png",
+      "name": "logo128dw.png"
+    },
+    {
+      "path": "img/logo_gb.png",
+      "name": "logo_gb.png"
+    },
+    {
+      "path": "img/lynx.png",
+      "name": "lynx.png"
+    },
+    {
+      "path": "img/lynx_scanline_128.png",
+      "name": "lynx_scanline_128.png"
+    },
+    {
+      "path": "img/lynx_scanline_160.png",
+      "name": "lynx_scanline_160.png"
+    },
+    {
+      "path": "img/lynx_scanline_64.png",
+      "name": "lynx_scanline_64.png"
+    },
+    {
+      "path": "img/lynx_scanline_96.png",
+      "name": "lynx_scanline_96.png"
+    },
+    {
+      "path": "img/manual_350h.jpg",
+      "name": "manual_350h.jpg"
+    },
+    {
+      "path": "img/mednafen.bmp",
+      "name": "mednafen.bmp"
+    },
+    {
+      "path": "img/memcard_new.png",
+      "name": "memcard_new.png"
+    },
+    {
+      "path": "img/memcard_old.png",
+      "name": "memcard_old.png"
+    },
+    {
+      "path": "img/memory3ds_pc.png",
+      "name": "memory3ds_pc.png"
+    },
+    {
+      "path": "img/men_can.png",
+      "name": "men_can.png"
+    },
+    {
+      "path": "img/microbee.gif",
+      "name": "microbee.gif"
+    },
+    {
+      "path": "img/minicraft3ds_wrapper.png",
+      "name": "minicraft3ds_wrapper.png"
+    },
+    {
+      "path": "img/msdos-vigoroth.png",
+      "name": "msdos-vigoroth.png"
+    },
+    {
+      "path": "img/mutendo.png",
+      "name": "mutendo.png"
+    },
+    {
+      "path": "img/nightmare-inducing.png",
+      "name": "nightmare-inducing.png"
+    },
+    {
+      "path": "img/nkaruga-matref.png",
+      "name": "nkaruga-matref.png"
+    },
+    {
+      "path": "img/nkaruga_fixedratio.png",
+      "name": "nkaruga_fixedratio.png"
+    },
+    {
+      "path": "img/nkaruga_fullscreen.png",
+      "name": "nkaruga_fullscreen.png"
+    },
+    {
+      "path": "img/nkaruga_scr1.png",
+      "name": "nkaruga_scr1.png"
+    },
+    {
+      "path": "img/nt351_3do.png",
+      "name": "nt351_3do.png"
+    },
+    {
+      "path": "img/nt351_desmume.png",
+      "name": "nt351_desmume.png"
+    },
+    {
+      "path": "img/oms_n64.png",
+      "name": "oms_n64.png"
+    },
+    {
+      "path": "img/oneway_ph1.jpg",
+      "name": "oneway_ph1.jpg"
+    },
+    {
+      "path": "img/oneway_ph2.jpg",
+      "name": "oneway_ph2.jpg"
+    },
+    {
+      "path": "img/oneway_ph3.jpg",
+      "name": "oneway_ph3.jpg"
+    },
+    {
+      "path": "img/op.png",
+      "name": "op.png"
+    },
+    {
+      "path": "img/opo.png",
+      "name": "opo.png"
+    },
+    {
+      "path": "img/opossum_n64.png",
+      "name": "opossum_n64.png"
+    },
+    {
+      "path": "img/oswan_scr1_rs90.png",
+      "name": "oswan_scr1_rs90.png"
+    },
+    {
+      "path": "img/oswan_scr2_rs90.png",
+      "name": "oswan_scr2_rs90.png"
+    },
+    {
+      "path": "img/palette_temper.png",
+      "name": "palette_temper.png"
+    },
+    {
+      "path": "img/palette_temper_512.png",
+      "name": "palette_temper_512.png"
+    },
+    {
+      "path": "img/papk3s_tvout_scr1.png",
+      "name": "papk3s_tvout_scr1.png"
+    },
+    {
+      "path": "img/papk3s_tvout_scr2.png",
+      "name": "papk3s_tvout_scr2.png"
+    },
+    {
+      "path": "img/photo_games.jpg",
+      "name": "photo_games.jpg"
+    },
+    {
+      "path": "img/pingflood_newspaper.png",
+      "name": "pingflood_newspaper.png"
+    },
+    {
+      "path": "img/platforms/32x.png",
+      "name": "32x.png"
+    },
+    {
+      "path": "img/platforms/3do.png",
+      "name": "3do.png"
+    },
+    {
+      "path": "img/platforms/3ds.png",
+      "name": "3ds.png"
+    },
+    {
+      "path": "img/platforms/WiiU.png",
+      "name": "WiiU.png"
+    },
+    {
+      "path": "img/platforms/a2600.png",
+      "name": "a2600.png"
+    },
+    {
+      "path": "img/platforms/a5200.png",
+      "name": "a5200.png"
+    },
+    {
+      "path": "img/platforms/amiga.png",
+      "name": "amiga.png"
+    },
+    {
+      "path": "img/platforms/arcade.png",
+      "name": "arcade.png"
+    },
+    {
+      "path": "img/platforms/atarist.png",
+      "name": "atarist.png"
+    },
+    {
+      "path": "img/platforms/bk.png",
+      "name": "bk.png"
+    },
+    {
+      "path": "img/platforms/c64.png",
+      "name": "c64.png"
+    },
+    {
+      "path": "img/platforms/casloopy.png",
+      "name": "casloopy.png"
+    },
+    {
+      "path": "img/platforms/coleco.png",
+      "name": "coleco.png"
+    },
+    {
+      "path": "img/platforms/cpc.png",
+      "name": "cpc.png"
+    },
+    {
+      "path": "img/platforms/dc.png",
+      "name": "dc.png"
+    },
+    {
+      "path": "img/platforms/dos.png",
+      "name": "dos.png"
+    },
+    {
+      "path": "img/platforms/excalibur64.png",
+      "name": "excalibur64.png"
+    },
+    {
+      "path": "img/platforms/exidy.png",
+      "name": "exidy.png"
+    },
+    {
+      "path": "img/platforms/famicom.png",
+      "name": "famicom.png"
+    },
+    {
+      "path": "img/platforms/gb.png",
+      "name": "gb.png"
+    },
+    {
+      "path": "img/platforms/gba.png",
+      "name": "gba.png"
+    },
+    {
+      "path": "img/platforms/gbc.png",
+      "name": "gbc.png"
+    },
+    {
+      "path": "img/platforms/gc.png",
+      "name": "gc.png"
+    },
+    {
+      "path": "img/platforms/gg.png",
+      "name": "gg.png"
+    },
+    {
+      "path": "img/platforms/mac.png",
+      "name": "mac.png"
+    },
+    {
+      "path": "img/platforms/mcd.png",
+      "name": "mcd.png"
+    },
+    {
+      "path": "img/platforms/md.png",
+      "name": "md.png"
+    },
+    {
+      "path": "img/platforms/msx.png",
+      "name": "msx.png"
+    },
+    {
+      "path": "img/platforms/n64.png",
+      "name": "n64.png"
+    },
+    {
+      "path": "img/platforms/nds.png",
+      "name": "nds.png"
+    },
+    {
+      "path": "img/platforms/nes.png",
+      "name": "nes.png"
+    },
+    {
+      "path": "img/platforms/oric.png",
+      "name": "oric.png"
+    },
+    {
+      "path": "img/platforms/pc6001mkii.png",
+      "name": "pc6001mkii.png"
+    },
+    {
+      "path": "img/platforms/pc6601.png",
+      "name": "pc6601.png"
+    },
+    {
+      "path": "img/platforms/pc8801.png",
+      "name": "pc8801.png"
+    },
+    {
+      "path": "img/platforms/pc9801.png",
+      "name": "pc9801.png"
+    },
+    {
+      "path": "img/platforms/pc9821.png",
+      "name": "pc9821.png"
+    },
+    {
+      "path": "img/platforms/pce.png",
+      "name": "pce.png"
+    },
+    {
+      "path": "img/platforms/pcecd.png",
+      "name": "pcecd.png"
+    },
+    {
+      "path": "img/platforms/pcfx.png",
+      "name": "pcfx.png"
+    },
+    {
+      "path": "img/platforms/pokemini.png",
+      "name": "pokemini.png"
+    },
+    {
+      "path": "img/platforms/ps1.png",
+      "name": "ps1.png"
+    },
+    {
+      "path": "img/platforms/ps2.png",
+      "name": "ps2.png"
+    },
+    {
+      "path": "img/platforms/sc3000.png",
+      "name": "sc3000.png"
+    },
+    {
+      "path": "img/platforms/segasaturn.png",
+      "name": "segasaturn.png"
+    },
+    {
+      "path": "img/platforms/sfc.png",
+      "name": "sfc.png"
+    },
+    {
+      "path": "img/platforms/sg1000.png",
+      "name": "sg1000.png"
+    },
+    {
+      "path": "img/platforms/sinclairql.png",
+      "name": "sinclairql.png"
+    },
+    {
+      "path": "img/platforms/sms.png",
+      "name": "sms.png"
+    },
+    {
+      "path": "img/platforms/spectrum.png",
+      "name": "spectrum.png"
+    },
+    {
+      "path": "img/platforms/supergrafx.png",
+      "name": "supergrafx.png"
+    },
+    {
+      "path": "img/platforms/turbografx16.png",
+      "name": "turbografx16.png"
+    },
+    {
+      "path": "img/platforms/vb.png",
+      "name": "vb.png"
+    },
+    {
+      "path": "img/platforms/vsmile.png",
+      "name": "vsmile.png"
+    },
+    {
+      "path": "img/platforms/wii.png",
+      "name": "wii.png"
+    },
+    {
+      "path": "img/platforms/win.png",
+      "name": "win.png"
+    },
+    {
+      "path": "img/platforms/wonderswan.png",
+      "name": "wonderswan.png"
+    },
+    {
+      "path": "img/platforms/wonderswancolor.png",
+      "name": "wonderswancolor.png"
+    },
+    {
+      "path": "img/platforms/xbox.png",
+      "name": "xbox.png"
+    },
+    {
+      "path": "img/platforms/zxspectrum.png",
+      "name": "zxspectrum.png"
+    },
+    {
+      "path": "img/pokebat.png",
+      "name": "pokebat.png"
+    },
+    {
+      "path": "img/pokemini_scr1_rs90.png",
+      "name": "pokemini_scr1_rs90.png"
+    },
+    {
+      "path": "img/pokemini_scr2_rs90.png",
+      "name": "pokemini_scr2_rs90.png"
+    },
+    {
+      "path": "img/pokemini_scr3_rs90.png",
+      "name": "pokemini_scr3_rs90.png"
+    },
+    {
+      "path": "img/pokemini_scr4_rs90.png",
+      "name": "pokemini_scr4_rs90.png"
+    },
+    {
+      "path": "img/pokemon_xd.jpg",
+      "name": "pokemon_xd.jpg"
+    },
+    {
+      "path": "img/pony_3do.png",
+      "name": "pony_3do.png"
+    },
+    {
+      "path": "img/president_ref.jpg",
+      "name": "president_ref.jpg"
+    },
+    {
+      "path": "img/president_seam.jpg",
+      "name": "president_seam.jpg"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr1.png",
+      "name": "quake_rs90_scr1.png"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr2.png",
+      "name": "quake_rs90_scr2.png"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr3.png",
+      "name": "quake_rs90_scr3.png"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr4.png",
+      "name": "quake_rs90_scr4.png"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr5.png",
+      "name": "quake_rs90_scr5.png"
+    },
+    {
+      "path": "img/quake/quake_rs90_scr6.png",
+      "name": "quake_rs90_scr6.png"
+    },
+    {
+      "path": "img/rb_scr1.png",
+      "name": "rb_scr1.png"
+    },
+    {
+      "path": "img/rdcsb.png",
+      "name": "rdcsb.png"
+    },
+    {
+      "path": "img/redsquare.png",
+      "name": "redsquare.png"
+    },
+    {
+      "path": "img/redsquare_lynx.png",
+      "name": "redsquare_lynx.png"
+    },
+    {
+      "path": "img/reference.png",
+      "name": "reference.png"
+    },
+    {
+      "path": "img/reference_lanczos.png",
+      "name": "reference_lanczos.png"
+    },
+    {
+      "path": "img/reference_seam.png",
+      "name": "reference_seam.png"
+    },
+    {
+      "path": "img/retroshare.png",
+      "name": "retroshare.png"
+    },
+    {
+      "path": "img/retrostone.jpg",
+      "name": "retrostone.jpg"
+    },
+    {
+      "path": "img/retrostone_cfw_1.jpg",
+      "name": "retrostone_cfw_1.jpg"
+    },
+    {
+      "path": "img/retrostone_cfw_2.jpg",
+      "name": "retrostone_cfw_2.jpg"
+    },
+    {
+      "path": "img/revo.png",
+      "name": "revo.png"
+    },
+    {
+      "path": "img/rg350.png",
+      "name": "rg350.png"
+    },
+    {
+      "path": "img/riot-web.png",
+      "name": "riot-web.png"
+    },
+    {
+      "path": "img/riqa_titlescreen.png",
+      "name": "riqa_titlescreen.png"
+    },
+    {
+      "path": "img/rs977.png",
+      "name": "rs977.png"
+    },
+    {
+      "path": "img/rubbybird.png",
+      "name": "rubbybird.png"
+    },
+    {
+      "path": "img/rubbybird100-scr1.png",
+      "name": "rubbybird100-scr1.png"
+    },
+    {
+      "path": "img/rubbybird100-scr2.png",
+      "name": "rubbybird100-scr2.png"
+    },
+    {
+      "path": "img/rubbybird100-scr3.png",
+      "name": "rubbybird100-scr3.png"
+    },
+    {
+      "path": "img/rubbybird100_banner.png",
+      "name": "rubbybird100_banner.png"
+    },
+    {
+      "path": "img/rubbybird_scr1.png",
+      "name": "rubbybird_scr1.png"
+    },
+    {
+      "path": "img/rubbybird_scr2.png",
+      "name": "rubbybird_scr2.png"
+    },
+    {
+      "path": "img/rubbybird_scr3.png",
+      "name": "rubbybird_scr3.png"
+    },
+    {
+      "path": "img/rubbyscr.png",
+      "name": "rubbyscr.png"
+    },
+    {
+      "path": "img/seamcarving_downscale.png",
+      "name": "seamcarving_downscale.png"
+    },
+    {
+      "path": "img/sf2_scr1.png",
+      "name": "sf2_scr1.png"
+    },
+    {
+      "path": "img/sf2_scr2.png",
+      "name": "sf2_scr2.png"
+    },
+    {
+      "path": "img/small_head44.png",
+      "name": "small_head44.png"
+    },
+    {
+      "path": "img/smenu/simplemenu_ui1.png",
+      "name": "simplemenu_ui1.png"
+    },
+    {
+      "path": "img/smenu/simplemenu_ui2.png",
+      "name": "simplemenu_ui2.png"
+    },
+    {
+      "path": "img/smenu/simplemenu_ui3.png",
+      "name": "simplemenu_ui3.png"
+    },
+    {
+      "path": "img/smsplusgx_rs90_scr1_gg.png",
+      "name": "smsplusgx_rs90_scr1_gg.png"
+    },
+    {
+      "path": "img/smsplusgx_rs90_scr2_gg.png",
+      "name": "smsplusgx_rs90_scr2_gg.png"
+    },
+    {
+      "path": "img/smsplusgx_scr1.png",
+      "name": "smsplusgx_scr1.png"
+    },
+    {
+      "path": "img/sngp.png",
+      "name": "sngp.png"
+    },
+    {
+      "path": "img/sonic1_smsplus_rs90_scr1.png",
+      "name": "sonic1_smsplus_rs90_scr1.png"
+    },
+    {
+      "path": "img/sonic1_smsplus_rs90_scr2.png",
+      "name": "sonic1_smsplus_rs90_scr2.png"
+    },
+    {
+      "path": "img/sonic1_smsplus_rs90_scr3.png",
+      "name": "sonic1_smsplus_rs90_scr3.png"
+    },
+    {
+      "path": "img/sonic1_smsplus_rs90_scr4.png",
+      "name": "sonic1_smsplus_rs90_scr4.png"
+    },
+    {
+      "path": "img/sonic_invasion_pcengine_scr1.png",
+      "name": "sonic_invasion_pcengine_scr1.png"
+    },
+    {
+      "path": "img/sonic_invasion_pcengine_scr2.png",
+      "name": "sonic_invasion_pcengine_scr2.png"
+    },
+    {
+      "path": "img/sonic_invasion_scr1.png",
+      "name": "sonic_invasion_scr1.png"
+    },
+    {
+      "path": "img/sonic_invasion_scr2.png",
+      "name": "sonic_invasion_scr2.png"
+    },
+    {
+      "path": "img/sonic_invasion_scr3.png",
+      "name": "sonic_invasion_scr3.png"
+    },
+    {
+      "path": "img/sonic_invasion_windows_scr1.png",
+      "name": "sonic_invasion_windows_scr1.png"
+    },
+    {
+      "path": "img/sonic_invasion_windows_scr2.png",
+      "name": "sonic_invasion_windows_scr2.png"
+    },
+    {
+      "path": "img/sonic_invasion_windows_scr3.png",
+      "name": "sonic_invasion_windows_scr3.png"
+    },
+    {
+      "path": "img/sonicdrift3.png",
+      "name": "sonicdrift3.png"
+    },
+    {
+      "path": "img/sonicdrift3_scr1.png",
+      "name": "sonicdrift3_scr1.png"
+    },
+    {
+      "path": "img/sonicdrift3_scr2.png",
+      "name": "sonicdrift3_scr2.png"
+    },
+    {
+      "path": "img/sonyk.png",
+      "name": "sonyk.png"
+    },
+    {
+      "path": "img/spaceman8_dreamcast.png",
+      "name": "spaceman8_dreamcast.png"
+    },
+    {
+      "path": "img/src.png",
+      "name": "src.png"
+    },
+    {
+      "path": "img/srpg.png",
+      "name": "srpg.png"
+    },
+    {
+      "path": "img/ssa.png",
+      "name": "ssa.png"
+    },
+    {
+      "path": "img/super_quartet_cdi_1.png",
+      "name": "super_quartet_cdi_1.png"
+    },
+    {
+      "path": "img/super_quartet_cdi_2.png",
+      "name": "super_quartet_cdi_2.png"
+    },
+    {
+      "path": "img/temper_rs90_scr1.png",
+      "name": "temper_rs90_scr1.png"
+    },
+    {
+      "path": "img/temper_rs90_scr2.png",
+      "name": "temper_rs90_scr2.png"
+    },
+    {
+      "path": "img/thwomp_logo.png",
+      "name": "thwomp_logo.png"
+    },
+    {
+      "path": "img/thwomp_scr.png",
+      "name": "thwomp_scr.png"
+    },
+    {
+      "path": "img/tim_pool_reaction.png",
+      "name": "tim_pool_reaction.png"
+    },
+    {
+      "path": "img/toaruOS-scr1.png",
+      "name": "toaruOS-scr1.png"
+    },
+    {
+      "path": "img/toaruOS-scr2.png",
+      "name": "toaruOS-scr2.png"
+    },
+    {
+      "path": "img/toaruOS-scr3.png",
+      "name": "toaruOS-scr3.png"
+    },
+    {
+      "path": "img/trends_google.png",
+      "name": "trends_google.png"
+    },
+    {
+      "path": "img/trends_google_2.png",
+      "name": "trends_google_2.png"
+    },
+    {
+      "path": "img/truck_3do.png",
+      "name": "truck_3do.png"
+    },
+    {
+      "path": "img/unlucky_3do.png",
+      "name": "unlucky_3do.png"
+    },
+    {
+      "path": "img/up_logo.png",
+      "name": "up_logo.png"
+    },
+    {
+      "path": "img/uselessrs97-logo.png",
+      "name": "uselessrs97-logo.png"
+    },
+    {
+      "path": "img/waifu2x_result.png",
+      "name": "waifu2x_result.png"
+    },
+    {
+      "path": "img/walrii.gif",
+      "name": "walrii.gif"
+    },
+    {
+      "path": "img/wd_3do.png",
+      "name": "wd_3do.png"
+    },
+    {
+      "path": "img/wiimon.png",
+      "name": "wiimon.png"
+    },
+    {
+      "path": "img/women_can.png",
+      "name": "women_can.png"
+    },
+    {
+      "path": "img/wrapper-min.png",
+      "name": "wrapper-min.png"
+    },
+    {
+      "path": "img/wrapper.png",
+      "name": "wrapper.png"
+    },
+    {
+      "path": "img/ysviii.jpg",
+      "name": "ysviii.jpg"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx.png",
+      "name": "gx.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx10.png",
+      "name": "gx10.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx2.png",
+      "name": "gx2.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx3.png",
+      "name": "gx3.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx4.png",
+      "name": "gx4.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx5.png",
+      "name": "gx5.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx6.png",
+      "name": "gx6.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx7.png",
+      "name": "gx7.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx8.png",
+      "name": "gx8.png"
+    },
+    {
+      "path": "img/yugioh/Duel_Academy/gx9.png",
+      "name": "gx9.png"
+    },
+    {
+      "path": "img/yugioh/dark_duel_stories/duel_stories_color.png",
+      "name": "duel_stories_color.png"
+    },
+    {
+      "path": "img/yugioh/dark_duel_stories/monsters.png",
+      "name": "monsters.png"
+    },
+    {
+      "path": "img/yugioh/dark_duel_stories/titlescreen.png",
+      "name": "titlescreen.png"
+    },
+    {
+      "path": "img/yugioh/dark_duel_stories/yugi.png",
+      "name": "yugi.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/bakura.png",
+      "name": "bakura.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/blue_eyes.png",
+      "name": "blue_eyes.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/duelists.png",
+      "name": "duelists.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/intro.png",
+      "name": "intro.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/tea.png",
+      "name": "tea.png"
+    },
+    {
+      "path": "img/yugioh/duel_monsters/titlescreen.png",
+      "name": "titlescreen.png"
+    },
+    {
+      "path": "img/yugioh/nightmare_troubadour/duelists.png",
+      "name": "duelists.png"
+    },
+    {
+      "path": "img/yugioh/nightmare_troubadour/ingame.png",
+      "name": "ingame.png"
+    },
+    {
+      "path": "img/yugioh/nightmare_troubadour/titlescreen.png",
+      "name": "titlescreen.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-0.png",
+      "name": "reshef-0.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-1.png",
+      "name": "reshef-1.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-2.png",
+      "name": "reshef-2.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-3.png",
+      "name": "reshef-3.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-4.png",
+      "name": "reshef-4.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-5.png",
+      "name": "reshef-5.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-6.png",
+      "name": "reshef-6.png"
+    },
+    {
+      "path": "img/yugioh/reshef_of_destruction/reshef-7.png",
+      "name": "reshef-7.png"
+    }
+  ]
+}

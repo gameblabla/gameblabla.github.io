@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Searchable catalog of gameblabla original games and ports.">
+  <title>Games — Gameblabla</title>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav catalog-shell" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Gameblabla<span>games / ports / experiments</span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links" data-nav-links>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="blog/">Blog</a>
+        <a class="github-link" href="https://github.com/gameblabla" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="catalog-main">
+    <section class="page-hero catalog-hero">
+      <div class="catalog-shell">
+        <span class="eyebrow">original games and ports</span>
+        <h1 class="page-title">One catalog. No split tabs.</h1>
+        <p class="lede">Original games, console homebrew ports, and OpenDingux builds now live in one full-width library. Search reads <code>data/games.json</code>; filters, sorting and version prompts run locally, so it stays GitHub Pages friendly.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="catalog-shell">
+        <div class="catalog-toolbar">
+          <div class="search-panel" role="search" aria-label="Game catalog filters">
+            <div class="search-row">
+              <input class="input" type="search" placeholder="Search title, platform, genre, notes, release labels…" data-search-input>
+              <select class="select" data-platform-filter aria-label="Filter by platform"></select>
+              <select class="select" data-genre-filter aria-label="Filter by genre"></select>
+              <select class="select" data-language-filter aria-label="Filter by language"></select>
+              <select class="select" data-sort aria-label="Sort projects">
+                <option value="title">Sort by title</option>
+                <option value="type">Sort by type</option>
+                <option value="platform">Sort by platform</option>
+                <option value="genre">Sort by genre</option>
+                <option value="release">Sort by release</option>
+              </select>
+            </div>
+            <div class="search-meta">
+              <fieldset class="type-checkboxes" aria-label="Project type">
+                <legend>Show</legend>
+                <label><input type="checkbox" value="original" data-type-checkbox checked> <span>Original games</span></label>
+                <label><input type="checkbox" value="homebrew" data-type-checkbox checked> <span>Homebrew ports</span></label>
+                <label><input type="checkbox" value="opendingux" data-type-checkbox checked> <span>OpenDingux ports</span></label>
+              </fieldset>
+              <span data-result-count>Loading catalog…</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="empty-state" data-empty>No matching projects. Select at least one project type, clear a filter, or broaden the search term.</div>
+        <div class="game-grid" data-games-view data-collection="all"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="catalog-shell footer-grid">
+      <p>Website by gameblabla.</p>
+      <p class="small">Catalog source: <code>data/games.json</code>. Use <a href="editor.html">editor.html</a> to edit and export JSON. Platform icons live in <code>img/platforms/</code>.</p>
+    </div>
+  </footer>
+  <script src="js/site.js" defer></script>
+</body>
+</html>

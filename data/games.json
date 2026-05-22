@@ -1,0 +1,1320 @@
+{
+  "meta": {
+    "generatedFrom": "legacy HTML snippets in /gcw0 and /hb, normalized for the unified Games catalog",
+    "notes": "Static JSON catalog used by js/site.js. Cards render from this catalog, with checkbox filtering and platform-icon release rows.",
+    "total": 22,
+    "updatedFor": "unified games tab, checkbox original/port filters, language flags, platform icons, non-cropped screenshots"
+  },
+  "games": [
+    {
+      "id": "opendingux-cromagrally",
+      "slug": "cromagrally",
+      "title": "CroMagRally",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Racing",
+      "language": "English",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "CroMag Rally port for OpenDingux. Runs at about 10-25 FPS average. This is my first release using gl4es by ptitseb.",
+      "icon": "gcw0/cromagrally/icon.png",
+      "screenshots": [
+        "gcw0/cromagrally/scr1.png",
+        "gcw0/cromagrally/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/cromagrally_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/CroMagRally-gcw0",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "August 2023",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-drally",
+      "slug": "drally",
+      "title": "Death Rally",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Racing",
+      "language": "English",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Runs decent but could be made to run better with SDL 1.2 instead of 2.0. Based on the RE version.",
+      "icon": "gcw0/drally/icon.png",
+      "screenshots": [
+        "gcw0/drally/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/deathrally_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/dRally",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "August 2023",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-froggo",
+      "slug": "froggo",
+      "title": "Froggo's Adventure",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Platformer",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Runs at 10-20 FPS. My first python/pygame that i ported. Performance is not great and porting python games on low end hardware is very challenging. There's a reason why only Visual novels use python for games... pygame is also a load of crap (no offense) and they still don't offer a way to use GPU-accelerated textures, making it a worse mess than it needs to be.",
+      "icon": "gcw0/froggo/icon.png",
+      "screenshots": [
+        "gcw0/froggo/scr1.png",
+        "gcw0/froggo/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/froggosadventure_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/froggosadventure-gcw0",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "February 2023",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-heboris",
+      "slug": "heboris",
+      "title": "Heboris",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Puzzle",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Port for OpenDingux. Runs smoothly, i like this game personally. This was based upon the SDL 1.2 version for best performance on low end hardware.",
+      "icon": "gcw0/heboris/icon.png",
+      "screenshots": [
+        "gcw0/heboris/scr1.png",
+        "gcw0/heboris/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/heboris_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/HeborisC7EX",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "May 2021",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-hexahop",
+      "slug": "hexahop",
+      "title": "Hexahop",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Puzzle",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Port for OpenDingux. Runs smoothly. I ported this fun game a while back for the older firmware but it wasn't running great as it was rendering to another buffer, making it wasteful and slowing it down to a crawl. This is now fixed in the new port.",
+      "icon": "gcw0/hexahop/icon.png",
+      "screenshots": [
+        "gcw0/hexahop/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/hexahop_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/hexahop",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "2016",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-overheated",
+      "slug": "overheated",
+      "title": "Overheated",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Shmup",
+      "language": "",
+      "platforms": [
+        "Dreamcast",
+        "OpenDingux"
+      ],
+      "summary": "Runs at 60 FPS. Great game by BrokenTestType ! The OpenDingux port was not very challenging to do but the Dreamcast port that i did for it was ! Maybe someday i will port it to SDL2 and release it on itch.io...",
+      "icon": "gcw0/overheated/icon.png",
+      "screenshots": [
+        "gcw0/overheated/scr1.png",
+        "gcw0/overheated/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/overheated_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Dreamcast",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/overheated-dreamcast.7z",
+          "type": "download",
+          "platform": "Dreamcast",
+          "format": "7Z"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/overheated",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "Games",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "2021",
+      "originalTitle": "",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=h4kM3KpR2Mw"
+        }
+      ]
+    },
+    {
+      "id": "opendingux-pacmanarena",
+      "slug": "pacmanarena",
+      "title": "Puckman Arena",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Maze",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Runs at about 6-10 FPS average. This game targets OpenGL 1.1 so gl4es is used for this game.",
+      "icon": "gcw0/pacmanarena/icon.png",
+      "screenshots": [
+        "gcw0/pacmanarena/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/pacman-arena_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/pacman-arena",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-smw",
+      "slug": "smw",
+      "title": "Super Mario War v2 beta",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Platformer/Arena",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Runs at 60 FPS. This one is a classic and very fun to play, even when playing alone.",
+      "icon": "gcw0/smw/icon.png",
+      "screenshots": [
+        "gcw0/smw/scr1.png",
+        "gcw0/smw/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/smw_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gcw0/supermariowar",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "opendingux-wlaol",
+      "slug": "wlaol",
+      "title": "WLAOL",
+      "collection": "opendingux",
+      "category": "Port",
+      "genre": "Shmup",
+      "language": "",
+      "platforms": [
+        "OpenDingux"
+      ],
+      "summary": "Port for OpenDingux. Runs OK.",
+      "icon": "gcw0/wlaol/icon.png",
+      "screenshots": [
+        "gcw0/wlaol/scr2.png"
+      ],
+      "links": [
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/wloal_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/wlaol",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [],
+      "collectionLabel": "OpenDingux",
+      "section": "OpenDingux",
+      "portType": "opendingux",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-anarch",
+      "slug": "anarch",
+      "title": "Anarch",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "FPS",
+      "language": "English",
+      "platforms": [
+        "NEC PC-FX",
+        "Casio Loopy",
+        "Sega 32X"
+      ],
+      "summary": "Original game by drummyfish, doom-like FPS where you must defeat capitalism.",
+      "icon": "",
+      "screenshots": [
+        "hb/anarch/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "NEC PC-FX",
+          "url": "https://github.com/gameblabla/anarch-PCFX/releases/tag/1.1",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": "Download"
+        },
+        {
+          "label": "Casio Loopy",
+          "url": "https://github.com/gameblabla/anarch_casloopy/raw/main/rom.bin",
+          "type": "download",
+          "platform": "Casio Loopy",
+          "format": "BIN"
+        },
+        {
+          "label": "Sega 32X",
+          "url": "https://github.com/gameblabla/anarch_32x/releases/download/1.0/ANARCH32X_v1.zip",
+          "type": "download",
+          "platform": "Sega 32X",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-cornflakes",
+      "slug": "cornflakes",
+      "title": "Homophobic CornFlakes",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Visual novel",
+      "language": "English",
+      "platforms": [
+        "Casio Loopy",
+        "Game Boy Advance",
+        "NEC PC-FX",
+        "Nintendo 64"
+      ],
+      "summary": "Short game about two angels had a fight but one wins over the other and decides to punish him in a kinky way. Disclaimer : All Characters 18+, author does not condone real world violence.",
+      "icon": "",
+      "screenshots": [
+        "hb/cornflakes/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Casio Loopy",
+          "url": "https://bafybeib2wkoe5vpnhtylgbhcfgyux4qcvricnac5npvd5u6k47btdrytom.ipfs.w3s.link/ipfs/bafybeib2wkoe5vpnhtylgbhcfgyux4qcvricnac5npvd5u6k47btdrytom/homophobic_cornflakes_game.zip",
+          "type": "download",
+          "platform": "Casio Loopy",
+          "format": "ZIP"
+        },
+        {
+          "label": "PC-FX",
+          "url": "https://bafybeidwdo33zfzhw6stycrujjxmfoqgjxl2hjgwnve32p2x4kyngwgaby.ipfs.w3s.link/ipfs/bafybeidwdo33zfzhw6stycrujjxmfoqgjxl2hjgwnve32p2x4kyngwgaby/KI_pcfx.zip",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": "ZIP"
+        },
+        {
+          "label": "Game Boy Advance",
+          "url": "https://bafybeigv4hjorvwnz6sspgj7up7ew43zpeyfyqo475odgek6fajwrl6fnm.ipfs.w3s.link/ipfs/bafybeigv4hjorvwnz6sspgj7up7ew43zpeyfyqo475odgek6fajwrl6fnm/gbapit.zip",
+          "type": "download",
+          "platform": "Game Boy Advance",
+          "format": "ZIP"
+        },
+        {
+          "label": "Nintendo 64",
+          "url": "https://bafybeih7omv5t4kf3a4nqblpq4n2ghcj7pw6c5xtqvhcj75rkf4scxqjza.ipfs.w3s.link/ipfs/bafybeih7omv5t4kf3a4nqblpq4n2ghcj7pw6c5xtqvhcj75rkf4scxqjza/kidinno_64.7z",
+          "type": "download",
+          "platform": "Nintendo 64",
+          "format": "7Z"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2024",
+      "mature": true,
+      "contentWarning": "This game is intended for adults and contains offensive content. Continue only if you want to view or download it.",
+      "originalTitle": "Kidnapped Innocence"
+    },
+    {
+      "id": "retro-crafti",
+      "slug": "crafti",
+      "title": "Crafti",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Puzzle",
+      "language": "English",
+      "platforms": [
+        "Dreamcast",
+        "GameCube",
+        "NAOMI",
+        "Nintendo 64",
+        "Original Xbox",
+        "PlayStation 2"
+      ],
+      "summary": "Minecraft clone originally made for the TI nspire by Vogtinator. I ported it to other platforms. Dreamcast got quite a bit of coverage back then.",
+      "icon": "",
+      "screenshots": [
+        "hb/crafti/scr1.jpg"
+      ],
+      "links": [
+        {
+          "label": "Dreamcast",
+          "url": "https://bafybeickzfjuzs4g6xvq2yms7cn47lyljgvskztpsi3uddnq3uyxovahne.ipfs.w3s.link/ipfs/bafybeickzfjuzs4g6xvq2yms7cn47lyljgvskztpsi3uddnq3uyxovahne/crafti_dreamcast_v11.7z",
+          "type": "download",
+          "platform": "Dreamcast",
+          "format": "7Z"
+        },
+        {
+          "label": "NAOMI",
+          "url": "https://bafybeickzfjuzs4g6xvq2yms7cn47lyljgvskztpsi3uddnq3uyxovahne.ipfs.w3s.link/ipfs/bafybeickzfjuzs4g6xvq2yms7cn47lyljgvskztpsi3uddnq3uyxovahne/CRAFTI_NAOMI_TEST.zip",
+          "type": "download",
+          "platform": "NAOMI",
+          "format": "ZIP"
+        },
+        {
+          "label": "Nintendo 64",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/crafti_n64.7z",
+          "type": "download",
+          "platform": "Nintendo 64",
+          "format": "7Z"
+        },
+        {
+          "label": "PlayStation 2",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/crafti_ps2_05.7z",
+          "type": "download",
+          "platform": "PlayStation 2",
+          "format": "7Z"
+        },
+        {
+          "label": "Original Xbox",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/crafti_og_xbox_port_gameblabla.7z",
+          "type": "download",
+          "platform": "Original Xbox",
+          "format": "7Z"
+        },
+        {
+          "label": "GameCube",
+          "url": "https://github.com/gameblabla/crafti/releases/download/untagged-f4872ea6657bc6cf6b4e/crafti-gc.zip",
+          "type": "download",
+          "platform": "GameCube",
+          "format": "ZIP"
+        },
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/ncrafti_gcw0.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "2016",
+      "originalTitle": "",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=Mb4ys4sXUKk"
+        }
+      ]
+    },
+    {
+      "id": "retro-crazybird",
+      "slug": "crazybird",
+      "title": "Crazy Bird",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Endless runner",
+      "language": "English",
+      "platforms": [
+        "Atari 2600"
+      ],
+      "summary": "My take on Flappy bird for the atari 2600. Programmed in Batari Basic.",
+      "icon": "",
+      "screenshots": [
+        "hb/crazybird/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Atari 2600",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/Crazy_birdv13.zip",
+          "type": "download",
+          "platform": "Atari 2600",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2015",
+      "originalTitle": "",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "www.youtube.com/watch?v=czRwHSDqUdc"
+        }
+      ]
+    },
+    {
+      "id": "retro-deathtrap",
+      "slug": "deathtrap",
+      "title": "Deathtrap",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Arcade",
+      "language": "English",
+      "platforms": [
+        "Pokémon Mini"
+      ],
+      "summary": "Sonic & Mario are both in Hell but they want to escape, don't let them !",
+      "icon": "",
+      "screenshots": [
+        "hb/deathtrap/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Pokémon Mini",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/DeathTrap%20v1.1%20(Pokemon-Mini).zip",
+          "type": "download",
+          "platform": "Pokémon Mini",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "August 2013",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-ganbare",
+      "slug": "ganbare",
+      "title": "Ganbare Natsuki-san",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Platformer",
+      "language": "English",
+      "platforms": [
+        "Dreamcast",
+        "OpenDingux"
+      ],
+      "summary": "Dreamcast port of a game by Alpha Base (japanese developer) originally for Windows and Xbox 360.",
+      "icon": "",
+      "screenshots": [
+        "hb/ganbare/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Dreamcast",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/Ganbare_DC_v1.1_Gameblabla.7z",
+          "type": "download",
+          "platform": "Dreamcast",
+          "format": "7Z"
+        },
+        {
+          "label": "OpenDingux",
+          "url": "https://whatware.net/filehost/opk/gcw0/gnp.opk",
+          "type": "download",
+          "platform": "OpenDingux",
+          "format": "OPK"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/Ganbare-Natsuki-San",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-helicopters",
+      "slug": "helicopters",
+      "title": "Helicopters",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Platformer",
+      "language": "English",
+      "platforms": [
+        "3DO"
+      ],
+      "summary": "3DO port of .GEARS's Swing Copters for Mobile phones.",
+      "icon": "",
+      "screenshots": [
+        "hb/helicopters/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "3DO",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/heli_copt3rs_3do_binaries.zip",
+          "type": "download",
+          "platform": "3DO",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-hidebaby",
+      "slug": "hidebaby",
+      "title": "Hide the Baby",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Puzzle",
+      "language": "English",
+      "platforms": [
+        "Mega Drive / Genesis",
+        "Sega CD"
+      ],
+      "summary": "Original game by Nick Weihs, a game about a single mom in china trying to hide her \"extra\" baby.",
+      "icon": "",
+      "screenshots": [
+        "hb/hidebaby/scr1.png",
+        "img/hide_baby_scr.png"
+      ],
+      "links": [
+        {
+          "label": "Mega Drive / Genesis",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HideThebaby_gameblabla_Megadrive_12.zip",
+          "type": "download",
+          "platform": "Mega Drive / Genesis",
+          "format": "ZIP"
+        },
+        {
+          "label": "Sega CD PAL",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_PAL.7z",
+          "type": "download",
+          "platform": "Sega CD",
+          "format": "7Z"
+        },
+        {
+          "label": "Sega CD USA",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_USA.7z",
+          "type": "download",
+          "platform": "Sega CD",
+          "format": "7Z"
+        },
+        {
+          "label": "Sega CD JPN",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_JAP.7z",
+          "type": "download",
+          "platform": "Sega CD",
+          "format": "7Z"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "",
+      "originalTitle": "",
+      "hero": "img/hide_baby_scr.png"
+    },
+    {
+      "id": "retro-sinvasion",
+      "slug": "sinvasion",
+      "title": "Sonic and the Alien Invasion",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Adventure",
+      "language": "French",
+      "platforms": [
+        "Master System",
+        "PC Engine",
+        "Windows"
+      ],
+      "summary": "An unfinished Adventure game made with RPG Maker 95. Sonic must face aliens from outer-space ! Note : Set compatibility mode to Windows XP if possible.",
+      "icon": "",
+      "screenshots": [
+        "hb/sinvasion/scr1.png",
+        "img/sonic_invasion_windows_scr2.png",
+        "img/sonic_invasion_windows_scr3.png",
+        "img/sonic_invasion_windows_scr1.png",
+        "img/sonic_invasion_pcengine_scr2.png",
+        "img/sonic_invasion_pcengine_scr1.png",
+        "img/sonic_invasion_scr3.png",
+        "img/sonic_invasion_scr1.png",
+        "img/sonic_invasion_scr2.png"
+      ],
+      "links": [
+        {
+          "label": "Windows",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/Sonic_Invasion.7z",
+          "type": "download",
+          "platform": "Windows",
+          "format": "7Z"
+        },
+        {
+          "label": "Master System (Demo)",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/sonic_invasion_mastersystem.7z",
+          "type": "download",
+          "platform": "Master System",
+          "format": "7Z"
+        },
+        {
+          "label": "PC Engine (Demo)",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/sonic_invasion_pcengine_demo01.zip",
+          "type": "download",
+          "platform": "PC Engine",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "languages": [
+        "French"
+      ],
+      "originalTitle": "Sonic et l'Invasion extra-terrestre",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "",
+      "hero": "hb/sinvasion/scr1.png"
+    },
+    {
+      "id": "retro-srb232x",
+      "slug": "srb232x",
+      "title": "SRB2 32X : Doom Edition",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "FPS",
+      "language": "English",
+      "platforms": [
+        "Sega 32X"
+      ],
+      "summary": "An attempt at adapting SRB2 Haloween levels (+ extras) for the 32X",
+      "icon": "",
+      "screenshots": [
+        "hb/srb232x/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Sega 32X",
+          "url": "https://bafybeideb7c4kqwfocvrth4lhxnglmzmndcsxyp7gc5tkfwricjg4c2fgq.ipfs.w3s.link/ipfs/bafybeideb7c4kqwfocvrth4lhxnglmzmndcsxyp7gc5tkfwricjg4c2fgq/srb2_32x.zip",
+          "type": "download",
+          "platform": "Sega 32X",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "languages": [
+        "English"
+      ],
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "retro-srpg",
+      "slug": "srpg",
+      "title": "Sonic RPG Console",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "RPG",
+      "language": "French",
+      "platforms": [
+        "ColecoVision",
+        "Game Boy",
+        "Mega Drive / Genesis",
+        "MSX",
+        "PC-98",
+        "Sega Saturn",
+        "ZX Spectrum"
+      ],
+      "summary": "A very simple text-based RPG where you fight an opponent. It's very old and i released it for a bunch of platforms back then...",
+      "icon": "",
+      "screenshots": [
+        "hb/srpg/scr1.png"
+      ],
+      "links": [
+        {
+          "label": "Game Boy",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/srpg_gb.7z",
+          "type": "download",
+          "platform": "Game Boy",
+          "format": "7Z"
+        },
+        {
+          "label": "MSX",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/srpg_msx.7z",
+          "type": "download",
+          "platform": "MSX",
+          "format": "7Z"
+        },
+        {
+          "label": "PC-98",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/srpg_pc98.7z",
+          "type": "download",
+          "platform": "PC-98",
+          "format": "7Z"
+        },
+        {
+          "label": "Sega Saturn",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/srpg_saturn.7z",
+          "type": "download",
+          "platform": "Sega Saturn",
+          "format": "7Z"
+        },
+        {
+          "label": "Colecovision",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/Sonic%20Rpg%20CONSOLE%20v12%20Colecovision.zip",
+          "type": "download",
+          "platform": "ColecoVision",
+          "format": "ZIP"
+        },
+        {
+          "label": "Mega Drive / Genesis",
+          "url": "https://archive.org/download/Sonic_Rpg_Console_Megadrive/Sonic_Rpg_Console_Megadrive.bin",
+          "type": "download",
+          "platform": "Mega Drive / Genesis",
+          "format": "BIN"
+        },
+        {
+          "label": "ZX Spectrum",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/sonic_rpg_console_ZX.7z",
+          "type": "download",
+          "platform": "ZX Spectrum",
+          "format": "7Z"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "languages": [
+        "French"
+      ],
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "",
+      "originalTitle": ""
+    },
+    {
+      "id": "blaze-doom",
+      "slug": "blaze-doom",
+      "title": "Blaze Doom Adventure",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "FPS",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Sega 32X"
+      ],
+      "summary": "Traverse through 15 levels, from Sonic Zones to the Mushroom Kingdom!\n\nYou play as Blaze the Cat, who is unexpectedly approached by an older Doctor Eggman Nega claiming to be from an alternate future timeline.\n\nIn his future, kingdoms have collapsed into hostile wastelands, dimensions bleed into one another, and chaos spreads unchecked.\n\nNega claims there is only one way to stop this future:\n\nBlaze must travel across fractured worlds and create a time paradox strong enough to destabilize the doomed timeline and restore balance.\n\nArmed with strange weapons provided by Nega—and unsure whether she can truly trust him—Blaze begins her adventure.",
+      "icon": "",
+      "hero": "img/blazetitle.png",
+      "screenshots": [
+        "img/blazetitle.png",
+        "img/blazegame.png"
+      ],
+      "links": [
+        {
+          "label": "Sega 32X",
+          "url": "https://github.com/gameblabla/BlazeDoomAdventure32X/raw/refs/heads/main/BlazeDoomFixed.32x",
+          "type": "download",
+          "platform": "Sega 32X",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "November 2010",
+      "videos": [
+        {
+          "title": "trailer",
+          "url": "https://www.youtube.com/watch?v=1NyuyEBu4qs"
+        }
+      ]
+    },
+    {
+      "id": "pacit",
+      "slug": "Pac-It",
+      "title": "Pac-It",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Pokémon Mini"
+      ],
+      "summary": "",
+      "icon": "",
+      "screenshots": [
+        "img/pacit.png"
+      ],
+      "links": [
+        {
+          "label": "Pokémon Mini",
+          "url": "https://github.com/gameblabla/pacit_clone_pm/releases/download/1/pacit_pm.zip",
+          "type": "download",
+          "platform": "Pokémon Mini",
+          "format": "ZIP"
+        },
+        {
+          "label": "Source code",
+          "url": "https://github.com/gameblabla/pacit_clone_pm/",
+          "type": "source",
+          "platform": "",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "",
+      "hero": "img/pacit.png"
+    },
+    {
+      "id": "wheredepy",
+      "slug": "wheredepy",
+      "title": "Where's Derpy",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Puzzle",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "3DO",
+        "ColecoVision",
+        "PlayStation"
+      ],
+      "summary": "Find Derpy on the images !",
+      "icon": "",
+      "hero": "img/wd_colecovision.png",
+      "screenshots": [
+        "img/wd_colecovision.png",
+        "img/wd_3do.png"
+      ],
+      "links": [
+        {
+          "label": "3DO",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/wd_3do.7z",
+          "type": "download",
+          "platform": "3DO",
+          "format": "7Z"
+        },
+        {
+          "label": "ColecoVision",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/wd_coleco.zip",
+          "type": "download",
+          "platform": "ColecoVision",
+          "format": "ZIP"
+        },
+        {
+          "label": "PlayStation",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/wd_psx.zip",
+          "type": "download",
+          "platform": "PlayStation",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": ""
+    },
+    {
+      "id": "disgrace-blabla",
+      "slug": "disgrace-blabla",
+      "title": "Disgrace to Blabla",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "FPS",
+      "language": "English",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "platforms": [],
+      "summary": "You are Sonic and you go around with a bazooka while saving hostages. Note that this was made when my English was still very poor so i suggest you ignore the readme and just play the game.",
+      "icon": "",
+      "hero": "img/disgrace_1.png",
+      "screenshots": [
+        "img/disgrace_1.png",
+        "img/disgrace_2.png",
+        "img/disgrace_3.png"
+      ],
+      "links": [
+        {
+          "label": "Download",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/disgrace.zip",
+          "type": "download",
+          "platform": "",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2012"
+    },
+    {
+      "id": "cascadefx",
+      "slug": "cascadefx",
+      "title": "Cascade FX",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Puzzle",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "NEC PC-FX"
+      ],
+      "summary": "A Tetris clone with 3D software renderer for the standard NEC PC-FX. It has a training mode and an Arcade mode, with singing tracks.",
+      "icon": "",
+      "hero": "img/cascadefx_title_pcfx.png",
+      "screenshots": [
+        "img/cascadefx_title_pcfx.png",
+        "img/cascadefx_game_pcfx.png.png"
+      ],
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=_17aWFUGj5k"
+        }
+      ],
+      "links": [
+        {
+          "label": "NEC PC-FX",
+          "url": "https://github.com/gameblabla/CascadeFX/releases/download/0.1/cascadefx-NECPCFX-Alpha4.zip",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "October 2024"
+    },
+    {
+      "id": "evilaus",
+      "slug": "evilaus",
+      "title": "Evil australians",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Platformer",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Atari Falcon",
+        "Nintendo 64",
+        "Windows"
+      ],
+      "summary": "The Australian government has cloned your DNA and built an army to oppose you. A run'n gun arena platformer game. Jump, shoot at the enemies and complete the levels !",
+      "icon": "",
+      "hero": "img/evil_aussie_scr1.png",
+      "screenshots": [
+        "img/evil_aussie_scr1.png",
+        "img/evil_aussie_title.png"
+      ],
+      "links": [
+        {
+          "label": "External link",
+          "url": "https://gameblabla.itch.io/evil-australians",
+          "type": "download",
+          "platform": "External link",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=jy8x1Qe9oS0"
+        }
+      ]
+    },
+    {
+      "id": "blocks-3d",
+      "slug": "blocks-3d",
+      "title": "Blocks 3D",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Puzzle",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "summary": "Spinoff to Cascade FX. It's a 3D Tetris-clone, with puzzles in 3D space ! Rotate the camera view with mouse, and control with WASD and Cursor keys.",
+      "icon": "",
+      "hero": "img/blocks3D_1.png",
+      "screenshots": [
+        "img/blocks3D_1.png",
+        "img/blocks3D_2.png",
+        "img/blocks3D_3.png"
+      ],
+      "links": [
+        {
+          "label": "External link",
+          "url": "https://gameblabla.github.io/Blocks3D/",
+          "type": "page",
+          "platform": "External link",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2024"
+    }
+  ]
+}

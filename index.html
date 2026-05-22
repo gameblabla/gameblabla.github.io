@@ -1,116 +1,85 @@
-<!DOCTYPE html>
-<html>
- <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gameblabla's website</title>
-	<link rel="stylesheet" href="css/all.min.css"> <!-- FontAwesome -->
-	<link rel="stylesheet" href="css/bulma.min.css"> <!-- Bulma, CSS framework -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gameblabla games, ports and homebrew projects.">
+  <title>Gameblabla — Games and ports</title>
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-	<!-- Navigation bar with shoadow below and is white as well-->
-	<nav class="navbar has-shadow is-white">
-	  <div class="navbar-brand">
-		<!-- Normally i would put a logo but text is just fine for now, i don't have a logo. Besides, that makes it scalable right away -->
-		<a class="navbar-item">
-		  <strong class="title is-size-5">Gameblabla's website</strong>
-		</a>
-		
-		<!-- Github account, we add it as an additional navbar (separate from Home, Blog etc...)-->
-		<a class="bd-navbar-icon navbar-item" href="https://github.com/gameblabla" target="_blank">
-        <span class="icon" style="color: var(--github);">
-		<i class="fab fa-lg fa-github-alt"></i>
-        </span>
-		</a>
-      </a>
-      
-		<!-- This is used for the menu on mobile devices.
-		As it is right now, it only works with some javascript. (which is right below)
-		-->
-		<a class="navbar-burger" id="burger">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</a>
-	  </div>
-	  <!-- These are the actual menu items -->
-	  <div id="nav-links" class="navbar-menu">
-		<div class="navbar-end">
-		  <a class="navbar-item">Home</a>
-		  <a class="navbar-item" href="blog/">Blog</a>
-		  <a class="navbar-item" href="gcw0.html">OpenDingux</a>
-		  <a class="navbar-item" href="retro.html">Retro</a>
-		  <!-- I will do these later
-		  <a class="navbar-item" href="games/">Games</a>
-		  <a class="navbar-item" href="blog/">Other</a>
-		  <a class="navbar-item" href="contact/">Contact</a>
-		  -->
-		</div>
-	  </div>
-	</nav>
-	
-	<!-- So the frontpage is divided into 2 columns : One for my text and the other for my profile pictures. (or potentially other stuff as well, such as for the articles or games) -->
-	<div class="columns">
-	  <div class="column is-mobile is-centered">
-		<!-- Create middle section of my website --->
-		<section class="section">
-		<div class="container">
-			<h1 class="title">
-				Welcome on my website !
-			</h1>
-			<p class="subtitle">
-				I do small games for retro and exotic platforms. <br>
-				I invite you, for now, to check out my repos on <a href="https://github.com/gameblabla"><i class="fab fa-lg fa-github-alt"></i> Github </a>  !
-			</p>
-			<p class="subtitle">Here's a few stuff that i did recently :</p>
-			<!-- Here, we are misusing Bulma a bit.
-			This is normally intended for menu list items but here we are using it for a simple list.
-			I'm also using the circle icon from Font-awesome to give it that impression as well.
-			Using • would be too small but using fa-xs makes the bullet small enoigh.
-			-->
-			<aside class="menu">
-			<ul class="menu-list fa-ul">
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Some games like Evil Australians, Western Ideals, Rubby Bird (Android) and more...</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Ports of emulators to OpenDingux like PCSX4ALL, PCSX Rearmed, PCFXEmu, VBemu...</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> CFW for the Retrostone 2 using buildroot</a></li>
-				<li><a><i class="fa-li fa fa-circle fa-xs"></i> Some other fun stuff as well, such as a utility to generate a custom QR code that can hold more data.</a></li>
-			</ul>
-			<br>
-			<b><a href="https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/">Links to my older releases can be found here.</a></b>
-			
-			</aside>
-			<p>Enjoy the ride and thank you for visiting !</p>
-		</div>
-		</section>
-	  </div>
-	  
-	  <div class="column is-two-fifths">
-		<!-- Create middle section of my website --->
-		<section class="section">
-		<div class="container">
-			<img src="img/avatar.png">
-		</div>
-		</section>
-	  </div>
-	</div>
-	
-	<footer class="footer">
-	  <div class="content has-text-centered">
-		<p>
-		  Built with <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
-		  <br><br>
-		  Website by gameblabla
-		</p>
-	  </div>
-	</footer>
-</body>
-<!-- Javascript code used for the menu on mobile devices only -->
-<script>
-var burgerIcon = document.querySelector('#burger');
-var navbarMenu = document.querySelector('#nav-links');
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Gameblabla<span>games / ports / experiments</span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links" data-nav-links>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="blog/">Blog</a>
+        <a class="github-link" href="https://github.com/gameblabla" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
 
-burgerIcon.addEventListener('click', () => {
-	navbarMenu.classList.toggle('is-active');
-});
-</script>
+  <main id="main">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <span class="eyebrow">static site, no framework ballast</span>
+          <h1>Small games and ports for odd hardware.</h1>
+          <p>I make and port games for retro consoles, OpenDingux handhelds and other strange targets. The catalog is now one JSON-backed Games page with local search, original/homebrew/OpenDingux filtering, language flags and platform icons.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="games.html">Browse games</a>
+            <a class="button" href="games.html?type=original">Original games</a>
+            <a class="button" href="games.html?type=homebrew">Homebrew ports</a>
+            <a class="button" href="games.html?type=opendingux">OpenDingux</a>
+          </div>
+        </div>
+        <figure class="profile-card">
+          <img src="img/avatar.png" alt="Gameblabla avatar">
+          <figcaption>Homebrew, ports, reverse-engineered curiosities and low-end target experiments.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <h2>Catalog snapshot</h2>
+            <p>Generated from a single JSON file, so filters, cards and release links stay in sync.</p>
+          </div>
+        </div>
+        <div class="stats-grid" data-home-stats>
+          <div class="stat-card"><strong>—</strong><p>Loading catalog…</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <h2>Featured projects</h2>
+            <p>A small sample from the searchable project library.</p>
+          </div>
+          <a class="button" href="games.html">Open full library</a>
+        </div>
+        <div class="game-grid" data-home-highlights></div>
+      </div>
+    </section>
+
+    
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <p>Website by gameblabla.</p>
+      <p class="small">Static, GitHub Pages friendly, no build step.</p>
+    </div>
+  </footer>
+  <script src="js/site.js" defer></script>
+</body>
 </html>
