@@ -2153,29 +2153,18 @@ button.platform-chip.is-active {
   border-radius: 0;
 }
 
-/* Editor image library controls. */
-.image-library-head {
-  align-items: flex-start;
-  gap: 1rem;
+
+/* Small comfort padding for the full-width games catalog. */
+.catalog-main .section > .catalog-shell {
+  padding-inline: clamp(0.45rem, 1vw, 1rem);
 }
-.image-library-head h4 {
-  margin-bottom: 0.25rem;
+.catalog-main .game-grid {
+  padding-block: 0.35rem 0.7rem;
 }
-.library-actions {
-  display: flex;
-  align-items: center;
+.compact-inline-toolbar {
+  margin-bottom: 0;
   justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
-.muted-inline {
-  color: var(--muted);
-  margin: 0;
-}
-@media (max-width: 720px) {
-  .image-library-head,
-  .library-actions {
-    align-items: stretch;
-    justify-content: flex-start;
-  }
+.homepage-pick-section {
+  background: linear-gradient(180deg, rgba(163, 230, 53, 0.055), rgba(255, 255, 255, 0.025));
 }

@@ -20,6 +20,7 @@
     if (!raw) return '';
     const key = platformAliasKey(raw);
     if (['opendingux', 'od', 'gcwzero', 'gcw0', 'rg350'].includes(key)) return 'OpenDingux';
+    if (['dos', 'msdos', 'microsoftdos'].includes(key)) return 'MS-DOS';
     return raw;
   };
   const toCanonicalPlatformArray = value => {
@@ -35,12 +36,16 @@
         return true;
       });
   };
-  const platformSearchAliases = platform => canonicalPlatformName(platform) === 'OpenDingux'
-    ? ['OD', 'GCW Zero', 'GCW0', 'RG350', 'RG-350']
-    : [];
+  const platformSearchAliases = platform => {
+    const canonical = canonicalPlatformName(platform);
+    if (canonical === 'OpenDingux') return ['OD', 'GCW Zero', 'GCW0', 'RG350', 'RG-350'];
+    if (canonical === 'MS-DOS') return ['DOS', 'PC DOS'];
+    return [];
+  };
 
   const state = {
     games: [],
+    meta: {},
     query: params.get('q') || '',
     genre: params.get('genre') || 'all',
     platform: canonicalPlatformName(params.get('platform') || 'all'),
@@ -78,9 +83,10 @@
     [/open\s*dingux|gcw\s*zero|rg[- ]?350/i, 'img/rg350.png'],
     [/arcade/i, 'img/platforms/arcade.png'],
     [/windows|win32|win64|\bwin\b/i, 'img/platforms/win.png'],
-    [/\bdos\b|ms[- ]?dos/i, 'img/platforms/dos.png'],
+    [/ms[- ]?dos|\bdos\b/i, 'img/platforms/dos.png'],
     [/macintosh|\bmac\b|mac\s*os/i, 'img/platforms/mac.png'],
     [/amiga/i, 'img/platforms/amiga.png'],
+    [/atari\s*falcon/i, 'img/platforms/atarifalcon.png'],
     [/atari\s*st/i, 'img/platforms/atarist.png'],
     [/commodore\s*64|\bc64\b/i, 'img/platforms/c64.png'],
     [/amstrad\s*cpc|\bcpc\b/i, 'img/platforms/cpc.png'],
@@ -189,10 +195,11 @@
     const response = await fetch('data/games.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Could not load game catalog: ${response.status}`);
     const payload = await response.json();
+    state.meta = payload.meta || {};
     state.games = (payload.games || []).map(game => ({
       ...game,
       platforms: toCanonicalPlatformArray(game.platforms),
-      languages: toArray(game.languages || game.language),
+      languages: toArray(game.languages || game.language).length ? toArray(game.languages || game.language) : ['English'],
       releaseDate: game.releaseDate || game.released || game.year || '',
       links: Array.isArray(game.links) ? game.links.map(link => {
         const platform = canonicalPlatformName(link.platform);
@@ -984,8 +991,12 @@
 
     const highlights = $('[data-home-highlights]');
     if (highlights) {
-      const selected = state.games
-        .filter(game => ['opendingux-overheated', 'retro-sinvasion', 'retro-crafti', 'retro-crazybird'].includes(game.id));
+      const configuredPicks = Array.isArray(state.meta.homePicks) ? state.meta.homePicks : [];
+      const fallbackPicks = ['opendingux-overheated', 'retro-sinvasion', 'retro-crafti', 'retro-crazybird'];
+      const pickIds = configuredPicks.length ? configuredPicks : fallbackPicks;
+      const selected = pickIds
+        .map(id => state.games.find(game => game.id === id))
+        .filter(Boolean);
       linkRegistry.clear();
       linkRegistryId = 0;
       highlights.innerHTML = selected.map(renderGameCard).join('');

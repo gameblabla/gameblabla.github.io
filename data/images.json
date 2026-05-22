@@ -1,5 +1,4 @@
 {
-  "generatedFrom": "local img/ directory fallback index; editor also scans img/ dynamically on local servers with directory listing",
   "images": [
     {
       "path": "img/404.jpg",
@@ -904,6 +903,10 @@
     {
       "path": "img/platforms/arcade.png",
       "name": "arcade.png"
+    },
+    {
+      "path": "img/platforms/atarifalcon.png",
+      "name": "atarifalcon.png"
     },
     {
       "path": "img/platforms/atarist.png",

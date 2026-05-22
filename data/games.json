@@ -2,8 +2,15 @@
   "meta": {
     "generatedFrom": "legacy HTML snippets in /gcw0 and /hb, normalized for the unified Games catalog",
     "notes": "Static JSON catalog used by js/site.js. Cards render from this catalog, with checkbox filtering and platform-icon release rows.",
-    "total": 22,
-    "updatedFor": "unified games tab, checkbox original/port filters, language flags, platform icons, non-cropped screenshots"
+    "total": 27,
+    "updatedFor": "unified games tab, checkbox original/port filters, language flags, platform icons, non-cropped screenshots",
+    "homePicks": [
+      "blaze-doom",
+      "cascadefx",
+      "evilaus",
+      "blocks-3d"
+    ],
+    "homePicksLabel": "Gameblabla's picks"
   },
   "games": [
     {
@@ -100,7 +107,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Platformer",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -128,7 +135,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -142,7 +151,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Puzzle",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -170,7 +179,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -184,7 +195,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Puzzle",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -211,7 +222,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -225,7 +238,7 @@
       "collection": "retro",
       "category": "Port",
       "genre": "Shmup",
-      "language": "",
+      "language": "English",
       "platforms": [
         "Dreamcast",
         "OpenDingux"
@@ -261,7 +274,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "Games",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -281,7 +296,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Maze",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -308,7 +323,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -322,7 +339,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Platformer/Arena",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -350,7 +367,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -364,7 +383,7 @@
       "collection": "opendingux",
       "category": "Port",
       "genre": "Shmup",
-      "language": "",
+      "language": "English",
       "platforms": [
         "OpenDingux"
       ],
@@ -391,7 +410,9 @@
       ],
       "kind": "port",
       "kindLabel": "Port",
-      "languages": [],
+      "languages": [
+        "English"
+      ],
       "collectionLabel": "OpenDingux",
       "section": "OpenDingux",
       "portType": "opendingux",
@@ -407,8 +428,8 @@
       "genre": "FPS",
       "language": "English",
       "platforms": [
-        "NEC PC-FX",
         "Casio Loopy",
+        "NEC PC-FX",
         "Sega 32X"
       ],
       "summary": "Original game by drummyfish, doom-like FPS where you must defeat capitalism.",
@@ -422,7 +443,7 @@
           "url": "https://github.com/gameblabla/anarch-PCFX/releases/tag/1.1",
           "type": "download",
           "platform": "NEC PC-FX",
-          "format": "Download"
+          "format": ""
         },
         {
           "label": "Casio Loopy",
@@ -447,7 +468,7 @@
       "collectionLabel": "Games",
       "section": "Homebrew ports",
       "portType": "homebrew",
-      "releaseDate": "",
+      "releaseDate": "February 2024",
       "originalTitle": ""
     },
     {
@@ -677,7 +698,8 @@
       "section": "Original games",
       "portType": "",
       "releaseDate": "August 2013",
-      "originalTitle": ""
+      "originalTitle": "",
+      "hero": "hb/deathtrap/scr1.png"
     },
     {
       "id": "retro-ganbare",
@@ -793,21 +815,21 @@
           "format": "ZIP"
         },
         {
-          "label": "Sega CD PAL",
+          "label": "Mega CD (PAL)",
           "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_PAL.7z",
           "type": "download",
           "platform": "Sega CD",
           "format": "7Z"
         },
         {
-          "label": "Sega CD USA",
+          "label": "Sega CD (USA)",
           "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_USA.7z",
           "type": "download",
           "platform": "Sega CD",
           "format": "7Z"
         },
         {
-          "label": "Sega CD JPN",
+          "label": "Mega CD (JPN)",
           "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/HidetheBaby_SCD_JAP.7z",
           "type": "download",
           "platform": "Sega CD",
@@ -824,7 +846,13 @@
       "portType": "homebrew",
       "releaseDate": "",
       "originalTitle": "",
-      "hero": "img/hide_baby_scr.png"
+      "hero": "img/hide_baby_scr.png",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=gDxuBGq9P5s"
+        }
+      ]
     },
     {
       "id": "retro-sinvasion",
@@ -920,8 +948,14 @@
       "collectionLabel": "Games",
       "section": "Homebrew ports",
       "portType": "homebrew",
-      "releaseDate": "",
-      "originalTitle": ""
+      "releaseDate": "2013",
+      "originalTitle": "",
+      "videos": [
+        {
+          "title": "Trailer",
+          "url": "https://www.youtube.com/watch?v=GRzypeH4jvQ"
+        }
+      ]
     },
     {
       "id": "retro-srpg",
@@ -1058,7 +1092,7 @@
       "originalTitle": "",
       "collection": "retro",
       "category": "Original",
-      "genre": "",
+      "genre": "Endless runner",
       "language": "English",
       "languages": [
         "English"
@@ -1092,8 +1126,14 @@
       "collectionLabel": "Games",
       "section": "Original games",
       "portType": "",
-      "releaseDate": "",
-      "hero": "img/pacit.png"
+      "releaseDate": "2022",
+      "hero": "img/pacit.png",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://www.youtube.com/watch?v=qLjqW_eApVc"
+        }
+      ]
     },
     {
       "id": "wheredepy",
@@ -1162,7 +1202,9 @@
         "English",
         "French"
       ],
-      "platforms": [],
+      "platforms": [
+        "MS-DOS"
+      ],
       "summary": "You are Sonic and you go around with a bazooka while saving hostages. Note that this was made when my English was still very poor so i suggest you ignore the readme and just play the game.",
       "icon": "",
       "hero": "img/disgrace_1.png",
@@ -1173,10 +1215,10 @@
       ],
       "links": [
         {
-          "label": "Download",
+          "label": "MS-DOS",
           "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/disgrace.zip",
           "type": "download",
-          "platform": "",
+          "platform": "MS-DOS",
           "format": "ZIP"
         }
       ],
@@ -1269,7 +1311,7 @@
       "collectionLabel": "Games",
       "section": "Original games",
       "portType": "",
-      "releaseDate": "",
+      "releaseDate": "2017",
       "videos": [
         {
           "title": "gameplay",
@@ -1315,6 +1357,248 @@
       "section": "Original games",
       "portType": "",
       "releaseDate": "2024"
+    },
+    {
+      "id": "copyright-infringement",
+      "slug": "copyright-infringement",
+      "title": "Copyright Infringement",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Visual novel",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "Atari ST",
+        "ColecoVision",
+        "Commodore 64",
+        "Elektronika BK",
+        "Excalibur 64",
+        "Exidy Sorcerer",
+        "Lviv PK-01",
+        "Macintosh",
+        "MS-DOS",
+        "MSX",
+        "NEC PC-8801",
+        "NES",
+        "Oric",
+        "PC-98",
+        "PC-9821",
+        "PMD-85",
+        "Sinclair QL",
+        "V.Smile",
+        "ZX Spectrum"
+      ],
+      "summary": "",
+      "icon": "",
+      "hero": "img/ci_title_pc9821.png",
+      "screenshots": [
+        "img/ci_title_pc9821.png",
+        "img/ci_game_pc9821.png",
+        "img/ci_title_sinclairql.png"
+      ],
+      "links": [
+        {
+          "label": "ColecoVision",
+          "url": "https://github.com/gameblabla/copyright_infringement/raw/master/game_buk.rom",
+          "type": "download",
+          "platform": "ColecoVision",
+          "format": ""
+        },
+        {
+          "label": "MSX",
+          "url": "https://github.com/gameblabla/copyright_infrigement_msx/releases/download/1.0/Copyright_Infringement_MSX2_gameblabla.zip",
+          "type": "download",
+          "platform": "MSX",
+          "format": "ZIP"
+        },
+        {
+          "label": "Sinclair QL",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-SinclairQL/copyright_infringement_2023_sinclairql-v2rev.zip",
+          "type": "download",
+          "platform": "Sinclair QL",
+          "format": "ZIP"
+        },
+        {
+          "label": "ZX Spectrum",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0/copyright_infringement_zxspectrum48k.zip",
+          "type": "download",
+          "platform": "ZX Spectrum",
+          "format": "ZIP"
+        },
+        {
+          "label": "Commodore 64",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-C64/CR_Infringement_C64_version.zip",
+          "type": "download",
+          "platform": "Commodore 64",
+          "format": "ZIP"
+        },
+        {
+          "label": "NES",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-NES/Copyright_Infringement_NES_Gameblabla_MMC3.zip",
+          "type": "download",
+          "platform": "NES",
+          "format": "ZIP"
+        },
+        {
+          "label": "PC-98",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-PC98/COPYRIGHTINFRINGEMENT_PC9801.zip",
+          "type": "download",
+          "platform": "PC-98",
+          "format": "ZIP"
+        },
+        {
+          "label": "PC-9821",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-PC9821/COPYRIGHT_INFRINGEMENT_PC9821_GBB.img",
+          "type": "download",
+          "platform": "PC-9821",
+          "format": ""
+        },
+        {
+          "label": "V.Smile",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-vsmile/Copyright_infringement_Vsmile_Gameblabla_2023_homebrew.zip",
+          "type": "download",
+          "platform": "V.Smile",
+          "format": "ZIP"
+        },
+        {
+          "label": "Exidy Sorcerer",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-exidy/copyright_infringement_sorcerer_gameblabla.zip",
+          "type": "download",
+          "platform": "Exidy Sorcerer",
+          "format": "ZIP"
+        },
+        {
+          "label": "Excalibur 64",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-E64/Excalibur64_CopyRightInfringement_gameblabla.zip",
+          "type": "download",
+          "platform": "Excalibur 64",
+          "format": "ZIP"
+        },
+        {
+          "label": "Elektronika BK",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-BK/COPYRIGHT_INFRINGEMENT_BK0010_PORT_GAMEBLABLA.zip",
+          "type": "download",
+          "platform": "Elektronika BK",
+          "format": "ZIP"
+        },
+        {
+          "label": "PMD-85",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-PMD/copyright_infringement_pmd85_gameblabla.zip",
+          "type": "download",
+          "platform": "PMD-85",
+          "format": "ZIP"
+        },
+        {
+          "label": "Lviv PK-01",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-LVIV/Lviv_Lvov_CopyrightInfringement_gameblabla_PK01.zip",
+          "type": "download",
+          "platform": "Lviv PK-01",
+          "format": "ZIP"
+        },
+        {
+          "label": "Oric",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-ORIC/CI_Regressiveright_Oric1_atmos_gameblabla.zip",
+          "type": "download",
+          "platform": "Oric",
+          "format": "ZIP"
+        },
+        {
+          "label": "NEC PC-8801",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-PC88/copyright_infringement_PC88_version_gbb.zip",
+          "type": "download",
+          "platform": "NEC PC-8801",
+          "format": "ZIP"
+        },
+        {
+          "label": "MS-DOS",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-DOS16/COPYRIGHT_INFRINGEMENT_DOSVers_v122.zip",
+          "type": "download",
+          "platform": "MS-DOS",
+          "format": "ZIP"
+        },
+        {
+          "label": "Atari ST",
+          "url": "https://github.com/gameblabla/copyright_infringement_ports/releases/download/1.0-ST/CIRIGHT_ATARISTE.zip",
+          "type": "download",
+          "platform": "Atari ST",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2017",
+      "mature": true
+    },
+    {
+      "id": "super-quartet",
+      "slug": "super-quartet",
+      "title": "Super Quartet",
+      "originalTitle": "Killminds",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Puzzle",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "3DO",
+        "NUON",
+        "Philips CD-i",
+        "Windows"
+      ],
+      "summary": "",
+      "icon": "",
+      "hero": "img/super_quartet_cdi_1.png",
+      "screenshots": [
+        "img/super_quartet_cdi_2.png",
+        "img/super_quartet_cdi_1.png",
+        "img/killminds_3do.png",
+        "img/killminds_scr1.png",
+        "img/killminds_scr2.png"
+      ],
+      "links": [
+        {
+          "label": "NUON",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/KillMinds-NUON.zip",
+          "type": "download",
+          "platform": "NUON",
+          "format": "ZIP"
+        },
+        {
+          "label": "Philips CD-i",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/Super_Quartet_CDI.zip",
+          "type": "download",
+          "platform": "Philips CD-i",
+          "format": "ZIP"
+        },
+        {
+          "label": "3DO",
+          "url": "https://bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae.ipfs.w3s.link/ipfs/bafybeiddt3avurpt56xnoynrcvbwy4j3mdhtzhny4qw3bvyb7pb5oxvfae/killminds_3do.zip",
+          "type": "download",
+          "platform": "3DO",
+          "format": "ZIP"
+        },
+        {
+          "label": "Web version",
+          "url": "https://www.newgrounds.com/portal/view/683860",
+          "type": "download",
+          "platform": "Web version",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2014"
     }
   ]
 }

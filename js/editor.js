@@ -8,7 +8,6 @@
   let saveTimer = 0;
   let imageLibrary = [];
   let imageSearchQuery = '';
-  let imageLibraryLastScan = 0;
   const previewUrls = new Map();
 
   const platformAliasKey = value => String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '');
@@ -17,6 +16,7 @@
     if (!raw) return '';
     const key = platformAliasKey(raw);
     if (['opendingux', 'od', 'gcwzero', 'gcw0', 'rg350'].includes(key)) return 'OpenDingux';
+    if (['dos', 'msdos', 'microsoftdos'].includes(key)) return 'MS-DOS';
     return raw;
   };
   const canonicalPlatformArray = value => {
@@ -35,7 +35,7 @@
 
   const basePlatforms = [
     'OpenDingux',
-    'Arcade', 'Windows', 'DOS', 'Linux', 'Macintosh', 'Amiga', 'Atari ST',
+    'Arcade', 'Windows', 'MS-DOS', 'Linux', 'Macintosh', 'Amiga', 'Atari ST', 'Atari Falcon',
     'Commodore 64', 'Amstrad CPC', 'ZX Spectrum', 'Sinclair QL', 'Oric', 'Exidy Sorcerer',
     'Elektronika BK', 'Excalibur 64', 'PMD-85', 'Lviv PK-01',
     'NEC PC-FX', 'PC Engine', 'PC Engine CD', 'TurboGrafx-16', 'SuperGrafx',
@@ -65,9 +65,10 @@
     [/open\s*dingux|gcw\s*zero|rg[- ]?350/i, 'img/rg350.png'],
     [/arcade/i, 'img/platforms/arcade.png'],
     [/windows|win32|win64|\bwin\b/i, 'img/platforms/win.png'],
-    [/\bdos\b|ms[- ]?dos/i, 'img/platforms/dos.png'],
+    [/ms[- ]?dos|\bdos\b/i, 'img/platforms/dos.png'],
     [/macintosh|\bmac\b|mac\s*os/i, 'img/platforms/mac.png'],
     [/amiga/i, 'img/platforms/amiga.png'],
+    [/atari\s*falcon/i, 'img/platforms/atarifalcon.png'],
     [/atari\s*st/i, 'img/platforms/atarist.png'],
     [/commodore\s*64|\bc64\b/i, 'img/platforms/c64.png'],
     [/amstrad\s*cpc|\bcpc\b/i, 'img/platforms/cpc.png'],
@@ -136,7 +137,7 @@
     collection: 'retro',
     category: 'Original',
     genre: '',
-    language: '',
+    language: 'English',
     languages: ['English'],
     platforms: [],
     summary: '',
@@ -185,6 +186,25 @@
     let i = 2;
     while (ids.has(candidate)) candidate = `${cleanBase}-${i++}`;
     return candidate;
+  };
+
+  const uniqueIdExcept = (base, exceptIndex) => {
+    const ids = new Set(catalog.games.map((game, index) => index === exceptIndex ? '' : game.id).filter(Boolean));
+    const cleanBase = base || `game-${Date.now()}`;
+    let candidate = cleanBase;
+    let i = 2;
+    while (ids.has(candidate)) candidate = `${cleanBase}-${i++}`;
+    return candidate;
+  };
+
+  const syncNewGameIdentity = () => {
+    const form = getForm();
+    if (!form || selectedIndex < 0 || form.dataset.autoIdentity !== 'true') return;
+    const title = form.elements.title?.value || '';
+    const base = slugify(title || 'new-game');
+    const nextId = uniqueIdExcept(base, selectedIndex);
+    if (form.dataset.manualId !== 'true' && form.elements.id) form.elements.id.value = nextId;
+    if (form.dataset.manualSlug !== 'true' && form.elements.slug) form.elements.slug.value = nextId;
   };
 
   const setStatus = (message, state = '') => {
@@ -263,7 +283,8 @@
     next.genre = String(next.genre || '').trim();
     next.releaseDate = String(next.releaseDate || '').trim();
     next.languages = Array.isArray(next.languages) ? next.languages.map(String).map(item => item.trim()).filter(Boolean) : splitList(next.languages || next.language);
-    next.language = next.languages[0] || '';
+    if (!next.languages.length) next.languages = ['English'];
+    next.language = next.languages[0] || 'English';
     next.platforms = canonicalPlatformArray(next.platforms);
     next.summary = String(next.summary || '').trim();
     next.icon = String(next.icon || '').trim();
@@ -295,6 +316,25 @@
     return next;
   };
 
+  const ensureMeta = () => {
+    if (!catalog.meta || typeof catalog.meta !== 'object' || Array.isArray(catalog.meta)) catalog.meta = {};
+    if (!Array.isArray(catalog.meta.homePicks)) catalog.meta.homePicks = [];
+    if (!catalog.meta.homePicksLabel) catalog.meta.homePicksLabel = "Gameblabla's picks";
+    return catalog.meta;
+  };
+
+  const getHomePicks = () => ensureMeta().homePicks;
+
+  const setHomePick = (previousId, nextId, enabled) => {
+    const meta = ensureMeta();
+    const ids = new Set((meta.homePicks || []).filter(Boolean));
+    if (previousId && previousId !== nextId) ids.delete(previousId);
+    if (enabled && nextId) ids.add(nextId);
+    else if (nextId) ids.delete(nextId);
+    meta.homePicks = catalog.games.map(game => game.id).filter(id => ids.has(id));
+    if (enabled && nextId && !meta.homePicks.includes(nextId)) meta.homePicks.push(nextId);
+  };
+
   const renderCounts = () => {
     const node = $('[data-editor-counts]');
     if (!node) return;
@@ -303,7 +343,8 @@
     const homebrew = games.filter(game => getProjectType(game) === 'homebrew').length;
     const opendingux = games.filter(game => getProjectType(game) === 'opendingux').length;
     const platforms = new Set(games.flatMap(game => canonicalPlatformArray(game.platforms)));
-    node.textContent = `${games.length} entries · ${original} original · ${homebrew} homebrew ports · ${opendingux} OpenDingux · ${platforms.size} platforms`;
+    const picks = getHomePicks().length;
+    node.textContent = `${games.length} entries · ${original} original · ${homebrew} homebrew ports · ${opendingux} OpenDingux · ${platforms.size} platforms · ${picks} picks`;
   };
 
   const filteredGames = () => {
@@ -335,7 +376,7 @@
       const type = getProjectType(game);
       const selected = index === selectedIndex ? ' is-selected' : '';
       return `<button class="game-list-item${selected}" type="button" data-select-index="${index}">
-        <span><strong>${escapeHTML(game.title || 'Untitled')}</strong><small>${escapeHTML(game.id || 'missing-id')}</small></span>
+        <span><strong>${escapeHTML(game.title || 'Untitled')}${getHomePicks().includes(game.id) ? ' ★' : ''}</strong><small>${escapeHTML(game.id || 'missing-id')}</small></span>
         <em class="mini-type ${escapeHTML(type)}">${escapeHTML(projectTypeLabel(type))}</em>
       </button>`;
     }).join('') || '<p class="small muted-block">No matching games.</p>';
@@ -667,6 +708,10 @@
     form.elements.summary.value = game.summary || '';
     form.elements.mature.checked = Boolean(game.mature || game.contentWarning);
     form.elements.contentWarning.value = game.contentWarning || '';
+    if (form.elements.homePick) form.elements.homePick.checked = getHomePicks().includes(game.id);
+    form.dataset.autoIdentity = /^new-game(?:-|$)/.test(String(game.id || '')) || !game.id ? 'true' : 'false';
+    form.dataset.manualId = 'false';
+    form.dataset.manualSlug = 'false';
     renderScreenshots(game.screenshots || []);
     renderVideos(game.videos || game.video || game.youtube || []);
     renderLinks(game.links || []);
@@ -712,7 +757,7 @@
       collection: form.elements.collection.value,
       genre: form.elements.genre.value,
       releaseDate: form.elements.releaseDate.value,
-      languages: splitList(form.elements.languages.value),
+      languages: splitList(form.elements.languages.value).length ? splitList(form.elements.languages.value) : ['English'],
       platforms: getSelectedPlatforms(),
       icon: form.elements.icon.value,
       hero: form.elements.hero.value,
@@ -758,7 +803,9 @@
       setStatus('Title and ID are required.', 'error');
       return false;
     }
+    const previousId = catalog.games[selectedIndex]?.id || '';
     catalog.games[selectedIndex] = next;
+    setHomePick(previousId, next.id, Boolean(getForm()?.elements.homePick?.checked));
     try {
       validateCatalog(catalog);
     } catch (error) {
@@ -1051,6 +1098,9 @@
     });
 
     getForm()?.addEventListener('input', event => {
+      if (event.target.matches('[name="id"]')) getForm().dataset.manualId = 'true';
+      if (event.target.matches('[name="slug"]')) getForm().dataset.manualSlug = 'true';
+      if (event.target.matches('[name="title"]')) syncNewGameIdentity();
       if (event.target.matches('[data-hero-input]')) setHeroPreview();
       updateDraftPreview();
     });
@@ -1078,18 +1128,7 @@
       renderImageLibrary();
     });
 
-    const refreshImageLibrarySoon = () => {
-      if (Date.now() - imageLibraryLastScan < 2500) return;
-      loadImageLibrary({ force: true });
-    };
-
-    $('[data-refresh-image-library]')?.addEventListener('click', () => {
-      loadImageLibrary({ force: true });
-    });
-    window.addEventListener('focus', refreshImageLibrarySoon);
-    document.addEventListener('visibilitychange', () => {
-      if (!document.hidden) refreshImageLibrarySoon();
-    });
+    $('[data-refresh-image-library]')?.addEventListener('click', () => loadImageLibrary({ forceLive: true }));
 
     $('[data-image-library]')?.addEventListener('click', event => {
       const button = event.target.closest('[data-library-action]');
@@ -1167,127 +1206,77 @@
     bindDropZone($('[data-screenshot-drop]'), addScreenshotsFromFiles);
   };
 
-  const imageExtensionPattern = /\.(png|jpe?g|gif|webp|avif|bmp|svg)$/i;
+  const imageFilePattern = /\.(?:png|jpe?g|gif|webp|avif|bmp|svg)$/i;
 
-  const normalizeImageItem = item => {
-    if (typeof item === 'string') {
-      const path = item.trim();
-      return path ? { path, name: path.split('/').pop() || path } : null;
-    }
-    if (!item || !item.path) return null;
-    const path = String(item.path || '').trim();
-    if (!path) return null;
-    return { path, name: String(item.name || path.split('/').pop() || path).trim() };
+  const mergeImageLibraries = (...lists) => {
+    const seen = new Set();
+    return lists.flat().filter(item => {
+      const path = typeof item === 'string' ? item : item?.path;
+      if (!path || seen.has(path)) return false;
+      seen.add(path);
+      return true;
+    }).map(item => typeof item === 'string' ? { path: item, name: item.split('/').pop() } : item);
   };
 
-  const uniqueImageItems = items => {
-    const seen = new Set();
-    return items
-      .map(normalizeImageItem)
-      .filter(Boolean)
-      .filter(item => {
-        const key = item.path.replace(/^\.\//, '');
-        if (seen.has(key)) return false;
-        seen.add(key);
-        item.path = key;
-        return true;
-      })
-      .sort((a, b) => a.path.localeCompare(b.path, undefined, { sensitivity: 'base' }));
+  const pathFromDirectoryUrl = url => {
+    const decoded = decodeURIComponent(url.pathname);
+    const marker = '/img/';
+    const index = decoded.lastIndexOf(marker);
+    if (index >= 0) return `img/${decoded.slice(index + marker.length)}`;
+    const parts = decoded.split('/').filter(Boolean);
+    const imgIndex = parts.lastIndexOf('img');
+    return imgIndex >= 0 ? parts.slice(imgIndex).join('/') : '';
+  };
+
+  const scanImageDirectory = async (path = 'img/', depth = 0) => {
+    if (depth > 3) return [];
+    const response = await fetch(path, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Directory listing unavailable for ${path}`);
+    const html = await response.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const anchors = Array.from(doc.querySelectorAll('a[href]'));
+    const found = [];
+    for (const anchor of anchors) {
+      const href = anchor.getAttribute('href') || '';
+      if (!href || href.startsWith('?') || href.startsWith('#') || href === '../' || href === '/') continue;
+      const url = new URL(href, response.url);
+      if (url.origin !== location.origin) continue;
+      const rel = pathFromDirectoryUrl(url);
+      if (!rel || rel === 'img/' || rel.includes('/../')) continue;
+      if (url.pathname.endsWith('/')) {
+        found.push(...await scanImageDirectory(rel, depth + 1));
+      } else if (imageFilePattern.test(rel)) {
+        found.push({ path: rel, name: rel.split('/').pop() });
+      }
+    }
+    return found;
   };
 
   const loadStaticImageIndex = async () => {
-    const response = await fetch('data/images.json', { cache: 'no-store' });
-    if (!response.ok) throw new Error('No static image index');
-    const payload = await response.json();
-    return uniqueImageItems(Array.isArray(payload.images) ? payload.images : []);
+    try {
+      const response = await fetch('data/images.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('No image index');
+      const payload = await response.json();
+      const list = Array.isArray(payload.images) ? payload.images : [];
+      return list.map(item => typeof item === 'string' ? { path: item, name: item.split('/').pop() } : item).filter(item => item && item.path);
+    } catch (error) {
+      return [];
+    }
   };
 
-  const linkToRelativePath = (href, basePath) => {
-    if (!href || href.startsWith('#') || href.startsWith('?')) return '';
-    const cleanHref = href.split('#')[0].split('?')[0];
-    if (!cleanHref || cleanHref === '../' || cleanHref === './' || cleanHref === '/') return '';
-    let url;
+  const loadImageLibrary = async ({ forceLive = false } = {}) => {
+    const status = $('[data-image-library-count]');
+    if (status) status.textContent = forceLive ? 'Scanning img/…' : 'Loading images…';
+    const staticImages = await loadStaticImageIndex();
+    let liveImages = [];
     try {
-      url = new URL(cleanHref, new URL(basePath, window.location.href));
+      liveImages = await scanImageDirectory('img/');
     } catch (error) {
-      return '';
+      if (forceLive) setStatus(`${error.message}. Falling back to data/images.json.`, 'error');
     }
-    if (url.origin !== window.location.origin) return '';
-    const pageDir = window.location.pathname.replace(/[^/]*$/, '');
-    let path = decodeURIComponent(url.pathname);
-    if (path.startsWith(pageDir)) path = path.slice(pageDir.length);
-    else path = path.replace(/^\/+/, '');
-    return path.replace(/^\.\//, '');
-  };
-
-  const scanImageDirectory = async (basePath = 'img/', depth = 0, visited = new Set()) => {
-    if (depth > 5 || visited.has(basePath)) return [];
-    visited.add(basePath);
-    const response = await fetch(basePath, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Could not scan ${basePath}`);
-    const contentType = response.headers.get('content-type') || '';
-    const html = await response.text();
-    if (!/html/i.test(contentType) && !/<a\s/i.test(html)) throw new Error(`${basePath} is not a directory listing`);
-    const doc = new DOMParser().parseFromString(html, 'text/html');
-    const links = Array.from(doc.querySelectorAll('a[href]'))
-      .map(anchor => linkToRelativePath(anchor.getAttribute('href') || '', basePath))
-      .filter(Boolean);
-
-    const images = [];
-    for (const path of links) {
-      if (!path.startsWith('img/')) continue;
-      if (imageExtensionPattern.test(path)) {
-        images.push({ path, name: path.split('/').pop() || path });
-      } else if (path.endsWith('/')) {
-        try {
-          images.push(...await scanImageDirectory(path, depth + 1, visited));
-        } catch (error) {
-          // Some local servers expose files but not nested directory listings. Keep scanning what is available.
-        }
-      }
-    }
-    return uniqueImageItems(images);
-  };
-
-  const loadImageLibrary = async ({ force = false } = {}) => {
-    const refresh = $('[data-refresh-image-library]');
-    if (refresh) {
-      refresh.disabled = true;
-      refresh.textContent = force ? 'Scanning…' : 'Loading…';
-    }
-
-    let dynamicImages = [];
-    let staticImages = [];
-    let sourceLabel = '';
-
-    try {
-      dynamicImages = await scanImageDirectory('img/');
-      if (dynamicImages.length) sourceLabel = 'live img/ scan';
-    } catch (error) {
-      dynamicImages = [];
-    }
-
-    try {
-      staticImages = await loadStaticImageIndex();
-      if (!sourceLabel && staticImages.length) sourceLabel = 'data/images.json fallback';
-    } catch (error) {
-      staticImages = [];
-    }
-
-    imageLibrary = uniqueImageItems([...dynamicImages, ...staticImages]);
-    imageLibraryLastScan = Date.now();
+    imageLibrary = mergeImageLibraries(liveImages, staticImages);
     renderImageLibrary();
-
-    const count = $('[data-image-library-count]');
-    if (count) {
-      count.textContent = imageLibrary.length
-        ? `${imageLibrary.length} images · ${sourceLabel || 'combined index'}`
-        : 'No images found';
-    }
-    if (refresh) {
-      refresh.disabled = false;
-      refresh.textContent = 'Refresh img/ scan';
-    }
+    if (forceLive && liveImages.length) setStatus(`Refreshed img/ scan: ${liveImages.length} live image${liveImages.length === 1 ? '' : 's'} found.`, 'ok');
   };
 
   const init = async () => {
@@ -1309,6 +1298,10 @@
       setStatus(error.message, 'error');
     }
   };
+
+  window.addEventListener('focus', () => {
+    if (document.visibilityState === 'visible') loadImageLibrary({ forceLive: false });
+  });
 
   document.addEventListener('DOMContentLoaded', init);
 })();

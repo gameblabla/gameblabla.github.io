@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game catalog editor · gameblabla</title>
+  <meta name="description" content="Graphical editor for the static games.json catalog.">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav catalog-shell" aria-label="Main navigation">
+      <a class="brand" href="index.html">gameblabla<span>games, ports, code</span></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-links" aria-expanded="false">Menu</button>
+      <div class="nav-links" id="nav-links" data-nav-links>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="editor.html">Editor</a>
+        <a href="blog/">Blog</a>
+        <a class="github-link" href="https://github.com/gameblabla" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="editor-main visual-editor-main">
+    <section class="catalog-shell editor-intro">
+      <span class="eyebrow">Graphical JSON catalog editor</span>
+      <h1 class="page-title">Edit games.json.</h1>
+      <p class="lede">This editor loads <code>data/games.json</code> into a form. Edit games, add new entries, duplicate existing ones, manage download links, then export a replacement <code>games.json</code>. It runs entirely in the browser, so GitHub Pages does not need a backend.</p>
+    </section>
+
+    <section class="catalog-shell visual-editor" aria-label="Game catalog editor">
+      <aside class="editor-sidebar" aria-label="Games list">
+        <div class="editor-toolbar compact-toolbar">
+          <button class="button primary" type="button" data-export-json>Export games.json</button>
+          <button class="button" type="button" data-new-game>New game</button>
+          <button class="button" type="button" data-import-json>Import</button>
+          <input class="file-input" type="file" accept="application/json,.json" data-file-input>
+        </div>
+        <label class="field-label" for="game-search">Find game</label>
+        <input id="game-search" class="editor-input" type="search" placeholder="Search title, id, platform…" data-game-search>
+        <div class="editor-counts" data-editor-counts>Loading catalog…</div>
+        <div class="game-list" data-game-list aria-label="Editable games"></div>
+      </aside>
+
+      <form class="game-form" data-game-form>
+        <div class="form-head">
+          <div>
+            <span class="eyebrow">Selected entry</span>
+            <h2 data-current-title>No game selected</h2>
+          </div>
+          <div class="editor-toolbar">
+            <button class="button primary" type="submit">Save entry</button>
+            <button class="button" type="button" data-duplicate-game>Duplicate</button>
+            <button class="button danger-button" type="button" data-delete-game>Delete</button>
+          </div>
+        </div>
+
+        <p class="editor-status" data-editor-status>Loading data/games.json…</p>
+
+        <section class="form-section">
+          <h3>Identity</h3>
+          <div class="form-grid two-cols">
+            <label>Title
+              <input class="editor-input" name="title" required>
+            </label>
+            <label>French / alternate title
+              <input class="editor-input" name="originalTitle" placeholder="Optional">
+            </label>
+            <label>ID
+              <input class="editor-input" name="id" required>
+            </label>
+            <label>Slug
+              <input class="editor-input" name="slug">
+            </label>
+          </div>
+        </section>
+
+        <section class="form-section homepage-pick-section">
+          <h3>Homepage</h3>
+          <label class="checkbox-line">
+            <input type="checkbox" name="homePick">
+            Show this entry in Gameblabla's picks on the homepage
+          </label>
+          <p class="small muted-block">The editor stores this in <code>meta.homePicks</code> when you export <code>games.json</code>.</p>
+        </section>
+
+        <section class="form-section">
+          <h3>Classification</h3>
+          <div class="form-grid three-cols">
+            <label>Type
+              <select class="editor-input" name="kind">
+                <option value="original">Original game</option>
+                <option value="port">Port</option>
+              </select>
+            </label>
+            <label>Port bucket
+              <select class="editor-input" name="portType">
+                <option value="">Not a port</option>
+                <option value="homebrew">Homebrew port</option>
+                <option value="opendingux">OpenDingux port</option>
+              </select>
+            </label>
+            <label>Collection
+              <select class="editor-input" name="collection">
+                <option value="retro">Games / homebrew</option>
+                <option value="opendingux">OpenDingux</option>
+              </select>
+            </label>
+            <div class="choice-block wide-field">
+              <span class="field-label">Genre</span>
+              <input class="editor-input" name="genre" type="hidden" data-genre-value>
+              <div class="choice-grid genre-choice-grid" data-genre-picker aria-label="Genre choices"></div>
+              <div class="choice-add-row">
+                <input class="editor-input" type="text" placeholder="Add custom genre…" data-custom-genre>
+                <button class="button" type="button" data-add-custom-genre>Add genre</button>
+              </div>
+            </div>
+            <label>Release date
+              <input class="editor-input" name="releaseDate" placeholder="2024, 2024-07-18, etc.">
+            </label>
+            <label>Languages
+              <input class="editor-input" name="languages" placeholder="English, French">
+            </label>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <h3>Presentation</h3>
+          <div class="form-grid two-cols">
+            <label>Icon path
+              <input class="editor-input" name="icon" placeholder="img/example-icon.png">
+            </label>
+            <label>Main screenshot / hero image
+              <input class="editor-input" name="hero" placeholder="img/example-title.png" data-hero-input>
+            </label>
+            <div class="choice-block wide-field">
+              <span class="field-label">Platforms</span>
+              <input class="editor-input" name="platforms" type="hidden" data-platforms-value>
+              <div class="choice-grid platform-choice-grid" data-platform-picker aria-label="Platform choices"></div>
+              <div class="choice-add-row">
+                <input class="editor-input" type="text" placeholder="Add custom platform…" data-custom-platform>
+                <button class="button" type="button" data-add-custom-platform>Add platform</button>
+              </div>
+            </div>
+          </div>
+          <label>Summary
+            <textarea class="editor-input" name="summary" rows="4" placeholder="Short card description"></textarea>
+          </label>
+
+          <div class="media-editor-grid">
+            <div class="media-preview-card">
+              <span class="field-label">Main screenshot preview</span>
+              <div class="media-dropzone main-dropzone" data-main-drop>
+                <img alt="Main screenshot preview" data-hero-preview>
+                <span>Drop an image here to set the main screenshot</span>
+              </div>
+              <div class="editor-toolbar compact-toolbar">
+                <button class="button" type="button" data-pick-main-image>Choose image file</button>
+                <button class="button" type="button" data-use-first-screenshot>Use first screenshot</button>
+                <input class="file-input" type="file" accept="image/*" data-main-image-input>
+              </div>
+            </div>
+
+            <div class="media-list-card">
+              <div class="section-title-row">
+                <h4>Screenshots</h4>
+                <button class="button" type="button" data-add-screenshot>Add path</button>
+              </div>
+              <p class="small muted-block">Drop image files here to add <code>img/filename.ext</code> paths. Existing files from <code>img/</code> are available in the image library below.</p>
+              <div class="media-dropzone compact-dropzone" data-screenshot-drop>Drop screenshots here</div>
+              <input class="file-input" type="file" accept="image/*" multiple data-screenshot-file-input>
+              <div class="screenshot-editor" data-screenshot-editor></div>
+            </div>
+          </div>
+
+          <div class="media-library-card">
+            <div class="section-title-row">
+              <h4>Image library from <code>img/</code></h4>
+              <div class="editor-toolbar compact-inline-toolbar">
+                <button class="button" type="button" data-refresh-image-library>Refresh img/ scan</button>
+                <span class="small" data-image-library-count>Loading images…</span>
+              </div>
+            </div>
+            <input class="editor-input" type="search" placeholder="Search image filename or path…" data-image-library-search>
+            <div class="image-library-grid" data-image-library aria-label="Images found in the img folder"></div>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <div class="section-title-row">
+            <h3>Videos</h3>
+            <button class="button" type="button" data-add-video>Add video</button>
+          </div>
+          <p class="small muted-block">Supports YouTube, YouTube Shorts, youtu.be, Vimeo, and direct video file URLs.</p>
+          <div class="video-editor" data-video-editor></div>
+        </section>
+
+        <section class="form-section warning-section">
+          <h3>Content warning</h3>
+          <label class="checkbox-line">
+            <input type="checkbox" name="mature">
+            Show the 18+ / NSFW badge and warning popup before downloads
+          </label>
+          <label>Warning text
+            <textarea class="editor-input" name="contentWarning" rows="3" placeholder="This game contains offensive or adult content."></textarea>
+          </label>
+        </section>
+
+        <section class="form-section">
+          <div class="section-title-row">
+            <h3>Downloads and source links</h3>
+            <button class="button" type="button" data-add-link>Add link</button>
+          </div>
+          <div class="link-editor" data-link-editor></div>
+        </section>
+
+        <details class="raw-json-panel">
+          <summary>Advanced raw JSON preview</summary>
+          <textarea class="json-editor small-json-editor" spellcheck="false" data-raw-json></textarea>
+          <div class="editor-toolbar">
+            <button class="button" type="button" data-apply-raw>Apply raw JSON to catalog</button>
+            <button class="button" type="button" data-copy-json>Copy JSON</button>
+          </div>
+        </details>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="catalog-shell footer-grid">
+      <p>Website by gameblabla.</p>
+      <p class="small">Exported JSON must be committed as <code>data/games.json</code>.</p>
+    </div>
+  </footer>
+  <script src="js/editor.js" defer></script>
+</body>
+</html>
