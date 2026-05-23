@@ -739,6 +739,13 @@
           "type": "source",
           "platform": "",
           "format": ""
+        },
+        {
+          "label": "Play online !",
+          "url": "https://gameblabla.github.io/Ganbare-Natsuki-San-Web/",
+          "type": "page",
+          "platform": "",
+          "format": ""
         }
       ],
       "kind": "port",
