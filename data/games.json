@@ -1061,14 +1061,16 @@
         "English"
       ],
       "platforms": [
+        "3DO",
         "Sega 32X"
       ],
       "summary": "Traverse through 15 levels, from Sonic Zones to the Mushroom Kingdom!\n\nYou play as Blaze the Cat, who is unexpectedly approached by an older Doctor Eggman Nega claiming to be from an alternate future timeline.\n\nIn his future, kingdoms have collapsed into hostile wastelands, dimensions bleed into one another, and chaos spreads unchecked.\n\nNega claims there is only one way to stop this future:\n\nBlaze must travel across fractured worlds and create a time paradox strong enough to destabilize the doomed timeline and restore balance.\n\nArmed with strange weapons provided by Nega—and unsure whether she can truly trust him—Blaze begins her adventure.",
       "icon": "",
       "hero": "img/blazetitle.png",
       "screenshots": [
-        "img/blazetitle.png",
-        "img/blazegame.png"
+        "img/blazedoom3DO.png",
+        "img/blazegame.png",
+        "img/blaze_screen13DO.png"
       ],
       "links": [
         {
@@ -1076,6 +1078,13 @@
           "url": "https://github.com/gameblabla/BlazeDoomAdventure32X/raw/refs/heads/main/BlazeDoomFixed.32x",
           "type": "download",
           "platform": "Sega 32X",
+          "format": ""
+        },
+        {
+          "label": "3DO",
+          "url": "https://github.com/gameblabla/BlazeDoomAdventure32X/releases/tag/1.0-beta2",
+          "type": "download",
+          "platform": "3DO",
           "format": ""
         }
       ],
@@ -1088,7 +1097,7 @@
       "videos": [
         {
           "title": "trailer",
-          "url": "https://www.youtube.com/watch?v=1NyuyEBu4qs"
+          "url": "https://www.youtube.com/watch?v=qwoqtjHoW-o"
         }
       ]
     },
