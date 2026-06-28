@@ -8,7 +8,7 @@
       "blaze-doom",
       "cascadefx",
       "evilaus",
-      "blocks-3d"
+      "shattered-decks"
     ],
     "homePicksLabel": "Gameblabla's picks"
   },
@@ -1615,6 +1615,50 @@
       "section": "Original games",
       "portType": "",
       "releaseDate": "2014"
+    },
+    {
+      "id": "shattered-decks",
+      "slug": "shattered-decks",
+      "title": "Shattered Decks",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Original",
+      "genre": "Puzzle",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "NEC PC-FX"
+      ],
+      "summary": "Shattered Decks is a single-player card battler with a compact 3D tactical board, animated card reveals, a 40-card deck structure, 5-card hands, direct attacks, monster battles, support cards, fusions, equip bonuses, and story-driven opponents.",
+      "icon": "",
+      "hero": "img/title_waifu.png",
+      "screenshots": [
+        "img/title_waifu.png",
+        "img/waifu_ingame.png"
+      ],
+      "links": [
+        {
+          "label": "NEC PC-FX",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/tag/1.0",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": ""
+        }
+      ],
+      "kind": "original",
+      "kindLabel": "Original game",
+      "collectionLabel": "Games",
+      "section": "Original games",
+      "portType": "",
+      "releaseDate": "2026-06-28",
+      "videos": [
+        {
+          "title": "Preview",
+          "url": "https://www.youtube.com/watch?v=su1_2Iawfmk"
+        }
+      ]
     }
   ]
 }
