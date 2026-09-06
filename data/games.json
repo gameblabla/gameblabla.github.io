@@ -1629,7 +1629,9 @@
         "English"
       ],
       "platforms": [
-        "NEC PC-FX"
+        "FM TOWNS",
+        "NEC PC-FX",
+        "Sega CD32X"
       ],
       "summary": "Shattered Decks is a single-player card battler with a compact 3D tactical board, animated card reveals, a 40-card deck structure, 5-card hands, direct attacks, monster battles, support cards, fusions, equip bonuses, and story-driven opponents.",
       "icon": "",
@@ -1641,9 +1643,37 @@
       "links": [
         {
           "label": "NEC PC-FX",
-          "url": "https://github.com/gameblabla/shattered_decks/releases/tag/1.0",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/ShatteredDecks_PCFX_gbb_2026.zip",
           "type": "download",
           "platform": "NEC PC-FX",
+          "format": "ZIP"
+        },
+        {
+          "label": "FM TOWNS",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/waifu_fmt_beta4.zip",
+          "type": "download",
+          "platform": "FM TOWNS",
+          "format": "ZIP"
+        },
+        {
+          "label": "Sega CD32X",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/waifucd32x.zip",
+          "type": "download",
+          "platform": "Sega CD32X",
+          "format": "ZIP"
+        },
+        {
+          "label": "MSX",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/waifu_msx2.zip",
+          "type": "download",
+          "platform": "MSX",
+          "format": "ZIP"
+        },
+        {
+          "label": "Manual",
+          "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/Shattered_Decks_PC-FX_Instruction_Manual.pdf",
+          "type": "download",
+          "platform": "",
           "format": ""
         }
       ],

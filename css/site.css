@@ -2168,3 +2168,194 @@ button.platform-chip.is-active {
 .homepage-pick-section {
   background: linear-gradient(180deg, rgba(163, 230, 53, 0.055), rgba(255, 255, 255, 0.025));
 }
+
+/* Catalog presentation: keep the desktop reading width deliberate and make the
+   phone view behave like a compact visual index. */
+@media (min-width: 721px) {
+  .catalog-main .catalog-shell {
+    width: min(1440px, calc(100% - 80px));
+  }
+
+  .catalog-main .section > .catalog-shell {
+    padding-inline: 0;
+  }
+
+  .catalog-main .game-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .catalog-main .card-body {
+    align-content: start;
+  }
+
+  .catalog-main .details-stack {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catalog-main .game-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.05rem;
+  }
+}
+
+@media (min-width: 721px) {
+  .catalog-main .game-card {
+    position: relative;
+    display: block;
+    min-width: 0;
+    aspect-ratio: 1.08 / 1;
+    border-radius: 19px;
+  }
+
+  .catalog-main .game-media {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    padding: 0.28rem;
+    border-radius: inherit;
+  }
+
+  .catalog-main .game-media > img {
+    border-radius: 14px;
+    object-fit: cover;
+  }
+
+  .catalog-main .game-icon {
+    display: none;
+  }
+
+  .catalog-main .kind-badge,
+  .catalog-main .mature-badge {
+    top: 0.7rem;
+    right: 0.7rem;
+    left: auto;
+    padding: 0.3rem 0.52rem;
+    font-size: 0.68rem;
+  }
+
+  .catalog-main .card-body {
+    position: absolute;
+    inset: auto 0 0;
+    z-index: 3;
+    display: block;
+    padding: 3.6rem 0.9rem 0.85rem;
+    border-radius: 0 0 17px 17px;
+    background: linear-gradient(180deg, transparent, rgba(4, 7, 13, 0.96) 72%);
+    pointer-events: none;
+  }
+
+  .catalog-main .title-wrap {
+    min-height: 0;
+  }
+
+  .catalog-main .game-title {
+    gap: 0;
+  }
+
+  .catalog-main .game-title strong {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: clamp(1rem, 1.45vw, 1.3rem);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .catalog-main .game-title small,
+  .catalog-main .game-facts,
+  .catalog-main .platform-row,
+  .catalog-main .card-summary,
+  .catalog-main .details-stack {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .catalog-main .catalog-shell {
+    width: calc(100% - 24px);
+  }
+
+  .catalog-main .section {
+    padding-top: 1.35rem;
+  }
+
+  .catalog-main .game-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .catalog-main .game-card {
+    position: relative;
+    display: block;
+    min-width: 0;
+    aspect-ratio: 1.08 / 1;
+    border-radius: 17px;
+  }
+
+  .catalog-main .game-media {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    padding: 0.22rem;
+    border-radius: inherit;
+  }
+
+  .catalog-main .game-media > img {
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+  .catalog-main .game-icon {
+    display: none;
+  }
+
+  .catalog-main .kind-badge,
+  .catalog-main .mature-badge {
+    top: 0.5rem;
+    right: 0.5rem;
+    left: auto;
+    padding: 0.24rem 0.42rem;
+    font-size: 0.6rem;
+  }
+
+  .catalog-main .card-body {
+    position: absolute;
+    inset: auto 0 0;
+    z-index: 3;
+    display: block;
+    padding: 2.4rem 0.65rem 0.6rem;
+    border-radius: 0 0 15px 15px;
+    background: linear-gradient(180deg, transparent, rgba(4, 7, 13, 0.96) 72%);
+    pointer-events: none;
+  }
+
+  .catalog-main .title-wrap {
+    min-height: 0;
+  }
+
+  .catalog-main .game-title {
+    gap: 0;
+  }
+
+  .catalog-main .game-title strong {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: clamp(0.82rem, 3.4vw, 1rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .catalog-main .game-title small,
+  .catalog-main .game-facts,
+  .catalog-main .platform-row,
+  .catalog-main .card-summary,
+  .catalog-main .details-stack {
+    display: none;
+  }
+}

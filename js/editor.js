@@ -90,6 +90,8 @@
     [/pc[- ]?98/i, 'img/platforms/pc9801.png'],
     [/casio\s+loopy|\bloopy\b/i, 'img/platforms/casloopy.png'],
     [/v[.\s-]*smile/i, 'img/platforms/vsmile.png'],
+    [/mcd\s*32\s*x|(?:sega\s*)?cd\s*32\s*x/i, 'img/platforms/mcd32x.png'],
+    [/fm\s*-?\s*towns/i, 'img/platforms/fmtowns.png'],
     [/32x/i, 'img/platforms/32x.png'],
     [/dreamcast|sega\s*naomi|\bnaomi\b/i, 'img/platforms/dc.png'],
     [/nintendo\s*64|\bn64\b/i, 'img/platforms/n64.png'],
