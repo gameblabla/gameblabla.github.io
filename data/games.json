@@ -1630,6 +1630,7 @@
       ],
       "platforms": [
         "FM TOWNS",
+        "MSX",
         "NEC PC-FX",
         "Sega CD32X"
       ],
@@ -1673,7 +1674,7 @@
           "label": "Manual",
           "url": "https://github.com/gameblabla/shattered_decks/releases/download/1.0/Shattered_Decks_PC-FX_Instruction_Manual.pdf",
           "type": "download",
-          "platform": "",
+          "platform": "Manual",
           "format": ""
         }
       ],
