@@ -2227,11 +2227,18 @@ button.platform-chip.is-active {
     display: none;
   }
 
-  .catalog-main .kind-badge,
-  .catalog-main .mature-badge {
+  .catalog-main .kind-badge {
     top: 0.7rem;
     right: 0.7rem;
     left: auto;
+    padding: 0.3rem 0.52rem;
+    font-size: 0.68rem;
+  }
+
+  .catalog-main .mature-badge {
+    top: 0.7rem;
+    left: 0.7rem;
+    right: auto;
     padding: 0.3rem 0.52rem;
     font-size: 0.68rem;
   }
@@ -2313,11 +2320,18 @@ button.platform-chip.is-active {
     display: none;
   }
 
-  .catalog-main .kind-badge,
-  .catalog-main .mature-badge {
+  .catalog-main .kind-badge {
     top: 0.5rem;
     right: 0.5rem;
     left: auto;
+    padding: 0.24rem 0.42rem;
+    font-size: 0.6rem;
+  }
+
+  .catalog-main .mature-badge {
+    top: 0.5rem;
+    left: 0.5rem;
+    right: auto;
     padding: 0.24rem 0.42rem;
     font-size: 0.6rem;
   }

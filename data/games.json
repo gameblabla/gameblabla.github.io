@@ -1689,6 +1689,93 @@
           "url": "https://www.youtube.com/watch?v=su1_2Iawfmk"
         }
       ]
+    },
+    {
+      "id": "smw-unlicensed",
+      "slug": "smw-unlicensed",
+      "title": "SMW Unlicensed",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "Platformer",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "NEC PC-FX"
+      ],
+      "summary": "An unofficial port i made based on the disassembly of the original game. This was a 1994-1996 Megadrive game made by Gamtek (Taiwan). I have adapted and arranged the game for NEC PC-FX.",
+      "icon": "",
+      "hero": "img/smb_pcfx_shot_2670.png",
+      "screenshots": [
+        "img/smb_pcfx_shot_2670.png",
+        "img/smb_pcfx_shot_1858.png"
+      ],
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://youtu.be/jzq07R4zGio"
+        }
+      ],
+      "links": [
+        {
+          "label": "NEC PC-FX",
+          "url": "https://github.com/gameblabla/smw_unlicensed_fx/releases/download/beta/smb_pcfx_beta.zip",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": "ZIP"
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "August 2026"
+    },
+    {
+      "id": "doom-for-pc-fx",
+      "slug": "doom-for-pc-fx",
+      "title": "Doom for PC-FX",
+      "originalTitle": "",
+      "collection": "retro",
+      "category": "Port",
+      "genre": "",
+      "language": "English",
+      "languages": [
+        "English"
+      ],
+      "platforms": [
+        "NEC PC-FX"
+      ],
+      "summary": "A (challenging) port of Doom for the NEC PC-FX. Includes all of the shareware levels.",
+      "icon": "",
+      "hero": "img/doom_pcfx_shot_1850.png",
+      "screenshots": [
+        "img/doom_pcfx_shot_1850.png"
+      ],
+      "links": [
+        {
+          "label": "NEC PC-FX",
+          "url": "https://gameblabla.github.io/doomcpfx_generator/",
+          "type": "download",
+          "platform": "NEC PC-FX",
+          "format": ""
+        }
+      ],
+      "kind": "port",
+      "kindLabel": "Port",
+      "collectionLabel": "Games",
+      "section": "Homebrew ports",
+      "portType": "homebrew",
+      "releaseDate": "July 2026",
+      "videos": [
+        {
+          "title": "gameplay",
+          "url": "https://youtu.be/5bpRwT5rJX0"
+        }
+      ]
     }
   ]
 }
